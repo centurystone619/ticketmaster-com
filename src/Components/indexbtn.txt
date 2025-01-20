@@ -1,0 +1,76 @@
+import React from 'react'
+
+const IndexBtn = ({events,selectedIndex,colorStyle,handleTicketbtn,seatIndex}) => {
+  return (
+    <div>
+      <ul className="flex space-x-2 justify-center items-center">
+  {events[selectedIndex].map((_, index) => (
+    <li 
+      key={`${index}`}
+      className={`rounded-full border-4 h-1 w-1 ${
+        seatIndex === index ? "border-gray-700" : "border-gray-400"
+      }`}
+      style={seatIndex === index ? { backgroundColor: colorStyle } : {}}
+      onClick={() => handleTicketbtn(index)}
+    />
+  ))}
+</ul>
+
+
+
+    </div>
+  )
+}
+
+export default IndexBtn
+
+
+
+
+import React from 'react'
+
+const IndexBtn = ({showWalletBtn,eventIndex,isWalletOpen,events,selectedIndex,colorStyle,handleTicketbtn,seatIndex}) => {
+  return (
+    <div>
+
+{showWalletBtn ?   
+<ul className="flex space-x-2 justify-center items-center pt-3">
+            {eventIndex.map((_, index) => (
+              <li
+                key={index}
+                id="index-btn"
+                className={`rounded-full border-4 h-1 w-1 ${
+                  seatIndex === index ? "border-gray-700" : "border-gray-400 cursor-pointer"
+                }`}
+                style={
+                  seatIndex === index ? { backgroundColor: colorStyle } : {}
+                }
+
+                onClick={() => handleTicketbtn(index)}
+              
+              ></li>
+            ))}
+          </ul> : 
+           <ul className="flex space-x-2 justify-center items-center">
+           {events[selectedIndex].map((_, index) => (
+             <li 
+               key={`${index}`}
+               className={`rounded-full border-4 h-1 w-1 ${
+                 seatIndex === index ? "border-gray-700" : "border-gray-400"
+               }`}
+               style={seatIndex === index ? { backgroundColor: colorStyle } : {}}
+               onClick={() => handleTicketbtn(index)}
+             />
+           ))}
+         </ul>
+          }
+
+     
+
+
+
+    </div>
+  )
+}
+
+export default IndexBtn

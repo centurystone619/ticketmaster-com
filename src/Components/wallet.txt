@@ -1,0 +1,248 @@
+import React, { useEffect, useRef } from 'react'
+import More from '../assets/more.png'
+import Tixmast from "../assets/ticketmasterlogonew.svg";
+import volumebg from "../assets/bg-volume.png";
+import Screenreader from "../assets/screenreaderbg.png";
+import IndexBtn from './IndexBtn';
+
+const Wallet = ({setIsWalletOpen,eventIndex,seatIndex,handleTicketbtn}) => {
+    const walletWrapperRef = useRef(null);
+    
+    const getColorClass = () => {
+      if (eventIndex[0].transfers?.GA && !eventIndex[0].transfers?.color) {
+        return "#004EE7";
+      } else if (!eventIndex[0].transfers?.GA && !eventIndex[0].transfers?.color) {
+        return "#004EE7";
+      } else {
+        return eventIndex[0].transfers?.color;
+      }
+    };
+  
+    const colorStyle = getColorClass();
+    // const { img, artiste, venue, sec, row, seat } = eventIndex[seatIndex];
+  
+    // Calculate translateX based on seatIndex
+    const getTranslateX = (index) => {
+      if (index === 0) return '8px';
+      if (index === 1) return '13px';
+      // if (index === eventIndex.length - 1) return '140px';
+      return '0px';
+    };
+  
+    const translateX = getTranslateX(seatIndex);
+   
+  const marginRight =
+    seatIndex === eventIndex.length - 1  ? "12px" : "0px";
+  
+  
+      // useEffect(() => {
+      //   if (walletWrapperRef.current) {
+      //     const activeElement = document.getElementById(`ticket-${seatIndex}`);
+      //     if (activeElement) {
+      //       walletWrapperRef.current.scrollTo({
+      //         left: activeElement.offsetLeft - parseFloat(translateX),
+      //         behavior: "smooth",
+      //       });
+      //     }
+      //   }
+      // }, [seatIndex, translateX]);
+
+      useEffect(() => {
+        if (walletWrapperRef.current) {
+          const activeElement = document.getElementById(`ticket-${seatIndex}`);
+          if (activeElement) {
+            const offset = parseFloat(getTranslateX(seatIndex) || '0');
+            walletWrapperRef.current.scrollTo({
+              left: activeElement.offsetLeft - offset,
+              behavior: 'smooth',
+            });
+          }
+        }
+      }, [seatIndex, eventIndex]); // Ensure dependencies include all necessary variables
+      
+
+  return (
+    <div className="bg-azure-white  ticket-slide-up  h-screen w-screen absolute top-0 lg:w-2/3 lg:flex lg:flex-col  ">
+    <div
+            className="flex justify-between items-center mx-3 "
+            style={{ height: `8vh` }}
+          >
+            <button
+              onClick={() => setIsWalletOpen(false)}
+              id="doneBtn"
+              className="font-bold cursor-pointer"
+            >
+              Done
+            </button>
+            <button>
+              <img src={More} className="w-5" alt="More" />
+            </button>
+          </div>
+    
+          <div
+            id="wallet-wrapper"
+            className="relative overflow-x-auto lg:w-[325px] lg:mx-48  overflow-x-hidden cursor-pointer"
+            style={{
+              height: "50vh",
+              whiteSpace: "nowrap",
+              marginRight: marginRight,
+            }}
+            ref={walletWrapperRef}
+          >
+            <div
+              id="wallet-t"
+              className=" flex flex-col relative   " // Added relative positioning
+              style={{
+                height: `50vh`,
+                width: "95vw",
+                display: "flex",
+                flexDirection: "row",
+                transform: `translateX(${translateX})`,
+                transition: "transform 0.3s ease",
+                // background: transfer.color ? transfer.color : "#004EE7",
+              }}
+            >
+              {eventIndex.map((t, index) => (
+                <div
+                  id={`ticket-${index}`}
+                  key={index}
+                  className="flex  flex-col mx-1 relative lg:w-[300px] w-[94vw]  " // Added relative positioning
+                  style={{
+                    height: `50vh`,
+                    // width: "94vw",
+                    minWidth: "300px",
+                    flexShrink: 0,
+                    background: colorStyle || "#004EE7",
+                  }}
+                >
+                  <div className="flex text-white py-2 ">
+                    <div className="w-5/12 flex justify-center items-center text-azure-white px-5">
+                      <img src={Tixmast} alt="Ticket Master Logo" />
+                    </div>
+                    <div className="w-2/12 border-none bg-transparent overflow-hidden -mt-2">
+                      <div
+                        id="wallet-rounded"
+                        className="bg-azure-white border-azure-white border-2 w-full h-12 border-none"
+                      ></div>
+                    </div>
+                    <div className="w-5/12">
+                      <ul className="px-5 -space-y-1">
+                        <li id="walletTitle" className="text-end">
+                          {t.time}
+                        </li>
+                        <li id="walletInfo" className="text-end">
+                          {eventIndex[0].eventData.month} {eventIndex[0].eventData.day},
+                          {eventIndex[0].eventData?.year}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      backgroundImage: `url(${t.img})`,
+                      backgroundSize: "cover",
+                      backgroundRepeat: "no-repeat",
+                      backgroundPosition: "center 5%",
+                    }}
+                    className="h-20 w-full"
+                  ></div>
+                  <div className="flex flex-col justify-between">
+                    <ul className="text-azure-white mx-5 space-y-3 pt-2 text-wrap">
+                      <li>
+                        <p id="walletTitle">{t.venue}</p>
+                        <p
+                          id="walletInfo"
+                          className="w-full leading-none"
+                          style={{
+                            overflowWrap: "break-word",
+                            wordBreak: "break-word",
+                            whiteSpace: "normal",
+                          }}
+                        >
+                          {t.artiste}
+                        </p>
+                      </li>
+                      <li>
+                        {eventIndex[0].transfers.GA ? (
+                          // <p id="walletInfo">{transfer.desc}</p>
+                          <ul className="flex item-center justify-around">
+                            <li>
+                              <p id="walletTitle">SECTION</p>{" "}
+                              <p id="walletInfo">{t.sec}</p>
+                            </li>
+                            <li id="walletInfo" className="flex m-auto">
+                              {eventIndex[0].transfers?.GA}
+                            </li>
+                          </ul>
+                        ) : (
+                          <ul className="flex justify-between items-center">
+                            <li>
+                              <p id="walletTitle">SECTION</p>{" "}
+                              <p id="walletInfo">{t.sec}</p>
+                            </li>
+                            <li>
+                              <p id="walletTitle">ROW</p>{" "}
+                              <p id="walletInfo">{t.row}</p>
+                            </li>
+                            <li>
+                              <p id="walletTitle">SEAT</p>{" "}
+                              <p id="walletInfo">{t.seat}</p>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+                      <li>
+                        <p id="walletTitle">ENTRY INFO</p>{" "}
+                        <p id="walletInfo">{eventIndex[0].transfers?.gate}</p>
+                      </li>
+                    </ul>
+                    <div className="absolute bottom-0 right-0 mb-2">
+                      <img
+                        src={volumebg}
+                        className="w-10"
+                        alt="Volume Background"
+                      />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div id="wallet-b" className="bg-azure-white" style={{ height: `42vh` }}>
+        <div>
+          <ul className="flex space-x-2 justify-center items-center pt-3">
+            {eventIndex.map((_, index) => (
+              <li
+                key={index}
+                id="index-btn"
+                className={`rounded-full border-4 h-1 w-1 ${
+                  seatIndex === index ? "border-gray-700" : "border-gray-400 cursor-pointer"
+                }`}
+                style={
+                  seatIndex === index ? { backgroundColor: colorStyle } : {}
+                }
+
+                onClick={() => handleTicketbtn(index)}
+              
+              ></li>
+            ))}
+          </ul>
+
+
+
+
+         
+
+
+        </div>
+        <div className="flex item-center justify-center my-10">
+          <img src={Screenreader} alt="Screen Reader Background" />
+        </div>
+      </div>
+
+            </div>
+  )
+}
+
+export default Wallet

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c5e910.css",
+    "main.js": "/static/js/main.a1aee123.js",
+    "static/media/barcode.GIF": "/static/media/barcode.5d7250a495b73e564a6a.GIF",
+    "static/media/ticketmasterIconG.GIF": "/static/media/ticketmasterIconG.5ae4a80a172adb830cbc.GIF",
+    "static/media/TransfertoImg.jpeg": "/static/media/TransfertoImg.48d22903e2f30bc70cdb.jpeg",
+    "static/media/Transferselect.png": "/static/media/Transferselect.3f79855ae096bd15dab8.png",
+    "static/media/USflag.png": "/static/media/USflag.40f877a480739f4ec470.png",
+    "static/media/ukflag.png": "/static/media/ukflag.b9a2ba74e5f8a55977e7.png",
+    "static/media/ticket.png": "/static/media/ticket.0f973a54ede20ee3f27e.png",
+    "static/media/screenreaderbg.png": "/static/media/screenreaderbg.d9f686cd81d12b66570f.png",
+    "static/media/Blankbar.jpg": "/static/media/Blankbar.2d9e4f9f3e54d0400abc.jpg",
+    "static/media/tvnobg.png": "/static/media/tvnobg.2f94f7d31e03849ba48f.png",
+    "static/media/viewnobg3.png": "/static/media/viewnobg3.34a5d44957c9e0b15d4a.png",
+    "static/media/more.png": "/static/media/more.a06f67b1d54b37e1d857.png",
+    "static/media/ticketmasterlogonew.svg": "/static/media/ticketmasterlogonew.37ebfb52e1ea81b8df3ba23cac0a76b0.svg",
+    "index.html": "/index.html",
+    "main.e6c5e910.css.map": "/static/css/main.e6c5e910.css.map",
+    "main.a1aee123.js.map": "/static/js/main.a1aee123.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c5e910.css",
+    "static/js/main.a1aee123.js"
+  ]
+}
