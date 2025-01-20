@@ -133,6 +133,50 @@ export const eventData=[
         // verify: "y",
       }
     }
-  ]
-
+  ],
+ [
+  {
+    artiste: "Gracie Abrams: The Secret Of Us Deluxe Tour with Role Model",
+    img: "https://images.ticketmasterpartners.com/desktop/wp-content/uploads/sites/3235/668fabc4c945da4ef662cb64/1720775238866/gracie_header_image1_jpg",
+    sec: "111",
+    row: "2",
+    seat: "3",
+    date: "Wed, Aug 6",
+    time: "8:00 PM",
+    state: "California",
+    venue: "Kia Forum",
+    type: "Artiste Presale",
+    eventData: {
+        month: "Aug",
+        day: "6",
+        time: "Wed - 20:00",
+        region: "",
+        orderNo: "",
+    },
+    transfers:{
+      GA:"",
+      ticketId:['1','2']
+    }
+  
+},
+{
+    artiste: "Gracie Abrams: The Secret Of Us Deluxe Tour with Role Model",
+    img: "https://images.ticketmasterpartners.com/desktop/wp-content/uploads/sites/3235/668fabc4c945da4ef662cb64/1720775238866/gracie_header_image1_jpg",
+    sec: "111",
+    row: "2",
+    seat: "4",
+    date: "Wed, Aug 6",
+    time: "8:00 PM",
+    state: "California",
+    venue: "Kia Forum",
+    type: "Artiste Presale",
+    eventData: {
+        month: "Aug",
+        day: "6",
+        time: "Wed - 20:00",
+        region: "USA",
+        orderNo: "",
+    },
+},
+ ]
 ]
