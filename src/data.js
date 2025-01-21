@@ -56,7 +56,7 @@ export const eventData=[
         sec: "",
         row: "",
         seats: [],
-        desc: "",
+        desc: "LOWER LEVEL",
         GA: "",
         color: "",
         venueMap: "",
