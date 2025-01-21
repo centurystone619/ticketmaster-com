@@ -23,7 +23,7 @@ export const eventData=[
         sec: "",
         row: "",
         seats: ['10','11','12','13'],
-        desc: "",
+        desc: "LOWER LEVEL",
         GA: "",
         color: "",
         "venueMap": "",
