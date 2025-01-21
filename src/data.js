@@ -6,7 +6,7 @@ export const eventData=[
       sec: "118",
       row: "6",
       seat: "10",
-      date: "Tue, Feb 04, 2025",
+      date: "Tue, Feb 04",
       time: "7:30pm",
       state: "Minnesota",
       venue: "Xcel Energy Center, Saint Paul",
