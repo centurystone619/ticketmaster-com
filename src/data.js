@@ -14,7 +14,7 @@ export const eventData=[
       eventData: {
         month: "Feb",
         day: "04",
-        year: "2025",
+        year: "",
         time: "Tue - 19:30",
         region: "",
         orderNo: ""
