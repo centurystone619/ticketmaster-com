@@ -86,6 +86,19 @@ export const eventData=[
         orderNo: ""
       },
       
+      transfers: {
+        sec: "",
+        row: "",
+        seats: ['10','11','12','13'],
+        desc: "LOWER LEVEL",
+        GA: "",
+        color: "",
+        "venueMap": "",
+        "gate": "",
+        "btnColor": "",
+        sell: "y",
+        trnsfer: "y"
+      }
     },
     {
       artiste: "Tyler, The Creator - CHROMAKOPIA: THE WORLD TOUR",
@@ -106,7 +119,19 @@ export const eventData=[
         region: "",
         orderNo: ""
       },
-   
+   transfers: {
+        sec: "",
+        row: "",
+        seats: ['10','11','12','13'],
+        desc: "LOWER LEVEL",
+        GA: "",
+        color: "",
+        "venueMap": "",
+        "gate": "",
+        "btnColor": "",
+        sell: "y",
+        trnsfer: "y"
+      }
     }
   ],
   // [
