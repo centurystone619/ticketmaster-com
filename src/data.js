@@ -22,7 +22,7 @@ export const eventData=[
       transfers: {
         sec: "",
         row: "",
-        seats: ['10','11','12','13'],
+        seats: ['10','11','12',''],
         desc: "LOWER LEVEL",
         GA: "",
         color: "",
