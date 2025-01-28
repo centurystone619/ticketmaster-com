@@ -175,11 +175,11 @@ onClick={handleSelection}
 
 <div className='w-[100%] h-[100vh] lg:-left-80 absolute top-0 left-0  bg-black  bg-opacity-50 justify-center flex items-center'>
 <div className='mx-3 bg-white '>
- <div className='flex bg-black/20'> <h1 className='text-center py-3 w-5/6  text-[17px] font-semibold'>Single Seat Left Open</h1>
- <button onClick={()=>setOpenWarning(false)} className='px-3  '><img src={close} className='w-4'/></button>
+ <div className='flex bg-black/20'><p className='w-1/6'></p> <h1 className='text-center py-3 w-4/6  text-[17px] font-semibold'>Single Seat Left Open</h1>
+ <button onClick={()=>setOpenWarning(false)} className=' flex justify-center items-center w-1/6  '><img src={close} className='w-4'/></button>
  </div>
 
-  <p className='text-start text-[18px] mx-5 py-4'>Please update your selection to leave at least two adjacent seats available.</p>
+  <p className='text-start text-[16px] mx-5 py-4 text-azure-black'>Please update your selection to leave at least two adjacent seats available.</p>
   </div>
 </div>
 
