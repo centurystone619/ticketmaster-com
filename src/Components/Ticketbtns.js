@@ -1,7 +1,7 @@
 import React from 'react'
 import IndexBtn from './IndexBtn';
 
-const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,setIsFormOpen,openForm,isWalletOpen,showWalletBtn
+const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,setIsFormOpen,openForm,isWalletOpen,showWalletBtn,handleSelection
 }) => {
 
     const getColorClass = () => {
@@ -21,20 +21,9 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
     <div className='-mt-2 lg:mt-0' >
      
 
-{/* <ul className="flex space-x-2 justify-center items-center">
-  {events[selectedIndex].map((_, index) => (
-    <li 
-      key={`${index}`}
-      className={`rounded-full border-4 h-1 w-1 ${
-        seatIndex === index ? "border-gray-700" : "border-gray-400"
-      }`}
-      style={seatIndex === index ? { backgroundColor: colorStyle } : {}}
-      onClick={() => handleTicketbtn(index)}
-    />
-  ))}
-</ul> */}
 
-<IndexBtn handleTicketbtn={handleTicketbtn} events={events} selectedIndex={selectedIndex} colorStyle={colorStyle} seatIndex={seatIndex} isWalletOpen={isWalletOpen} eventIndex={eventIndex} showWalletBtn={showWalletBtn}/>
+
+<IndexBtn handleTicketbtn={handleTicketbtn} events={events} selectedIndex={selectedIndex} colorStyle={colorStyle} seatIndex={seatIndex} isWalletOpen={isWalletOpen} eventIndex={eventIndex} showWalletBtn={showWalletBtn}handleSelection={handleSelection}/>
 
 <div className='flex items-center justify-center mt-5' id="transfer-btn">
     <ul  className="flex  space-x-5 mb-3">

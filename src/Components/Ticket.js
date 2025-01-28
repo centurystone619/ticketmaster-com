@@ -121,7 +121,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
                    <div id="text-wrapper" className="absolute w-full z-20   ">
                     <div
                       id="ticket-name"
-                      className="flex item-center justify-center text-center text-nowrap"
+                      className="flex item-center justify-center text-center text-nowrap "
                     >
                       <div id="artiste" className={`max-w-80 `}  style={{
     fontSize: subArray.artiste.length <= 35 ? '18px' : '16px', 
@@ -295,11 +295,11 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
       </section>
 
       
-      <div className=''><Ticketbtns showWalletBtn={showWalletBtn} events={events} selectSeatIndex={selectSeatIndex} eventIndex={eventIndex} selectedIndex={selectedIndex} handleTicketbtn={handleTicketbtn} seatIndex={seatIndex} setIsFormOpen={setIsFormOpen} openForm={openForm} isWalletOpen={isWalletOpen}/></div>
+      <div className=''><Ticketbtns  showWalletBtn={showWalletBtn} events={events} selectSeatIndex={selectSeatIndex} eventIndex={eventIndex} selectedIndex={selectedIndex} handleTicketbtn={handleTicketbtn} seatIndex={seatIndex} setIsFormOpen={setIsFormOpen} openForm={openForm} isWalletOpen={isWalletOpen}/></div>
       {isBarcodeOpen && <Barcode selectSeatIndex={selectSeatIndex} eventIndex={eventIndex} flagIndex={flagIndex} events={events} selectedIndex={selectedIndex} seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} setIsBarcodeOpen={setIsBarcodeOpen} setSeatIndex={setSeatIndex} isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen}/>}
       {isWalletOpen && 
       <Wallet isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} eventIndex={eventIndex} seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} />}
-{isFormOpen && <Form setIsFormOpen={setIsFormOpen} selectedIndex={selectedIndex} eventIndex={eventIndex} /> }
+{isFormOpen && <Form  setIsFormOpen={setIsFormOpen} selectedIndex={selectedIndex} eventIndex={eventIndex} /> }
     </main>
   )
 }

@@ -52,7 +52,10 @@ const TransferToForm = ({eventIndex,selectedItems,closeTransfer,transferTo, setT
                 </footer>
 </form>
 
-        </div>): (
+        </div>
+        
+        
+      ): (
         <div >
              <form
         id="transfer-wrapper"

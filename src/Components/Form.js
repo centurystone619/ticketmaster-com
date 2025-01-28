@@ -15,6 +15,7 @@ const Form = ({setIsFormOpen,selectedIndex,eventIndex}) => {
     const [selectedItems, setSelectedItems] = useState([]);
     const [openSelection, setOpenSelection] = useState(false);
     const [transferTo, setTransferTo] = useState(true)
+    const [openWarning,setOpenWarning] = useState(false)
    
    
     // const handleChange = (event) => {
@@ -56,7 +57,7 @@ const Form = ({setIsFormOpen,selectedIndex,eventIndex}) => {
   return (
     <div id="form-wrapper" className=' absolute ticket-slide-up top-0'>
   {openSelection ? (<TransferToForm  selectedItems={selectedItems} closeTransfer={closeTransfer} transferTo={transferTo} setTransferTo={setTransferTo} eventIndex={eventIndex}/>) :(
-    <SelectSeatForm setOpenSelection={setOpenSelection} selectedItems={selectedItems} ticketId={ticketId} isSelected={isSelected} handleChange={handleChange} transfers={transfers} selectedIndex={selectedIndex} eventTransfers={eventTransfers} handleSubmit={handleSubmit} setIsFormOpen={setIsFormOpen} eventIndex={eventIndex}/>
+    <SelectSeatForm setOpenSelection={setOpenSelection} selectedItems={selectedItems} ticketId={ticketId} isSelected={isSelected} handleChange={handleChange} transfers={transfers} selectedIndex={selectedIndex} eventTransfers={eventTransfers} handleSubmit={handleSubmit} openWarning={openWarning} setOpenWarning={setOpenWarning} setIsFormOpen={setIsFormOpen} eventIndex={eventIndex}/>
   ) }
 
 {/* <SelectSeatForm setOpenSelection={setOpenSelection} selectedItems={selectedItems} ticketId={ticketId} isSelected={isSelected} handleChange={handleChange} transfers={transfers} selectedIndex={selectedIndex} eventTransfers={eventTransfers} handleSubmit={handleSubmit} setIsFormOpen={setIsFormOpen} eventIndex={eventIndex}/> */}
