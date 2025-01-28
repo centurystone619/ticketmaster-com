@@ -66,13 +66,13 @@ const handleTicketbtn = (index) => {
     
 };
 
-// useEffect(() => {
-//   if (selectSeatIndex !== null) {
-//     // Adjust the translation for the selected index
-//     setTransX("27px");
-//     setSeatIndex(0)
-//   } 
-// }, []);
+useEffect(() => {
+  if (selectSeatIndex !== null) {
+    // Adjust the translation for the selected index
+    setTransX("27px");
+    setSeatIndex(0)
+  } 
+}, []);
 
 useEffect(() => {
  setEvents(events)
