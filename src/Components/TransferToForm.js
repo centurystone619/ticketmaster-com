@@ -106,8 +106,14 @@ const TransferToForm = ({eventIndex,selectedItems,closeTransfer,transferTo, setT
               </div>
             )}
           </li>
-          {eventIndex[0].seat && (
-            <li className="flex">
+         
+
+          {eventIndex[0].transfers?.ticketId ? (    <div className="flex">
+                      <p className=" flex mr-1 text-black/80">Seat</p>
+                      <span className='font-semibold'>
+                        -
+                      </span>
+                    </div>) : (<li className="flex">
               {selectedItems.length > 1 ? (
                 <div>
                   {selectedItems.length >= 3 ? (
@@ -132,8 +138,7 @@ const TransferToForm = ({eventIndex,selectedItems,closeTransfer,transferTo, setT
                   <span className='font-semibold'>{selectedItems}</span>
                 </div>
               )}
-            </li>
-          )}
+            </li>)}
         </ul>
 
         <div className="w-11/12 flex flex-col item-center justify-center box-border">

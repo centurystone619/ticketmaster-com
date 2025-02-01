@@ -17,7 +17,7 @@ const handleSelection=(e)=>{
     setOpenWarning(false)
   }
 }
- 
+const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : eventTransfers.seats;
   return (
     <div id="select-modal" className={`ticket-slide-up lg:w-2/3  `}>
 <form  id="select-form" className={`${eventTransfers.seats.length > 4? ' mt-[29vh]': ' mt-[43vh]'} pb-8 lg:mt-[32vh]`}>
@@ -82,45 +82,46 @@ const handleSelection=(e)=>{
             </div>
             </div>
 
-            <div className="overflow-x-auto">
-{(
-eventTransfers.seats.length > 0 
-  ? eventTransfers.seats 
-  : eventTransfers.ticketId
-)
-.reduce((chunks, item, index) => {
-  const chunkIndex = Math.floor(index / 4); // Split into groups of 4
-  if (!chunks[chunkIndex]) chunks[chunkIndex] = [];
-  chunks[chunkIndex].push(item);
-  return chunks;
-}, [])
-.map((chunk, chunkIndex) => (
-  <ul
-    key={chunkIndex}
-    className="flex space-x-4  text-azure-white mb-5 mt-10 flex-wrap lg:my-5 "
-  >
-    {chunk.map((item, index) => (
-      <li
-        key={index}
-        className="cursor-pointer"
-        onClick={() => handleChange(item)}
-      >
-        <div
-          style={{
-            backgroundColor: eventIndex[0]?.transfers?.btnColor || "#004ee7", // Ensure `btnColor` is used
-          }}
-          className="py-1 px-2 w-18" // Add consistent padding via className
-        >
-          {eventTransfers.seats.length > 0 ? (
-            <div>
-              SEAT <em>{item}</em>
-            </div>
-          ) : (
-            <div className="py-2 px-3 min-w-16">
-              {item}
-            </div>
-          )}
-        </div>
+
+
+
+<div className="overflow-x-auto">
+              {Array.isArray(itemsToDisplay) && itemsToDisplay
+                .reduce((chunks, item, index) => {
+                  const chunkIndex = Math.floor(index / 4);
+                  if (!chunks[chunkIndex]) chunks[chunkIndex] = [];
+                  chunks[chunkIndex].push(item);
+                  return chunks;
+                }, [])
+                .map((chunk, chunkIndex) => (
+                  <ul
+                    key={chunkIndex}
+                    className="flex space-x-4 text-azure-white mb-5 mt-10 flex-wrap lg:my-5"
+                  >
+                    {chunk.map((item, index) => (
+                      <li
+                        key={index}
+                        className="cursor-pointer"
+                        onClick={() => handleChange(item)}
+                      >
+                        <div
+                          style={{
+                            backgroundColor: eventIndex[0]?.transfers?.btnColor || "#004ee7",
+                          }}
+                          className="py-1 px-2 w-18"
+                        >
+                          {eventTransfers.ticketId ? (
+                            <div className="py-2  min-w-14 text-white">
+                              {item}
+                            </div>
+                          ) : (
+                            <div className="text-white">
+                              SEAT <em>{item}</em>
+                            </div>
+                          )}
+                        </div>
+
+
         <div className="rounded-xl shadow-md flex items-center justify-center py-3 border-b-2 ">
           <div
             className={`w-6 h-6 flex items-center justify-center rounded-full border-2 p-1 ${
@@ -139,7 +140,7 @@ eventTransfers.seats.length > 0
     ))}
   </ul>
 ))}
-</div>
+</div> 
 
 
 </div>

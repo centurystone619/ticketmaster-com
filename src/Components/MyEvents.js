@@ -6,18 +6,7 @@ import eventFooter from '../assets/eventFooter.jpg'
 
 const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelected, setSelectedIndex,firstEvents}) => {
 
-  // const firstEvents = events.map(item => item[0]);
-
-  // const firstEvents = events.flatMap(group => group);
-  
-
-  // const handleClick = (index) => {
-  //   console.log("Selected event index:", index, firstEvents[index]);
-  //   setSelectedIndex(index);
-  //   setIsIndexSelected(true);
-  //   handleEventClick(index);
-  // };
-
+ 
 
   return (
     <>
