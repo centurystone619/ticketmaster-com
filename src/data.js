@@ -1,6 +1,7 @@
 export const eventData=[
   [
     {
+      yourName:"Century",
       artiste: "Clemson University Tigers Mens Basketball vs. Duke Blue Devils Men's Basketball",
       img: "https://media.ticketmaster.com/en-us/dam/a/3c2/35cebaaa-9bf3-452a-9fdf-17ddc23cf3c2_CUSTOM.jpg",
       sec: "104",
@@ -31,7 +32,8 @@ export const eventData=[
         "gate": "",
         "btnColor": "",
         sell: "y",
-        trnsfer: "y"
+        trnsfer: "y",
+        ticketPrice:"$120"
       }
     },
     {
