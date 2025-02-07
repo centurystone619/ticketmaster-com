@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.78d2d75d.css",
-    "main.js": "/static/js/main.ca2cdd4a.js",
+    "main.css": "/static/css/main.9974b09d.css",
+    "main.js": "/static/js/main.15e3e283.js",
     "static/media/barcode.GIF": "/static/media/barcode.5d7250a495b73e564a6a.GIF",
+    "static/media/emailorderbg.PNG": "/static/media/emailorderbg.f8fb5fb3e370cb740a74.PNG",
     "static/media/ticketmasterIconG.GIF": "/static/media/ticketmasterIconG.5ae4a80a172adb830cbc.GIF",
+    "static/media/emailend.jpg": "/static/media/emailend.2ff612e60e890095e888.jpg",
+    "static/media/emailmobile .jpg": "/static/media/emailmobile .b4b388cd3c9721a7d144.jpg",
     "static/media/TransfertoImg.jpeg": "/static/media/TransfertoImg.48d22903e2f30bc70cdb.jpeg",
     "static/media/Transferselect.png": "/static/media/Transferselect.3f79855ae096bd15dab8.png",
+    "static/media/email2friends.jpg": "/static/media/email2friends.730bef7003bbe538ce02.jpg",
+    "static/media/logoline.jpg": "/static/media/logoline.9e91a325388e497bb4c8.jpg",
     "static/media/USflag.png": "/static/media/USflag.40f877a480739f4ec470.png",
     "static/media/ukflag.png": "/static/media/ukflag.b9a2ba74e5f8a55977e7.png",
     "static/media/ticket.png": "/static/media/ticket.0f973a54ede20ee3f27e.png",
@@ -16,11 +21,11 @@
     "static/media/more.png": "/static/media/more.a06f67b1d54b37e1d857.png",
     "static/media/ticketmasterlogonew.svg": "/static/media/ticketmasterlogonew.37ebfb52e1ea81b8df3ba23cac0a76b0.svg",
     "index.html": "/index.html",
-    "main.78d2d75d.css.map": "/static/css/main.78d2d75d.css.map",
-    "main.ca2cdd4a.js.map": "/static/js/main.ca2cdd4a.js.map"
+    "main.9974b09d.css.map": "/static/css/main.9974b09d.css.map",
+    "main.15e3e283.js.map": "/static/js/main.15e3e283.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d2d75d.css",
-    "static/js/main.ca2cdd4a.js"
+    "static/css/main.9974b09d.css",
+    "static/js/main.15e3e283.js"
   ]
 }
