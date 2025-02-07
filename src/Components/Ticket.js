@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CountDownTimer from './CountDownTimer'
 import ViewTicket from '../assets/viewnobg3.png'
 import Check from '../assets/walletCheck.png'
@@ -8,9 +8,13 @@ import deleteImg from '../assets/delete.png'
 import Barcode from './Barcode'
 import Wallet from './Wallet'
 import Form from './Form'
+import VerificationEmail from './VerificationEmail'
+
 
 
 const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelected,transX,selectSeatIndex, handleTicketbtn,flagIndex,seatIndex,isBarcodeOpen,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen,setIsFormOpen,isFormOpen,openForm,handleCloseIndex}) => {
+
+  const [isEmailVerificationOpen,setIsEmailVerificationOpen]=useState(null)
  
   return (
     <main  className='lg:w-2/3 overflow-hidden lg:mx-auto'>
@@ -29,7 +33,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
           <li className="flex item-center font-semibold text-white">
             My Tickets
           </li>
-          <li className="flex item-center font-semibold text-white">Help</li>
+          <li className="flex item-center  cursor-pointer" ><button className='font-semibold text-white' onClick={(e)=>setIsEmailVerificationOpen(true)}>Help</button></li>
         </ul>
       </nav>
 
@@ -193,7 +197,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
                           }}
                         >
                           {" "}
-                          <button id="GA-btn">Ticket Details</button>
+                          <button id="GA-btn" >Ticket Details</button>
                         </li>
                       </ul>
                     ) : (
@@ -235,7 +239,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
                               }}
                             >
                               {" "}
-                              <button id="GA-btn">Ticket Details</button>
+                              <button id="GA-btn" >Ticket Details</button>
                             </li>
                           </ul>
                     )}
@@ -300,6 +304,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
       {isWalletOpen && 
       <Wallet isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} eventIndex={eventIndex} seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} />}
 {isFormOpen && <Form  setIsFormOpen={setIsFormOpen} selectedIndex={selectedIndex} eventIndex={eventIndex} /> }
+{isEmailVerificationOpen && <VerificationEmail events={events} selectedIndex={selectedIndex} setIsEmailVerificationOpen={setIsEmailVerificationOpen} />}
     </main>
   )
 }

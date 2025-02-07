@@ -319,6 +319,10 @@ input,textarea{
   margin-left: 10px; */
 }
 
+#emailsmallicon{
+  width: 20px;
+}
+
 
 @keyframes slideUp {
   from {

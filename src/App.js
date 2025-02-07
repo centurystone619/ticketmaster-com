@@ -20,6 +20,7 @@ const [showWalletBtn ,setShowWalletBtn] = useState(false)
 
 
 
+
  const firstEvents = events.map(item => item[0]);
 
  

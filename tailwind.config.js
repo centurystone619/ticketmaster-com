@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         averta: ["Verdana", "Geneva", "Tahoma", "sans-serif"],
+        roboto:['Roboto','Helvetica']
       },
       screens: {
         sm: "375px",
@@ -15,6 +16,7 @@ module.exports = {
       },
       colors: {
         // 'azure-deepblue': '#064cdf',
+        "emailblack":"#84898c",
         "azure-deepblue": "#004ee7",
 
         "azure-lightblue": "#004ee7",
