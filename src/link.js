@@ -2462,17 +2462,84 @@ sell: "",
 
 ]`
   },
-      // {
-  //   id:50,
-  //   name:"",
-  //  price:"" ,
-  //  date:"",
-  //  fbSearch:"",
-  //  fbEvent:"",
-  //  fbGroup:"",
-  //  twitter:"",
-  //   detail:``
-  // },
+      {
+    id:50,
+    name:"Tyler, the Creator - CHROMAKOPIA: THE WORLD TOUR (dublin)",
+   price:"" ,
+   date:"May 24",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+  {
+    yourName:"Johnson Anita",
+    artiste: "Tyler, the Creator - CHROMAKOPIA: THE WORLD TOUR",
+    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/515/1883c0aa-4f6f-4932-9950-ef8d320ce515_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "BLOCKC",
+    row: "4",
+    seat: "68",
+    date: "Sat, May 24",
+    time: "18:30",
+    state: "Dublin",
+    venue: "3Arena",
+    type: "Artist Presale",
+    eventData: {
+      month: "May",
+      day: "24",
+      time: "Sat - 18:30",
+      year: "2025",
+      region: "",
+      orderNo: "42-6432/UK",
+    },
+transfers:{
+seats:['68','69'],
+// ticketId:['',''],
+desc: "CENTRAL VIEW",
+showBar: "",
+  GA: "",
+sell: "",
+        trnsfer: "y",
+        ticketPrice:"$144.99"
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "Tyler, the Creator - CHROMAKOPIA: THE WORLD TOUR",
+    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/515/1883c0aa-4f6f-4932-9950-ef8d320ce515_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "BLOCKC",
+    row: "4",
+    seat: "69",
+    date: "Sat, May 24",
+    time: "18:30",
+    state: "Dublin",
+    venue: "3Arena",
+    type: "Artist Presale",
+    eventData: {
+      month: "May",
+      day: "24",
+      time: "Sat - 18:30",
+      year: "2025",
+      region: "",
+      orderNo: "42-6432/UK",
+    },
+transfers:{
+seats:['68','69'],
+// ticketId:['',''],
+desc: "CENTRAL VIEW",
+showBar: "",
+  GA: "",
+sell: "",
+        trnsfer: "y",
+        ticketPrice:"$144.99"
+       
+
+}
+  },
+]`
+  },
       // {
   //   id:50,
   //   name:"",

@@ -21,45 +21,7 @@ const VerificationEmail = ({events,selectedIndex,setIsEmailVerificationOpen}) =>
     const mailInfo =events[selectedIndex][0]
     const {artiste,img,date,time,venue,eventData,state,transfers,sec,row,yourName} = mailInfo
 
-    const TicketDetails = ({ sec, row, transfers }) => {
-        if (transfers.GA || transfers.ticketId) {
-          const isGeneralAdmission = !transfers.GA && transfers.ticketId && (row?.startsWith('-') || !row);
-          
-          if (isGeneralAdmission) {
-            return (
-              <ul>
-                {sec && <li>Sec {sec}</li>}
-                <li>GENERAL ADMISSIONS x {transfers.ticketId.length}</li>
-              </ul>
-            );
-          }
-          
-          return (
-            <div className="text-[11px] -space-y-4 text-center">
-              <ul className="-space-y-4">
-                <li className="flex">
-                  {sec && <p>Sec {sec}</p>}, {row && <p>{row}</p>}
-                </li>
-                <li>{String(transfers.GA).toUpperCase()} x {transfers.ticketId.length}</li>
-              </ul>
-            </div>
-          );
-        }
-      
-        return (
-          <ul className="text-[11px] -space-y-4">
-            {transfers.seats.map((seat, index) => (
-              <li key={index}>
-                <p>
-                  <span>Sec {sec},</span>
-                  <span className="mx-2">Row {row},</span>
-                  <span>Seat {seat}</span>
-                </p>
-              </li>
-            ))}
-          </ul>
-        );
-      };
+  
     
     
   return (
@@ -82,16 +44,16 @@ const VerificationEmail = ({events,selectedIndex,setIsEmailVerificationOpen}) =>
         </header>
 
         <div id='logo-text' className='flex mt-5'>
-            <p><img src={logotxt}/></p>
-            <p><img src={mailSmileyIcon}/></p>
+            <p><img src={logotxt} alt='logotext'/></p>
+            <p><img src={mailSmileyIcon} alt='mailsmiley'/></p>
         </div>
 
-        <div><img src={logoLineIcon}/></div>
-        <div className='flex font-roboto justify-end mx-4 text-[14px] items-center'>
-            <p className=''><img src={mailProfilepic} className='scale-50'/></p> <p className='text-[11px] font-bold -mx-1 text-center'>{yourName}</p>
+        <div><img src={logoLineIcon} alt='logoline'/></div>
+        <div className='flex font-roboto justify-end mx-4 text-[14px] items-center  '>
+            <p className=''><img src={mailProfilepic} className='scale-50 -mt-1' alt='profilenameicon'/></p> <p className='text-[10px] font-bold -mx-1 text-center'>{yourName}</p>
         </div>
 
-        <div><img src={Bluebg}/></div>
+        <div><img src={Bluebg} alt='bluebg'/></div>
         
         <div id='det' className='mx-2  my-5 flex   justify-start '>
             <div className='w-5/12 h-full  px-2 '>
@@ -127,10 +89,17 @@ const VerificationEmail = ({events,selectedIndex,setIsEmailVerificationOpen}) =>
   {transfers.GA || transfers.ticketId ? (
     <div>
       {!transfers.GA && transfers.ticketId && (row?.startsWith('-') || !row) ? (
-        <ul className='text-[11px] -space-y-4' >
-          {sec && <li>Sec {sec}</li>}
-          <li>GENERAL ADMISSION x {transfers.ticketId.length}</li>
-        </ul>
+        <ul className="text-[11px] -space-y-4">
+        {transfers.seats.map((seat, index) => (
+          <li key={index}>
+            <p>
+              <span>Sec {sec},</span>
+              <span className="mx-2">Row {row},</span>
+              <span>Seat -</span>
+            </p>
+          </li>
+        ))}
+      </ul>
       ) : (
         <div className="text-[11px] -space-y-4 text-center">
           <ul className="-space-y-4">
