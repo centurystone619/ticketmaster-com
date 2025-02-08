@@ -70,7 +70,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                           {eventIndex[0].date}
                         </p>
                         <p className="flex text-nowrap text-center">
-                          <em>,</em>
+                        {eventIndex[0].time && <em>,</em>}  
                           <p className="px-1">{eventIndex[0].time}</p> <em>•</em>
                         </p>
                         <p className="text-nowrap text-center pl-1">
@@ -199,7 +199,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
               >
                 <p className="text-nowrap text-center pr-1">{eventIndex[0].date}</p>
                 <p className="flex text-nowrap text-center">
-                  <em>,</em>
+                {eventIndex[0].time && <em>,</em>}  
                   <span className="px-1">{eventIndex[0].time}</span> <em>•</em>
                 </p>
                 <p className="text-nowrap text-center pl-1">

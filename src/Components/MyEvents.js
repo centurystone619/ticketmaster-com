@@ -198,13 +198,23 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                   </div>
                 </div>
 
-                <div
+                {time? 
+               (<div
                   // id="event-date"
                   className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
                 >
+                  
                  
                   {date}, {time} <em className="mx-1">•</em> {venue}
-                </div>
+                </div>) : 
+                (<div
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}<em className="mx-1">•</em> {venue}
+                </div>)}
                
 
 
@@ -307,14 +317,32 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                   </div>
                 </div>
 
-                <div
+                {/* <div
                   // id="event-date"
                   className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
                 >
+                  
                  
                   {date}, {time} <em className="mx-1">•</em> {venue}
-                </div>
+                </div> */}
                
+               {time? 
+               (<div
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}, {time} <em className="mx-1">•</em> {venue}
+                </div>) : 
+                (<div
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}<em className="mx-1">•</em> {venue}
+                </div>)}
 
 
 <div className="flex items-start text-center w-full justify-start text-xs">
