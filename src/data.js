@@ -1,6 +1,6 @@
 export const eventData=[
  
-    [
+      [
     {
       yourName:"Johnson Anita",
       artiste: "Minnesota Timberwolves vs. Portland Trail Blazers",
@@ -33,7 +33,8 @@ export const eventData=[
           teamLogo:'https://cdn.nba.com/teams/uploads/sites/1610612750/2021/11/logo-1.svg',
           sportsdow:'Sat',
           btnColor:'#2d2926',
-          color:'#003366'
+          color:'#003366',
+          sport:'y'
          
   
   }
@@ -73,7 +74,7 @@ export const eventData=[
   
   }
     },
-  ]  ,
+  ] 
   ,
   
   [
