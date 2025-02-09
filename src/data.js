@@ -2,7 +2,7 @@ export const eventData=[
  
       [
     {
-      yourName:"Johnson Anita",
+      yourName:"Century",
       artiste: "Minnesota Timberwolves vs. Portland Trail Blazers",
       img: "https://s1.ticketm.net/dam/a/d97/227fc393-f011-49a9-8e96-ad4770fe2d97_ARTIST_PAGE_3_2.jpg",
       sec: "124",
@@ -40,7 +40,7 @@ export const eventData=[
   }
     },
     {
-      yourName:"Johnson Anita",
+      yourName:"Century",
       artiste: "Minnesota Timberwolves vs. Portland Trail Blazers",
       img: "https://s1.ticketm.net/dam/a/d97/227fc393-f011-49a9-8e96-ad4770fe2d97_ARTIST_PAGE_3_2.jpg",
       sec: "124",
