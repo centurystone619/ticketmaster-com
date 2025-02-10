@@ -1,219 +1,274 @@
 export const eventData=[
- 
-      [
-    {
-      yourName:"Century",
-      artiste: "Minnesota Timberwolves vs. Portland Trail Blazers",
-      img: "https://s1.ticketm.net/dam/a/d97/227fc393-f011-49a9-8e96-ad4770fe2d97_ARTIST_PAGE_3_2.jpg",
-      sec: "124",
-      row: "C",
-      seat: "7",
-      date: "Sat, Feb 08",
-      time: "7:00pm",
-      state: "Minneapolis, MN",
-      venue: "Target Center",
-      type: "Resale Ticket",
-      eventData: {
-        month: "Mar",
-        day: "21",
-        time: "Fri - 18:45",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
+    [
+        {
+          artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
+          img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
+          sec: "101",
+          row: "3",
+          seat: "12",
+          date: "Wed, May 14",
+          time: "8pm",
+          state: "North Carolina",
+          venue: "Live Oak Bank Pavilion",
+          type: "Free transfer",
+          eventData: {
+            month: "May",
+            day: "14",
+            year: "",
+            time: "Wed - 8",
+            region: "",
+            orderNo: ""
+          },
+          transfers: {
+            sec: "",
+            row: "",
+            seats: ['12','13','14','15'],
+            desc: "RAINSHINE*NOROOF",
+            GA: "",
+            color: "",
+            "venueMap": "Live Oak Bank Pavilion",
+            "gate": "",
+            "btnColor": "",
+            sell: "y",
+            trnsfer: "y"
+          }
+        },
+        {
+          artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
+          img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
+          sec: "101",
+          row: "3",
+          seat: "13",
+          date: "Wed, May 14",
+          time: "8pm",
+          state: "North Carolina",
+          venue: "Live Oak Bank Pavilion",
+          type: "Free transfer",
+          eventData: {
+            month: "May",
+            day: "14",
+            year: "",
+            time: "Wed - 8",
+            region: "",
+            orderNo: ""
+          },
+          transfers: {
+            sec: "",
+            row: "",
+            seats: ['13'],
+            desc: "RAINSHINE*NOROOF",
+            GA: "",
+            color: "",
+            venueMap: "Live Oak Bank Pavilion",
+            gate: "",
+            btnColor: "",
+            sell: "",
+            trnsfer: ""
+          }
+        }, 
+        {
+          artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
+          img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
+          sec: "101",
+          row: "3",
+          seat: "14",
+          date: "Wed, May 14",
+          time: "8pm",
+          state: "North Carolina",
+          venue: "Live Oak Bank Pavilion",
+          type: "Free transfer",
+          eventData: {
+            month: "May",
+            day: "14",
+            year: "",
+            time: "Wed - 8",
+            region: "",
+            orderNo: ""
+          },
+          transfers: {
+            sec: "",
+            row: "",
+            seats: ['14'],
+            desc: "RAINSHINE*NOROOF",
+            GA: "",
+            color: "",
+            "venueMap": "Live Oak Bank Pavilion",
+            "gate": "",
+            "btnColor": "",
+            sell: "y",
+            trnsfer: "y"
+          }
+        },
+        {
+          artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
+          img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
+          sec: "101",
+          row: "3",
+          seat: "15",
+          date: "Wed, May 14",
+          time: "8pm",
+          state: "North Carolina",
+          venue: "Live Oak Bank Pavilion",
+          type: "Free transfer",
+          eventData: {
+            month: "May",
+            day: "14",
+            year: "",
+            time: "Wed - 8",
+            region: "",
+            orderNo: ""
+          },
+          transfers: {
+            sec: "",
+            row: "",
+            seats: ['15'],
+            desc: "RAINSHINE*NOROOF",
+            GA: "",
+            color: "",
+            "venueMap": "Live Oak Bank Pavilion",
+            "gate": "",
+            "btnColor": "",
+            sell: "y",
+            trnsfer: "y"
+          }
+        }
+      ],
+    [
+      {
+        artiste: "Riley Green: Damn Country Music Tour",
+        img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
+        sec: "101",
+        row: "13",
+        seat: "15",
+        date: "Fri, Jun 13",
+        time: "7pm",
+        state: "North Carolina",
+        venue: "Live Oak Bank Pavilion",
+        type: "Verified Resale",
+        eventData: {
+          month: "Jun",
+          day: "13",
+          year: "",
+          time: "Fri - 7",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['15','16','17','18'],
+          desc: "RAINSHINE*NOROOF",
+          GA: "",
+          color: "",
+          "venueMap": "Live Oak Bank Pavilion",
+          "gate": "",
+          "btnColor": "",
+          sell: "y",
+          trnsfer: "y"
+        }
       },
-  transfers:{
-  seats:['7','8'],
-  // ticketId:['',''],
-  desc: "100 LEVEL",
-  showBar: "",
-    GA: "",
-  sell: "",
-          trnsfer: "y",
-         // ticketPrice:"$144.99",
-          teamLogo:'https://cdn.nba.com/teams/uploads/sites/1610612750/2021/11/logo-1.svg',
-          sportsdow:'Sat',
-          btnColor:'#2d2926',
-          color:'#003366',
-          sport:'y'
-         
-  
-  }
-    },
-    {
-      yourName:"Century",
-      artiste: "Minnesota Timberwolves vs. Portland Trail Blazers",
-      img: "https://s1.ticketm.net/dam/a/d97/227fc393-f011-49a9-8e96-ad4770fe2d97_ARTIST_PAGE_3_2.jpg",
-      sec: "124",
-      row: "C",
-      seat: "8",
-      date: "Sat, Feb 08",
-      time: "7:00pm",
-      state: "Minneapolis, MN",
-      venue: "Target Center",
-      type: "Resale Ticket",
-      eventData: {
-        month: "Mar",
-        day: "21",
-        time: "Fri - 18:45",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-        sportsdow:"Sat"
+      {
+        artiste: "Riley Green: Damn Country Music Tour",
+        img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
+        sec: "101",
+        row: "13",
+        seat: "15",
+        date: "Fri, Jun 13",
+        time: "7pm",
+        state: "North Carolina",
+        venue: "Live Oak Bank Pavilion",
+        type: "Verified Resale",
+        eventData: {
+          month: "Feb",
+          day: "15",
+          year: "",
+          time: "Sat - 1:00",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['15'],
+          desc: "RAINSHINE*NOROOF",
+          GA: "",
+          color: "",
+          venueMap: "Live Oak Bank Pavilion",
+          gate: "",
+          btnColor: "",
+          sell: "",
+          trnsfer: ""
+        }
+      }, 
+      {
+        artiste: "Riley Green: Damn Country Music Tour",
+        img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
+        sec: "230",
+        row: "1",
+        seat: "14",
+        date: "Sat, Feb 15",
+        time: "1:00pm",
+        state: "Tennessee",
+        venue: "Food City Center",
+        type: "Free transfer",
+        eventData: {
+          month: "Feb",
+          day: "15",
+          year: "",
+          time: "Sat - 1:00",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['14'],
+          desc: "200 LEVEL",
+          GA: "",
+          color: "",
+          "venueMap": "",
+          "gate": "",
+          "btnColor": "",
+          sell: "y",
+          trnsfer: "y"
+        }
       },
-  transfers:{
-  seats:['7','8'],
-  // ticketId:['',''],
-  desc: "100 LEVEL",
-  showBar: "",
-    GA: "",
-  sell: "",
-          trnsfer: "y",
-         // ticketPrice:"$144.99",
-         sport:'y'
-         
-  
-  }
-    },
-  ] 
-  ,
-  
-  [
-    
-    {
-      yourName:"Century",
-      artiste: "Galantis",
-      img: "https://media.ticketmaster.com/en-us/dam/a/c59/43a49717-225c-4c1a-965b-ee2c546f0c59_CUSTOM.jpg",
-      sec: "GENADM",
-      row: "",
-      seat: "",
-      date: "Sat, Feb 8",
-      time: "8pm",
-      state: "California",
-      venue: "Bill Graham Civic Auditorium",
-      type: "Standard Ticket - 18+ Only",
-      eventData: {
-        month: "Feb",
-        day: "8",
-        year: "",
-        time: "Sat - 8",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['','','',''],
-        ticketId:['1','2','3','4'],
-        desc: "GENERAL ADMISSION",
-        GA: "General Adimission",
-        color: "",
-        venueMap: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyztzcBbkRS3ylOLY-PhpthdDN-Qp3daR-oFV3Aj8vOQ&s",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y",
-        ticketPrice:"$120"
+      {
+        artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
+        img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
+        sec: "230",
+        row: "1",
+        seat: "15",
+        date: "Sat, Feb 15",
+        time: "1:00pm",
+        state: "Tennessee",
+        venue: "Food City Center",
+        type: "Free transfer",
+        eventData: {
+          month: "Feb",
+          day: "15",
+          year: "",
+          time: "Sat - 1:00",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['15'],
+          desc: "200 LEVEL",
+          GA: "",
+          color: "",
+          "venueMap": "",
+          "gate": "",
+          "btnColor": "",
+          sell: "y",
+          trnsfer: "y"
+        }
       }
-    },
-    {
-      artiste: "Galantis",
-      img: "https://media.ticketmaster.com/en-us/dam/a/c59/43a49717-225c-4c1a-965b-ee2c546f0c59_CUSTOM.jpg",
-      sec: "GENADM",
-      row: "",
-      seat: "",
-      date: "Sat, Feb 8",
-      time: "8pm",
-      state: "California",
-      venue: "Bill Graham Civic Auditorium",
-      type: "Standard Ticket - 18+ Only",
-      eventData: {
-        month: "Feb",
-        day: "8",
-        year: "2025",
-        time: "Sat - 8",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['','','',''],
-        desc: "GENERAL ADMISSION",
-        GA: "General Adimission",
-        color: "",
-        venueMap: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyztzcBbkRS3ylOLY-PhpthdDN-Qp3daR-oFV3Aj8vOQ&s",
-        gate: "",
-        btnColor: "",
-        sell: "",
-        trnsfer: ""
-      }
-    }, 
-    {
-      artiste: "Tyler, The Creator - CHROMAKOPIA: THE WORLD TOUR",
-      img: "https://s1.ticketm.net/dam/a/3a3/04ee9987-d0dd-41f6-a169-afc7727293a3_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "118",
-      row: "6",
-      seat: "12",
-      date: "Tue, Feb 04",
-      time: "7:30pm",
-      state: "Minnesota",
-      venue: "Xcel Energy Center, Saint Paul",
-      type: "Tyler- The Creator Presale",
-      eventData: {
-        month: "Feb",
-        day: "04",
-        year: "2025",
-        time: "Tue - 19:30",
-        region: "",
-        orderNo: ""
-      },
-      
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['10','11','12','13'],
-        desc: "LOWER LEVEL",
-        GA: "",
-        color: "",
-        "venueMap": "",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Tyler, The Creator - CHROMAKOPIA: THE WORLD TOUR",
-      img: "https://s1.ticketm.net/dam/a/3a3/04ee9987-d0dd-41f6-a169-afc7727293a3_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "118",
-      row: "6",
-      seat: "13",
-      date: "Tue, Feb 04",
-      time: "7:30pm",
-      state: "Minnesota",
-      venue: "Xcel Energy Center, Saint Paul",
-      type: "Tyler- The Creator Presale",
-      eventData: {
-        month: "Feb",
-        day: "04",
-        year: "2025",
-        time: "Tue - 19:30",
-        region: "",
-        orderNo: ""
-      },
-   transfers: {
-        sec: "",
-        row: "",
-        seats: ['10','11','12','13'],
-        desc: "LOWER LEVEL",
-        GA: "",
-        color: "",
-        "venueMap": "",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    }
-  ]
-  ]
+    ],
+
+   
+
+
+]
