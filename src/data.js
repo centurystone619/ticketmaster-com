@@ -10,7 +10,7 @@ export const eventData=[
       time: "1pm",
       state: "Tennessee",
       venue: "Food City Center",
-      type: "",
+      type: "Resale Ticket",
       eventData: {
         month: "Feb",
         day: "15",
@@ -25,10 +25,10 @@ export const eventData=[
         seats: ['16','17','18','19'],
         desc: "200 LEVEL",
         GA: "",
-        color: "Orange",
+        color: "Blue",
         "venueMap": "",
         "gate": "",
-        "btnColor": "Orange",
+        "btnColor": "Blue",
         sell: "y",
         trnsfer: "y"
       }
@@ -43,7 +43,7 @@ export const eventData=[
       time: "1pm",
       state: "Tennessee",
       venue: "Food City Center",
-      type: "",
+      type: "Resale Ticket",
       eventData: {
         month: "Feb",
         day: "15",
@@ -58,10 +58,10 @@ export const eventData=[
         seats: ['17'],
         desc: "200 LEVEL",
         GA: "",
-        color: "Orange",
+        color: "Blue",
         venueMap: "",
         gate: "",
-        btnColor: "Orange",
+        btnColor: "Blue",
         sell: "",
         trnsfer: ""
       }
@@ -145,7 +145,7 @@ export const eventData=[
         time: "1pm",
         state: "Tennessee",
         venue: "Food City Center",
-        type: "",
+        type: "Resale Ticket",
         eventData: {
           month: "Mar",
           day: "1",
@@ -160,10 +160,10 @@ export const eventData=[
           seats: ['16','17','18','19'],
           desc: "200 LEVEL",
           GA: "",
-          color: "Orange",
+          color: "Blue",
           "venueMap": "",
           "gate": "",
-          "btnColor": "Orange",
+          "btnColor": "Blue",
           sell: "y",
           trnsfer: "y"
         }
@@ -178,7 +178,7 @@ export const eventData=[
         time: "1pm",
         state: "Tennessee",
         venue: "Food City Center",
-        type: "",
+        type: "Resale Ticket",
         eventData: {
           month: "Mar",
           day: "1",
@@ -193,10 +193,10 @@ export const eventData=[
           seats: ['17'],
           desc: "200 LEVEL",
           GA: "",
-          color: "Orange",
+          color: "Blue",
           venueMap: "",
           gate: "",
-          btnColor: "Orange",
+          btnColor: "Blue",
           sell: "",
           trnsfer: ""
         }
