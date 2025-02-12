@@ -28,7 +28,7 @@ export const eventData=[
         color: "Orange",
         "venueMap": "",
         "gate": "",
-        "btnColor": "",
+        "btnColor": "Orange",
         sell: "y",
         trnsfer: "y"
       }
@@ -61,7 +61,7 @@ export const eventData=[
         color: "Orange",
         venueMap: "",
         gate: "",
-        btnColor: "",
+        btnColor: "Orange",
         sell: "",
         trnsfer: ""
       }
