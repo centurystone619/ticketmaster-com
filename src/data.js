@@ -10,7 +10,7 @@ export const eventData=[
       time: "1pm",
       state: "Tennessee",
       venue: "Food City Center",
-      type: "Resale Ticket",
+      type: "Standard Admission",
       eventData: {
         month: "Feb",
         day: "15",
@@ -43,7 +43,7 @@ export const eventData=[
       time: "1pm",
       state: "Tennessee",
       venue: "Food City Center",
-      type: "Resale Ticket",
+      type: "Standard Admission",
       eventData: {
         month: "Feb",
         day: "15",
@@ -145,7 +145,7 @@ export const eventData=[
         time: "1pm",
         state: "Tennessee",
         venue: "Food City Center",
-        type: "Resale Ticket",
+        type: "Standard Admission",
         eventData: {
           month: "Mar",
           day: "1",
@@ -178,7 +178,7 @@ export const eventData=[
         time: "1pm",
         state: "Tennessee",
         venue: "Food City Center",
-        type: "Resale Ticket",
+        type: "Standard Admission",
         eventData: {
           month: "Mar",
           day: "1",
