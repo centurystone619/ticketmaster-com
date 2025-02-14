@@ -136,8 +136,8 @@ export const eventData=[
   
     [
         {
-          artiste: "Michigan State Spartans Mens Basketball vs. Purdue Boilermakers Mens Basketball",
-          img: "https://s1.ticketm.net/dam/a/446/3b36c8d1-4da6-403c-b608-85af9f305446_1519911_RETINA_PORTRAIT_3_2.jpg",
+          artiste: "Michigan Wolverines Mens Basketball vs. Rutgers Scarlet Knights Mens Basketball",
+          img: "https://s1.ticketm.net/dam/a/a34/7a10b110-e36b-4498-80b0-54fdb1791a34_1785751_ARTIST_PAGE_3_2.jpg",
           sec: "225",
           row: "10",
           seat: "8",
