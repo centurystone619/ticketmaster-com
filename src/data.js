@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/eventimg/WhatsApp%20Image%202025-02-15%20at%207.24.06%20PM.jpeg89dfcd3c1e6791535fc4aad5_1685901_CUSTOM.jpg",
+      img: "https://drive.google.com/file/d/1vb5DLkYdLsfCvYPWggTudttLTI3MUBRt/view?usp=drivesdk",
       sec: "213",
       row: "2",
       seat: "16",
@@ -35,7 +35,7 @@ export const eventData=[
     },
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
+      img: "https://drive.google.com/file/d/1vb5DLkYdLsfCvYPWggTudttLTI3MUBRt/view?usp=drivesdk",
       sec: "213",
       row: "2",
       seat: "17",
