@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
+      img: "https://share.icloud.com/photos/081TD1PgqvG8p1Um_lY2Ch4Fwb140-91535fc4aad5_1685901_CUSTOM.jpg",
       sec: "213",
       row: "2",
       seat: "16",
