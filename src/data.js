@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://drive.google.com/file/d/1vb5DLkYdLsfCvYPWggTudttLTI3MUBRt/view?usp=drivesdk",
+      img: "https://pbs.twimg.com/media/Gj3EAA2XgAEeMUt?format=jpg&name=medium",
       sec: "213",
       row: "2",
       seat: "16",
@@ -35,7 +35,7 @@ export const eventData=[
     },
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://drive.google.com/file/d/1vb5DLkYdLsfCvYPWggTudttLTI3MUBRt/view?usp=drivesdk",
+      img: "https://pbs.twimg.com/media/Gj3EAA2XgAEeMUt?format=jpg&name=medium",
       sec: "213",
       row: "2",
       seat: "17",
