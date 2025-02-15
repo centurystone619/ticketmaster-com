@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://web.whatsapp.com/c811ff90-46b2-49be-bd55-89dfcd3c1e6791535fc4aad5_1685901_CUSTOM.jpg",
+      img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/eventimg/WhatsApp%20Image%202025-02-15%20at%207.24.06%20PM.jpeg89dfcd3c1e6791535fc4aad5_1685901_CUSTOM.jpg",
       sec: "213",
       row: "2",
       seat: "16",
