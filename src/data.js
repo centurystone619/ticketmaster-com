@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "view?usp=drivesdkb140-91535fc4aad5_1685901_CUSTOM.jpg",
+      img: "https://drive.google.com/file/d/1vb5DLkYdLsfCvYPWggTudttLTI3MUBRt/view?usp=drivesdk",
       sec: "213",
       row: "2",
       seat: "16",
@@ -25,10 +25,10 @@ export const eventData=[
         seats: ['16','17','18','19'],
         desc: "200 LEVEL",
         GA: "",
-        color: "Blue",
+        color: "Orange",
         venueMap: ".951168,-83.925026/15?ms=648,183&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro&pp=35.951168,-83.925026;dfp;Thompson-Boling+Arena",
         "gate": "",
-        "btnColor": "Blue",
+        "btnColor": "Orange",
         sell: "y",
         trnsfer: "y"
       }
@@ -58,10 +58,10 @@ export const eventData=[
         seats: ['17'],
         desc: "200 LEVEL",
         GA: "",
-        color: "Blue",
+        color: "Orange",
         venueMap: "",
         gate: "",
-        btnColor: "Blue",
+        btnColor: "Orange",
         sell: "",
         trnsfer: ""
       }
