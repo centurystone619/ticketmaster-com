@@ -25,10 +25,10 @@ export const eventData=[
         seats: ['16','17','18','19'],
         desc: "200 LEVEL",
         GA: "",
-        color: "Orange",
+        color: "Dark Blue",
         venueMap: ".951168,-83.925026/15?ms=648,183&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro&pp=35.951168,-83.925026;dfp;Thompson-Boling+Arena",
         "gate": "",
-        "btnColor": "Orange",
+        "btnColor": "Dark Blue",
         sell: "y",
         trnsfer: "y"
       }
