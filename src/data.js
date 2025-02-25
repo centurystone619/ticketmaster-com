@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://private-user-images.githubusercontent.com/195505122/416668155-bf26a745-f0d9-448a-8069-8f54b7a490ff.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0ODQ4OTQsIm5iZiI6MTc0MDQ4NDU5NCwicGF0aCI6Ii8xOTU1MDUxMjIvNDE2NjY4MTU1LWJmMjZhNzQ1LWYwZDktNDQ4YS04MDY5LThmNTRiN2E0OTBmZi5KUEc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyNVQxMTU2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNTQ5OTlmNmI2YTI3Y2JiMzQ1NjBhNWY5MjBlNzk2MDE3MzA2ZDA3YTFiMzE1MDlmODgxYTBhZDNjNmJjMGM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.WpQHbd19W9EkAYA-mOHVy041n2h1L8RvpUJy85344tAusp=drivesdk",
+      img: "https://web.whatsapp.com/581ebd39-1b7a-4e9d-8cfe-96d24078edf9",
       sec: "213",
       row: "2",
       seat: "16",
