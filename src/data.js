@@ -2,7 +2,7 @@ export const eventData=[
   [
     {
       artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-view?usp=drivesdk",
+      img: "https://x.com/t_chalamt/status/1890882942999629850/photo/1view?usp=drivesdk",
       sec: "213",
       row: "2",
       seat: "16",
@@ -137,7 +137,7 @@ export const eventData=[
   [
       {
         artiste: "Tennessee Volunteers Mens Basketball vs. Alabama Crimson Tide",
-        img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
+        img: "https://x.com/t_chalamt/status/1890882942999629850/photo/1b140-91535fc4aad5_1685901_CUSTOM.jpg",
         sec: "213",
         row: "2",
         seat: "16",
@@ -170,7 +170,7 @@ export const eventData=[
       },
       {
         artiste: "Tennessee Volunteers Mens Basketball vs. Alabama Crimson Tide",
-        img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
+        img: "https://x.com/t_chalamt/status/1890882942999629850/photo/1b140-91535fc4aad5_1685901_CUSTOM.jpg",
         sec: "213",
         row: "2",
         seat: "17",
