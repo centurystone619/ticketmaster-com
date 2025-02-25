@@ -138,9 +138,9 @@ export const eventData=[
       {
         artiste: "Tennessee Volunteers Mens Basketball vs. Alabama Crimson Tide",
         img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
-        sec: "213",
+        sec: "230",
         row: "2",
-        seat: "16",
+        seat: "12",
         date: "Sat, Mar 1",
         time: "1pm",
         state: "Tennessee",
@@ -157,7 +157,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['16','17','18','19'],
+          seats: ['12','13','14','15'],
           desc: "200 LEVEL",
           GA: "",
           color: "Blue",
@@ -171,9 +171,9 @@ export const eventData=[
       {
         artiste: "Tennessee Volunteers Mens Basketball vs. Alabama Crimson Tide",
         img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
-        sec: "213",
+        sec: "230",
         row: "2",
-        seat: "17",
+        seat: "13",
         date: "Sat, Mar 1",
         time: "1pm",
         state: "Tennessee",
@@ -190,7 +190,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['17'],
+          seats: ['13'],
           desc: "200 LEVEL",
           GA: "",
           color: "Blue",
