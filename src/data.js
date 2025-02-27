@@ -1,8 +1,8 @@
 export const eventData=[
   [
     {
-      artiste: "Tennessee Volunteers Mens Basketball vs. Alabama Crimson Tide",
-        img: "https://private-user-images.githubusercontent.com/195505122/416850273-53442b19-eac8-490f-b304-2190dec831d1.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MTI4ODUsIm5iZiI6MTc0MDUxMjU4NSwicGF0aCI6Ii8xOTU1MDUxMjIvNDE2ODUwMjczLTUzNDQyYjE5LWVhYzgtNDkwZi1iMzA0LTIxOTBkZWM4MzFkMS5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDIyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAyMjVUMTk0MzA1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MGQxZTZhZDdjN2FlZTQ2MjMzMDMzZTJkYmQ1NDUzYTgyMTgzYzcxMzMwYTljNzIwOTNlZTdlNTAwYjIyZmY1OCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.26rxIedj_juaQLrBO1F7Hn3nSjL_USNEAk9MKbIdgJs",
+      artiste: "Men's Basketball vs. Alabama",
+        img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/Sportvenue.JPG",
         sec: "222",
         row: "1",
         seat: "11",
@@ -26,7 +26,7 @@ export const eventData=[
           desc: "200 LEVEL",
           GA: "",
           color: "Orange",
-          venueMap: "https://private-user-images.githubusercontent.com/195505122/416850273-53442b19-eac8-490f-b304-2190dec831d1.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MTI4ODUsIm5iZiI6MTc0MDUxMjU4NSwicGF0aCI6Ii8xOTU1MDUxMjIvNDE2ODUwMjczLTUzNDQyYjE5LWVhYzgtNDkwZi1iMzA0LTIxOTBkZWM4MzFkMS5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDIyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAyMjVUMTk0MzA1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MGQxZTZhZDdjN2FlZTQ2MjMzMDMzZTJkYmQ1NDUzYTgyMTgzYzcxMzMwYTljNzIwOTNlZTdlNTAwYjIyZmY1OCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.26rxIedj_juaQLrBO1F7Hn3nSjL_USNEAk9MKbIdgJs",
+          venueMap: "",
           "gate": "",
           "btnColor": "Orange",
           sell: "y",
@@ -34,8 +34,8 @@ export const eventData=[
         }
       },
       {
-        artiste: "Tennessee Volunteers Mens Basketball vs. Alabama Crimson Tide",
-        img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
+        artiste: "Men's Basketball vs. Alabama",
+        img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/Sportvenue.JPG",
         sec: "222",
         row: "1",
         seat: "12",
