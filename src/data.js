@@ -136,7 +136,7 @@ export const eventData=[
   [
     {
       artiste: "Clemson Tigers Baseball vs. South Carolina Gamecocks Baseball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ed8/594ca3e9-7b5a-4800-a3c7-f9d3d3b77ed8_CUSTOM.jpg",
+      img: "https://s1.ticketm.net/dam/a/339/19b5bf94-331b-4a3a-9e89-adcb2a4c8339_1728181_RETINA_PORTRAIT_3_2.jpg",
       sec: "103",
       row: "G",
       seat: "5",
@@ -169,7 +169,7 @@ export const eventData=[
     },
     {
       artiste: "Clemson Tigers Baseball vs. South Carolina Gamecocks Baseball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ed8/594ca3e9-7b5a-4800-a3c7-f9d3d3b77ed8_CUSTOM.jpg",
+      img: "https://s1.ticketm.net/dam/a/339/19b5bf94-331b-4a3a-9e89-adcb2a4c8339_1728181_RETINA_PORTRAIT_3_2.jpg",
       sec: "103",
       row: "G",
       seat: "6",
