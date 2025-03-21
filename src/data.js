@@ -158,10 +158,10 @@ export const eventData=[
         seats: ['15','16','17','18'],
         desc: "RAINSHINE*NOROOF",
         GA: "",
-        color: "",
+        color: "Black",
         venueMap: "",
         gate: "",
-        btnColor: "",
+        btnColor: "Black",
         sell: "y",
         trnsfer: "y"
       }
@@ -191,10 +191,10 @@ export const eventData=[
         seats: ['15','16','17','18'],
         desc: "RAINSHINE*NOROOF",
         GA: "",
-        color: "",
+        color: "Black",
         venueMap: "",
         gate: "",
-        btnColor: "",
+        btnColor: "Black",
         sell: "y",
         trnsfer: "y"
       }
