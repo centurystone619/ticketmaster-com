@@ -35,14 +35,14 @@ const Sports = ({eventIndex,handleCloseIndex}) => {
 
   return (
     <div className=''>
-      <nav onClick={handleCloseIndex} className='bg-black h-[6vh] flex items-center justify-around px-3'>
+      <nav onClick={handleCloseIndex} className=' h-[6vh] flex items-center justify-around px-3' style={{background:transfers.color? transfers.color :"black"}}>
         <div><img src={Hamburger} className='w-6'/></div>
         <div className='flex-1 h-full  ml-10' style={{background:`url(${transfers.teamLogo})`, backgroundRepeat:"no-repeat", backgroundPosition:"center", backgroundSize:'contain'}}></div>
         <div className='flex items-center justify-between '>
-            <p className='w-5 h-5 rounded-full  text-center flex item-center justify-between  ' style={{background:transfers.color? transfers.color :"black"}}>
-                <span className=' w-full text-center text-[12px] font-semibold ' style={{color:transfers.btnColor? transfers.btnColor :"black"}} >{yourName[0]}</span>
+            <p className='w-5 h-5 rounded-full  text-center flex item-center justify-between  ' style={{background:transfers.btnColor? transfers.btnColor :"white"}}>
+                <span className=' w-full text-center text-[12px] font-semibold ' style={{color:transfers.color? transfers.color :"black"}} >{yourName[0]}</span>
             </p>
-            <p><img src={ShoppingCart} alt='shopping-cart' className='w-6 ml-5'/></p>
+            <p  ><img src={ShoppingCart} alt='shopping-cart' className='w-6 ml-5'/></p>
             </div>
 
       </nav>
@@ -73,13 +73,13 @@ const Sports = ({eventIndex,handleCloseIndex}) => {
             {eventIndex.map((item,index)=>{
 const{seat,row,sec} = item
 return(
-    <li key={index} className='flex items-center justify-between py-3 border-y-2 font-semibold'>
-        <div className='flex items-center ' >
+    <li key={index} className='flex items-center  justify-between py-3 border-y-2 font-semibold'>
+        <div className='flex items-center  ' >
         <p className='mr-5'><img src={sportstixiconsmall} className='w-4'/></p> 
-        <p>Sec {sec}, Row {row}, Seat {seat}</p>
+        <p className=''>Sec {sec}, Row {row}, Seat {seat}</p>
         </div>
 
-        <div><img src={next}/></div>
+        <div><img src={next} className='w-2'/></div>
         
     </li>
 )

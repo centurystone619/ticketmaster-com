@@ -32,7 +32,7 @@ const VerificationEmail = ({events,selectedIndex,setIsEmailVerificationOpen}) =>
 <div className='  w-[100vw]'>
 <nav className='h-1/12' onClick={()=>setIsEmailVerificationOpen(false)}><img src={mailNavIcon}/></nav>
 </div>
-<div className='h-[100%]  overflow-y-auto px-5'>
+<div className='h-[100%]  overflow-y-auto px-3'>
 <header className=' font-roboto  flex items-center justify-between'>
             <p className=' mr-4'><span className='text-[21px] font-[400] ' >You got the tickets to {artiste}</span>
             <span className='mx-2 text-[11px] px-2  text-center border-emailblack border text-emailblack'>inbox</span>
@@ -65,70 +65,30 @@ const VerificationEmail = ({events,selectedIndex,setIsEmailVerificationOpen}) =>
             
             <div className='w-7/12'>
     <div>
-        <ul className='font-roboto text-[12px] space-y-1 '>
-            <li className='text-[12px] font-semibold leading-tight'>{artiste}</li>
-            <li>
+        <ul className='font-roboto text-[11px] space-y-1 '>
+            <li className='text-[11px] font-semibold leading-tight '>{artiste}</li>
+            <li className=''>
                 <p className='leading-tight flex'>
-                    <p><img src={EmailTime} id='emailsmallicon'/></p> 
-                    <p>{date}, {eventData?.year} {time && <em className="mx-1">•</em>} {time}</p>
+                    <p><img src={EmailTime} id='emailsmallicon' className='-mt-1'/></p> 
+                    <p className='ml-1 '>{date}, {eventData?.year} {time && <em className="mx-1">•</em>} {time}</p>
                 </p>
             </li>
             <li className='flex'> 
-                <p className='-mt-1' id='emailsmallicon'><img src={EmailLocation}/></p> 
-                <p className='leading-tight'>{venue} &mdash; {state}</p>
+                <p className='-mt-2  ' id='emailsmallicon'><img src={EmailLocation}/></p> 
+                <p className='leading-tight ml-1 w-11/12  '>{venue} &mdash; {state}</p>
             </li>
         </ul>
     </div>
 
-    <div className='text-[11px] text-[#d07b7f] -mt-1 -mb-3 mx-5 font-semibold'>Get Directions</div>
+    <div className='text-[11px] text-[#d07b7f] -mt-2 -mb-4 mx-6 font-semibold'>Get Directions</div>
 
     <ul className='flex '>
         
         <div><img src={emailTIx} className='mt-2' id='emailsmallicon'/></div>
        
-        {/* <div>
-  {transfers.GA || transfers.ticketId ? (
-    <div>
-      {!transfers.GA && transfers.ticketId && (row?.startsWith('-') || !row) ? (
-        <ul className="text-[11px] -space-y-4">
-        {transfers.seats.map((seat, index) => (
-          <li key={index}>
-            <p>
-              <span>Sec {sec},</span>
-              <span className="mx-2">Row {row},</span>
-              <span>Seat -</span>
-            </p>
-          </li>
-        ))}
-      </ul>
-      ) : (
-        <div className="text-[11px] -space-y-4 text-center">
-          <ul className="-space-y-4">
-            <li className="flex">
-              {sec && <p>Sec {sec}</p>}, {row && <p>Row {row}</p>}
-            </li>
-            <li>{String(transfers.GA).toUpperCase()} x {transfers.ticketId.length}</li>
-          </ul>
-        </div>
-      )}
-    </div>
-  ) : (
-    <ul className="text-[11px] -space-y-4">
-      {transfers.seats.map((seat, index) => (
-        <li key={index}>
-          <p>
-            <span>Sec {sec},</span>
-            <span className="mx-2">Row {row},</span>
-            <span>Seat {seat}</span>
-          </p>
-        </li>
-      ))}
-    </ul>
-    
-  )}
-</div> */}
+       
         
-        <div>
+        <div className='ml-1 font-[500]'>
   {transfers.GA || transfers.ticketId ? (
     <div>
       {!transfers.GA && transfers.ticketId && (row?.startsWith('-') || !row) ? (
@@ -186,14 +146,14 @@ const VerificationEmail = ({events,selectedIndex,setIsEmailVerificationOpen}) =>
 </div>
 
     </ul>
-   <div className='mx-5'>
+   <div className='mx-6'>
    <p><img src={viewEmailTicket} className='w-24'/></p>
    </div>
 </div>
            
         </div>
 
-        <div className='pb-20  w-[98vw]  -mx-4'>
+        <div className='pb-20  w-[98vw]  -mx-2'>
         <div className=' -mt-3 '><img src={emailHero}/></div>
         < div className=''><img src={emailMobile}/></div>
         <div className='flex mx-7 justify-between items-center'>

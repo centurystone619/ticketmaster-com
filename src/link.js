@@ -10,271 +10,6 @@ export const data = [
     fbEvent: "",
     twitter: "https://x.com/search?q=looking%20%20ticket&src=typed_query&f=top",
   },
-  {
-    id: 50,
-    name: "Sammy Virji(BRIXTON)",
-    price: "25 euro",
-    date: "Feb 1",
-    fbSearch: "",
-    fbEvent: "",
-    fbGroup: "",
-    twitter: "",
-    detail: ` [
-    {
-      artiste: "Sammy Virji",
-      img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/351/e919839d-e30c-4a07-a2e8-7cc77c8e1351_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "STALLS",
-      row: "",
-      seat: "",
-      date: "Sat, Feb 1",
-      time: "9:00 PM",
-      state: "London, UK",
-      venue: "O2 Academy Brixton",
-      type: "Standard Ticket",
-      eventData: {
-        month: "Feb",
-        day: "1",
-        time: "Sat - 21:00",
-        year: "2025",
-        region: "UK",
-        orderNo: "42-6432/UK",
-      },
-  transfers:{
-  seats:['','',''],
-  ticketId:['1','2','3'],
-  desc: "STALLS GENERAL ADMISSION - SRO",
-  showBar: "y",
-    GA: "General Admission",
-  sell: "y",
-          trnsfer: "y"
-  
-  }
-    },
-     {
-      artiste: "Sammy Virji",
-      img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/351/e919839d-e30c-4a07-a2e8-7cc77c8e1351_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "STALLS",
-      row: "",
-      seat: "",
-      date: "Sat, Feb 1",
-      time: "9:00 PM",
-      state: "London, UK",
-      venue: "O2 Academy Brixton",
-      type: "Standard Ticket",
-      eventData: {
-        month: "Feb",
-        day: "1",
-        time: "Sat - 21:00",
-        year: "2025",
-        region: "UK",
-        orderNo: "42-6432/UK",
-      },
-  transfers:{
-  seats:['','',''],
-  ticketId:['1','2','3'],
-  desc: "STALLS GENERAL ADMISSION - SRO",
-  showBar: "y",
-    GA: "General Admission",
-  sell: "y",
-          trnsfer: "y"
-  
-  }
-    },
-  
-    {
-      artiste: "Sammy Virji",
-      img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/351/e919839d-e30c-4a07-a2e8-7cc77c8e1351_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "STALLS",
-      row: "",
-      seat: "",
-      date: "Sat, Feb 1",
-      time: "9:00 PM",
-      state: "London, UK",
-      venue: "O2 Academy Brixton",
-      type: "Standard Ticket",
-      eventData: {
-        month: "Feb",
-        day: "1",
-        time: "Sat - 21:00",
-        year: "2025",
-        region: "UK",
-        orderNo: "42-6432/UK",
-      },
-  transfers:{
-  seats:['','',''],
-  ticketId:['1','2','3'],
-  desc: "STALLS GENERAL ADMISSION - SRO",
-  showBar: "y",
-    GA: "General Admission",
-  sell: "y",
-          trnsfer: "y"
-  
-  }
-    },
-  
-    
-    ]`,
-  },
-  {
-    id: 50,
-    name: "Sammy Virji(Belfast)",
-    price: "25 euro",
-    date: "Feb 14",
-    fbSearch: "",
-    fbEvent: "",
-    fbGroup: "",
-    twitter: "",
-    detail: `
-   [
-  {
-          artiste: "Sammy Virji",
-          img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/cda/02bbf06a-fada-482a-a594-169b5a4f4cda_EVENT_DETAIL_PAGE_16_9.jpg",
-          sec: "UNRES",
-          row: "",
-          seat: "",
-          date: "Fri, Feb 14",
-          time: "22:30",
-          state: "Belfast",
-          venue: "The Limelight 1",
-          type: "Full Price Ticket",
-          eventData: {
-            month: "Feb",
-            day: "14",
-            time: "Fri - 22:30",
-            year: "2025",
-            region: "UK",
-            orderNo: "42-6432/UK",
-          },
-      transfers:{
-      seats:['','',''],
-      ticketId:['1','2'],
-      desc: "OVER 18S/ID REQUIRED",
-      showBar: "y",
-        GA: "General Admission",
-      sell: "y",
-              trnsfer: "y"
-      
-      }
-        },
-        {
-          artiste: "Sammy Virji",
-          img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/cda/02bbf06a-fada-482a-a594-169b5a4f4cda_EVENT_DETAIL_PAGE_16_9.jpg",
-          sec: "UNRES",
-          row: "",
-          seat: "",
-          date: "Fri, Feb 14",
-          time: "22:30",
-          state: "Belfast",
-          venue: "The Limelight 1",
-          type: "Full Price Ticket",
-          eventData: {
-            month: "Feb",
-            day: "14",
-            time: "Fri - 22:30",
-            year: "2025",
-            region: "UK",
-            orderNo: "42-6432/UK",
-          },
-      transfers:{
-      seats:['','',''],
-      ticketId:['1','2','3'],
-      desc: "OVER 18S/ID REQUIRED",
-      showBar: "y",
-        GA: "General Admission",
-      sell: "y",
-              trnsfer: "y"
-      
-      }
-        },
-],
-    `,
-  },
-
-  {
-    id: 50,
-    name: "Dan & Phil(BELFAST)",
-    price: "",
-    date: " Feb 2",
-    fbSearch: "",
-    fbEvent: "",
-    fbGroup: "",
-    twitter: "",
-    detail: ` export const data = [
-    {
-      artiste: "Dan & Phil - Terrible Influence",
-      img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/b92/56a3533f-2ec5-4b47-b9fc-3b41a9384b92_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "BLOCKA",
-      row: "9",
-      seat: "7",
-      date: "Sun, Feb 2",
-      time: "7:00 PM",
-      state: "Belfast, UK",
-      venue: "Waterfront Hall Auditorium",
-      type: "Standard Ticket",
-      eventData: {
-        month: "Feb",
-        day: "2",
-        time: "Sun - 19:00",
-        year: "2025",
-        region: "UK",
-        orderNo: "42-7854/UK",
-      },
-    },
-    {
-      artiste: "Dan & Phil - Terrible Influence",
-      img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/b92/56a3533f-2ec5-4b47-b9fc-3b41a9384b92_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "BLOCKA",
-      row: "9",
-      seat: "8",
-      date: "Sun, Feb 2",
-      time: "7:00 PM",
-      state: "Belfast, UK",
-      venue: "Waterfront Hall Auditorium",
-      type: "Standard Ticket",
-      eventData: {
-        month: "Feb",
-        day: "2",
-        time: "Sun - 19:00",
-        year: "2025",
-        region: "UK",
-        orderNo: "42-XXXX/UK",
-      },
-    },
-    {
-      artiste: "Dan & Phil - Terrible Influence",
-      img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/b92/56a3533f-2ec5-4b47-b9fc-3b41a9384b92_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "BLOCKA",
-      row: "9",
-      seat: "9",
-      date: "Sun, Feb 2",
-      time: "7:00 PM",
-      state: "Belfast, UK",
-      venue: "Waterfront Hall Auditorium",
-      type: "Standard Ticket",
-      eventData: {
-        month: "Feb",
-        day: "2",
-        time: "Sun - 19:00",
-        year: "2025",
-        region: "UK",
-        orderNo: "42-XXXX/UK",
-      },
-    },
-  ];
-  
-  export const transfers = {
-    sec: "",
-    row: "",
-    seats: ["7", "8", "9"],
-    ticketId: ["", "", ""],
-    desc: "BLOCK A",
-    gate: "MAIN ENTRANCE",
-    showBar: "",
-    GA: "",
-    venueMap: "",
-    color: "",
-  }`,
-  },
  
   {
     id: 50,
@@ -536,91 +271,6 @@ export const transfers = {
 `,
   },
 
-  {
-    id: 50,
-    name: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
-    price: "",
-    date: " Mar 8",
-    fbSearch: "",
-    fbEvent: "",
-    fbGroup: "",
-    twitter: "",
-    detail: `export const data = [
-  {
-    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
-    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "112",
-    row: "A",
-    seat: "42",
-    date: "Sat, Mar 8",
-    time: "6:30 PM",
-    state: "London, UK",
-    venue: "The O2",
-    type: "Artist Presale",
-    eventData: {
-      month: "Mar",
-      day: "8",
-      time: "Sat - 18:30",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-7642/UK",
-    },
-  },
-  {
-    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
-    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "112",
-    row: "A",
-    seat: "43",
-    date: "Sat, Mar 8",
-    time: "6:30 PM",
-    state: "London, UK",
-    venue: "The O2",
-    type: "Artist Presale",
-    eventData: {
-      month: "Mar",
-      day: "8",
-      time: "Sat - 18:30",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-XXXX/UK",
-    },
-  },
-  {
-    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
-    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "112",
-    row: "A",
-    seat: "44",
-    date: "Sat, Mar 8",
-    time: "6:30 PM",
-    state: "London, UK",
-    venue: "The O2",
-    type: "Artist Presale",
-    eventData: {
-      month: "Mar",
-      day: "8",
-      time: "Sat - 18:30",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-XXXX/UK",
-    },
-  },
-];
-
-export const transfers = {
-  sec: "",
-  row: "",
-  seats: ["42", "43", "44"],
-  ticketId: ["", "", ""],
-  desc: "LOWER LEVEL SEATING",
-  gate: "MAIN ENTRANCE",
-  showBar: "",
-  GA: "",
-  venueMap: "https://tixel.com/maps/51.5009,0.0063",
-  color: "",
-};`,
-  },
   {
     id: 50,
     name: "Oasis (Cardiff)",
@@ -887,86 +537,6 @@ export const transfers = {
 
   {
     id:50,
-    name:"Eagles - Live at Sphere",
-   price:"" ,
-   date:" Feb 14",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:` [
-
-    {
-      artiste: "Eagles - Live at Sphere",
-      img: "https://s1.ticketm.net/dam/a/71d/ad124f24-1532-4dae-937f-d32c3340471d_EVENT_DETAIL_PAGE_16_9.jpg", 
-      sec: "103",
-      row: "25",
-      seat: "3",
-      date: "Fri, Feb 14",
-      time: "8:30pm",
-      state: "Nevada",
-      venue: "Sphere, Las Vegas",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "14",
-        year: "2025",
-        time: "Fri - 20:30",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ["3", "4"],
-        desc: "OBSTRUCTED VIEW",
-        GA: "",
-        color: "",
-        venueMap: "",
-        gate: "",
-        btnColor: "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Eagles - Live at Sphere",
-      img: "https://s1.ticketm.net/dam/a/71d/ad124f24-1532-4dae-937f-d32c3340471d_EVENT_DETAIL_PAGE_16_9.jpg", 
-      sec: "103",
-      row: "25",
-      seat: "4",
-      date: "Fri, Feb 14",
-      time: "8:30pm",
-      state: "Nevada",
-      venue: "Sphere, Las Vegas",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "14",
-        year: "2025",
-        time: "Fri - 20:30",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ["", ""],
-        desc: "OBSTRUCTED VIEW",
-        GA: "",
-        color: "",
-        venueMap: "",
-        gate: "",
-        btnColor: "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    },
-  
-  ]`
-  },
-  {
-    id:50,
     name:"Ultra Music Festival",
    price:"400$" ,
    date:"mar 28-30",
@@ -1079,1010 +649,7 @@ export const transfers = {
     },
   ],`
   },
-
-  {
-    id:50,
-    name:"Zach Top",
-   price:"" ,
-   date:"feb 01",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:` [
-    {
-      artiste: "Zach Top: Cold Beer & Country Music Tour",
-      img: "https://s1.ticketm.net/dam/a/610/45d7961d-b610-496a-98d3-6eeef1bab610_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "104",
-      row: "E",
-      seat: "15",
-      date: "Sat, Feb 01, 2025",
-      time: "8:00pm",
-      state: "Ohio",
-      venue: "The Andrew J Brady Music Center",
-      type: "Verified Resale Ticket",
-      eventData: {
-        month: "Feb",
-        day: "01",
-        year: "2025",
-        time: "Sat - 20:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16'],
-       
-        desc: "Obstructed View",
-        GA: "",
-        color: "",
-        venueMap: "",
-        gate: "",
-        btnColor: "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Zach Top: Cold Beer & Country Music Tour",
-      img: "https://s1.ticketm.net/dam/a/610/45d7961d-b610-496a-98d3-6eeef1bab610_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "104",
-      row: "E",
-      seat: "16",
-      date: "Sat, Feb 01, 2025",
-      time: "8:00pm",
-      state: "Ohio",
-      venue: "The Andrew J Brady Music Center",
-      type: "Verified Resale Ticket",
-      eventData: {
-        month: "Feb",
-        day: "01",
-        year: "2025",
-        time: "Sat - 20:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16'],
-        ticketId: [],
-        desc: "Obstructed View",
-        GA: "",
-        color: "",
-        venueMap: "",
-        gate: "",
-        btnColor: "",
-        sell: "",
-        trnsfer: ""
-      }
-    }
-  
-  ],`
-  },
-
-  {
-    id:50,
-    name:"Morgan Jay NY",
-   price:"" ,
-   date:"Feb 4",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:` [
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "ORCH",
-      row: "H",
-      seat: "109",
-      date: "Tue, Feb 4",
-      time: "7:00 PM",
-      state: "New York",
-      venue: "Town Hall",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "4",
-        time: "Tue - 19:00",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['109', '110'],
-        // ticketId: ['', '', ''],
-        desc: "ORCHESTRA",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "ORCH",
-      row: "H",
-      seat: "110",
-      date: "Tue, Feb 4",
-      time: "7:00 PM",
-      state: "New York",
-      venue: "Town Hall",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "4",
-        time: "Tue - 19:00",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['109', '110'],
-        // ticketId: ['', '', ''],
-        desc: "ORCHESTRA",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-  ],`
-  },
-  {
-    id:50,
-     name:"Morgan Jay NY",
-   price:"" ,
-   date:"Feb 5",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "ORCH",
-      row: "H",
-      seat: "109",
-      date: "Wed, Feb 5",
-      time: "7:00 PM",
-      state: "New York",
-      venue: "Town Hall",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "5",
-        time: "Wed - 19:00",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['109', '110'],
-        // ticketId: ['', '', ''],
-        desc: "ORCHESTRA",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "ORCH",
-      row: "H",
-      seat: "110",
-      date: "Wed, Feb 5",
-      time: "7:00 PM",
-      state: "New York",
-      venue: "Town Hall",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "5",
-        time: "Wed - 19:00",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['109', '110'],
-        // ticketId: ['', '', ''],
-        desc: "ORCHESTRA",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-  ],`
-  },
-  {
-    id:50,
-     name:"Morgan Jay LA",
-   price:"" ,
-   date:"Feb 21",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:` [
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "2",
-      row: "F",
-      seat: "41",
-      date: "Fri, Feb 21",
-      time: "8:30 PM",
-      state: "Las Vegas",
-      venue: "The Summit Showroom",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "21",
-        time: "Fri - 20:30",
-        year: "2025",
-        region: "NV",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['41', '42'],
-        // ticketId: ['', '', ''],
-        desc: "RESERVED",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "2",
-      row: "F",
-      seat: "41",
-      date: "Fri, Feb 21",
-      time: "8:30 PM",
-      state: "Las Vegas",
-      venue: "The Summit Showroom",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "21",
-        time: "Fri - 20:30",
-        year: "2025",
-        region: "NV",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['41', '42'],
-        // ticketId: ['', '', ''],
-        desc: "RESERVED",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    }
-  ],`
-  },
-  {
-    id:50,
-         name:"Morgan Jay LA",
-   price:"" ,
-   date:"Feb 22",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "2",
-      row: "F",
-      seat: "41",
-      date: "Sat, Feb 22",
-      time: "8:30 PM",
-      state: "Las Vegas",
-      venue: "The Summit Showroom",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "22",
-        time: "Sat - 20:30",
-        year: "2025",
-        region: "NV",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['41', '42'],
-        // ticketId: ['', '', ''],
-        desc: "RESESRVED",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Morgan Jay: This One's For You Tour",
-      img: "https://s1.ticketm.net/dam/a/20f/8bdcfe2d-4a6a-4393-80b0-733a3d19c20f_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "2",
-      row: "F",
-      seat: "41",
-      date: "Sat, Feb 22",
-      time: "8:30 PM",
-      state: "Las Vegas",
-      venue: "The Summit Showroom",
-      type: "Official Platinum",
-      eventData: {
-        month: "Feb",
-        day: "22",
-        time: "Sat - 20:30",
-        year: "2025",
-        region: "NV",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['41', '42'],
-        // ticketId: ['', '', ''],
-        desc: "RESESRVED",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    }
-  ],`
-  },
-  {
-    id:50,
-    name:"Super Bowl LIX",
-   price:"" ,
-   date:"Feb 9",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:` [
-    {
-      artiste: "Super Bowl LIX",
-      img: "https://s1.ticketm.net/dam/a/262/276dba36-b9e6-4dd1-a460-d31e3ef3a262_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "107",
-      row: "4",
-      seat: "9",
-      date: "Sun, Feb 9",
-      time: "5:30 pm",
-      state: "New Orleans",
-      venue: "Caesars Superdome - NFL",
-      type: "Club 67",
-      eventData: {
-        month: "Feb",
-        day: "9",
-        time: "Sun - 17:30",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['9', '10'],
-        // ticketId: ['', '', ''],
-        desc: "LOWER BOWL",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Super Bowl LIX",
-      img: "https://s1.ticketm.net/dam/a/262/276dba36-b9e6-4dd1-a460-d31e3ef3a262_EVENT_DETAIL_PAGE_16_9.jpg",
-      sec: "107",
-      row: "4",
-      seat: "10",
-      date: "Sun, Feb 9",
-      time: "5:30 pm",
-      state: "New Orleans",
-      venue: "Caesars Superdome - NFL",
-      type: "Club 67",
-      eventData: {
-        month: "Feb",
-        day: "9",
-        time: "Sun - 17:30",
-        year: "2025",
-        region: "",
-        orderNo: "42-6432/UK",
-      },
-      transfers: {
-        seats: ['9', '10'],
-        // ticketId: ['', '', ''],
-        desc: "LOWER BOWL",
-        showBar: "y",
-        GA: "",
-        sell: "",
-        trnsfer: "y"
-      }
-    }
-  ],`
-  },
-  {
-    id:50,
-    name:"Role Model (new orleans)",
-   price:"" ,
-   date:"Feb 5",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:` [
-     {
-    artiste: "Role Model - No Place Like Tour",
-    img: "https://s1.ticketm.net/tm/en-au/dam/a/3e0/313664db-d6b6-4e74-be63-00c87c0263e0_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "GA",
-    row: "",
-    seat: "",
-    date: "Wed, Feb 5",
-    time: "7:00pm",
-    state: "New Orleans",
-    venue: "The Tivoli",
-    type: "Licenced Area",
-    eventData: {
-      month: "Feb",
-      day: "5",
-      time: "Wed - 19:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "LICENCED ALL AGES",
-      showBar: "",
-      GA: "STANDING",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-  {
-    artiste: "Role Model - No Place Like Tour",
-    img: "https://s1.ticketm.net/tm/en-au/dam/a/3e0/313664db-d6b6-4e74-be63-00c87c0263e0_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "GA",
-    row: "",
-    seat: "",
-    date: "Wed, Feb 5",
-    time: "7:00pm",
-    state: "New Orleans",
-    venue: "The Tivoli",
-    type: "Licenced Area",
-    eventData: {
-      month: "Feb",
-      day: "5",
-      time: "Wed - 19:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "LICENCED ALL AGES",
-      showBar: "",
-      GA: "STANDING",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-],`
-  },
-    {
-    id:50,
-    name:"Cage The Elephant (glasgow)",
-   price:"" ,
-   date:"feb 13",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Cage The Elephant",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/353/83a39d90-16d0-4e07-b73c-f84bedf5d353_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Thu, Feb 13",
-    time: "7:00pm",
-    state: "",
-    venue: "O2 Academy Glasgow",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "13",
-      time: "Thu - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "STALLS STANDING",
-      showBar: "",
-      GA: "General Admission",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-  {
-    artiste: "Cage The Elephant",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/353/83a39d90-16d0-4e07-b73c-f84bedf5d353_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Thu, Feb 13",
-    time: "7:00pm",
-    state: "",
-    venue: "O2 Academy Glasgow",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "13",
-      time: "Thu - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "STALLS STANDING",
-      showBar: "",
-      GA: "General Admission",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-
-],`
-  },
-    {
-    id:50,
-    name:"Cage The Elephant (london)",
-   price:"" ,
-   date:"feb 17",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Cage The Elephant",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/353/83a39d90-16d0-4e07-b73c-f84bedf5d353_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Mon, Feb 17",
-    time: "7:00pm",
-    state: "",
-    venue: "O2 Academy Brixton",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "17",
-      time: "Mon - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "STALLS STANDING ROOM ONLY",
-      showBar: "",
-      GA: "General Admission",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-  {
-    artiste: "Cage The Elephant",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/353/83a39d90-16d0-4e07-b73c-f84bedf5d353_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Mon, Feb 17",
-    time: "7:00pm",
-    state: "",
-    venue: "O2 Academy Brixton",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "17",
-      time: "Mon - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "STALLS STANDING ROOM ONLY",
-      showBar: "",
-      GA: "General Admission",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-
-],`
-  },
-    {
-    id:50,
-    name:"Cage The Elephant ( london)",
-   price:"" ,
-   date:"feb 18",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Cage The Elephant",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/353/83a39d90-16d0-4e07-b73c-f84bedf5d353_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Tue, Feb 18",
-    time: "7:00pm",
-    state: "",
-    venue: "O2 Academy Brixton",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "18",
-      time: "Tue - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "STALLS STANDING ROOM ONLY",
-      showBar: "",
-      GA: "General Admission",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-  {
-    artiste: "Cage The Elephant",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/353/83a39d90-16d0-4e07-b73c-f84bedf5d353_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Tue, Feb 18",
-    time: "7:00pm",
-    state: "",
-    venue: "O2 Academy Brixton",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "18",
-      time: "Tue - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-    transfers: {
-      seats: ['', ''],
-      ticketId: ['1', '2'],
-      desc: "STALLS STANDING ROOM ONLY",
-      showBar: "",
-      GA: "General Admission",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-
-]`
-  },
-    {
-    id:50,
-    name:"SLANDER",
-   price:"" ,
-   date:"Feb 08",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "SLANDER",
-    img: "https://s1.ticketm.net/dam/a/92e/d89eb3cf-48ed-4e27-9a1d-6c704c31d92e_1743801_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "FLR",
-    row: "",
-    seat: "",
-    date: "Sat, Feb 08",
-    time: "10:00pm",
-    state: "Chicago",
-    venue: "Radius - Chicago",
-    type: "Presale Offers",
-    eventData: {
-      month: "Feb",
-      day: "08",
-      time: "Sat - 22:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['','',''],
-ticketId:['1','2'],
-desc: "OVER 18S",
-showBar: "y",
-  GA: "General Admission",
-sell: "",
-        trnsfer: "y"
-
-}
-  },
-  {
-    artiste: "SLANDER",
-    img: "https://s1.ticketm.net/dam/a/92e/d89eb3cf-48ed-4e27-9a1d-6c704c31d92e_1743801_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "FLR",
-    row: "",
-    seat: "",
-    date: "Sat, Feb 08",
-    time: "10:00pm",
-    state: "Chicago",
-    venue: "Radius - Chicago",
-    type: "Presale Offers",
-    eventData: {
-      month: "Feb",
-      day: "08",
-      time: "Sat - 22:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['','',''],
-ticketId:['1','2'],
-desc: "OVER 18S",
-showBar: "y",
-  GA: "General Admission",
-sell: "",
-        trnsfer: "y"
-
-}
-  },
-],`
-  },
-    {
-    id:50,
-    name:"Jack White (London)",
-   price:"" ,
-   date:"Feb 28",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Jack White",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/6ee/0fa3a0ea-e267-4092-9927-96ca6ada76ee_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Fri, Feb 28",
-    time: "19:00",
-    state: "London",
-    venue: "Troxy",
-    type: "Mastercard Preferred Standing Ticket",
-    eventData: {
-      month: "Feb",
-      day: "28",
-      time: "Fri - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['','',''],
-ticketId:['1','2'],
-desc: "UNRESERVED STANDING",
-showBar: "",
-  GA: "General Admission",
-sell: "y",
-        trnsfer: "y"
-
-}
-  },
-  {
-    artiste: "Jack White",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/6ee/0fa3a0ea-e267-4092-9927-96ca6ada76ee_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Fri, Feb 28",
-    time: "10:00pm",
-    state: "London",
-    venue: "Troxy",
-    type: "Mastercard Preferred Standing Ticket",
-    eventData: {
-      month: "Feb",
-      day: "28",
-      time: "Fri - 22:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['','',''],
-ticketId:['1','2'],
-desc: "UNRESERVED STANDING",
-showBar: "",
-  GA: "General Admission",
-sell: "y",
-        trnsfer: "y"
-
-}
-  },
-],`
-  },
-    {
-    id:50,
-    name:" Jack White (London)",
-   price:"" ,
-   date:"Mar 1",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Jack White",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/6ee/0fa3a0ea-e267-4092-9927-96ca6ada76ee_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Sat, Mar 1",
-    time: "19:00",
-    state: "London",
-    venue: "Troxy",
-    type: "Mastercard Preferred Standing Ticket",
-    eventData: {
-      month: "Mar",
-      day: "1",
-      time: "Sat - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['','',''],
-ticketId:['1','2'],
-desc: "UNRESERVED STANDING",
-showBar: "",
-  GA: "General Admission",
-sell: "y",
-        trnsfer: "y"
-
-}
-  },
-  {
-    artiste: "Jack White",
-    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/6ee/0fa3a0ea-e267-4092-9927-96ca6ada76ee_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "STALLS",
-    row: "",
-    seat: "",
-    date: "Sat, Mar 1",
-    time: "10:00pm",
-    state: "London",
-    venue: "Troxy",
-    type: "Mastercard Preferred Standing Ticket",
-    eventData: {
-      month: "Mar",
-      day: "1",
-      time: "Sat - 19:00",
-      year: "2025",
-      region: "UK",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['','',''],
-ticketId:['1','2'],
-desc: "UNRESERVED STANDING",
-showBar: "",
-  GA: "General Admission",
-sell: "y",
-        trnsfer: "y"
-
-}
-  },
-],`
-  },
-    {
-    id:50,
-    name:"Deftones (TX)",
-   price:"" ,
-   date:"Mar 15",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Deftones - North American Tour 2025",
-    img: "https://s1.ticketm.net/dam/a/44d/66c9b03a-c063-48b0-8eee-4bf97aa0544d_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "104",
-    row: "C",
-    seat: "4",
-    date: "Sat, Mar 15",
-    time: "7:00pm",
-    state: "Dallas",
-    venue: "American Airlines Center",
-    type: "Mastercard Preferred Standing Ticket",
-    eventData: {
-      month: "Mar",
-      day: "15",
-      time: "Sat - 19:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['4','5'],
-// ticketId:['1','2'],
-desc: "SIDE VIEW SEATING",
-showBar: "",
-  GA: "",
-sell: "y",
-        trnsfer: "y"
-
-}
-  },
-  {
-    artiste: "Deftones - North American Tour 2025",
-    img: "https://s1.ticketm.net/dam/a/44d/66c9b03a-c063-48b0-8eee-4bf97aa0544d_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "104",
-    row: "C",
-    seat: "5",
-    date: "Sat, Mar 15",
-    time: "7:00pm",
-    state: "Dallas",
-    venue: "American Airlines Center",
-    type: "Mastercard Preferred Standing Ticket",
-    eventData: {
-      month: "Mar",
-      day: "15",
-      time: "Sat - 19:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['4','5'],
-// ticketId:['1','2'],
-desc: "SIDE VIEW SEATING",
-showBar: "",
-  GA: "",
-sell: "y",
-        trnsfer: "y"
-
-}
-  },
-],`
-  },
+   
     {
     id:50,
     name:"Deftones (London)",
@@ -2155,158 +722,7 @@ sell: "",
   },
 ],`
   },
-      {
-    id:50,
-    name:"Carolina Hurricanes vs. Utah Hockey Club",
-   price:"" ,
-   date:"Feb 08",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Carolina Hurricanes vs. Utah Hockey Club",
-    img: "https://s1.ticketm.net/dam/a/0a6/1a8879f7-58c5-415d-a6a4-8c9a794970a6_1277361_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "106",
-    row: "B",
-    seat: "9",
-    date: "Sat, Feb 08",
-    time: "1:00pm",
-    state: "Raleigh NC",
-    venue: "Lenovo Center",
-    type: "Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "08",
-      time: "Sat - 13:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['9','10'],
-// ticketId:['1','2'],
-desc: "LOWER LEVEL",
-showBar: "",
-  GA: "",
-sell: "y",
-        trnsfer: "y",
-        btnColor:'#CE1126',
-        color:'#CE1126',
-
-}
-  },
-  {
-    artiste: "Carolina Hurricanes vs. Utah Hockey Club",
-    img: "https://s1.ticketm.net/dam/a/0a6/1a8879f7-58c5-415d-a6a4-8c9a794970a6_1277361_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "106",
-    row: "B",
-    seat: "10",
-    date: "Sat, Feb 08",
-    time: "1:00pm",
-    state: "Raleigh NC",
-    venue: "Lenovo Center",
-    type: "Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "08",
-      time: "Sat - 13:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['9','10'],
-// ticketId:['1','2'],
-desc: "LOWER LEVEL",
-showBar: "",
-  GA: "",
-sell: "y",
-        trnsfer: "y",
-        btnColor:'#CE1126',
-        color:'#CE1126',
-
-}
-  },
-],`
-  },
-      {
-    id:50,
-    name:"Carolina Hurricanes vs. Calgary Flames",
-   price:"" ,
-   date:"Mar 02",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Carolina Hurricanes vs. Calgary Flames",
-    img: "https://s1.ticketm.net/dam/a/0a6/1a8879f7-58c5-415d-a6a4-8c9a794970a6_1277361_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "106",
-    row: "B",
-    seat: "9",
-    date: "Sun, Mar 02",
-    time: "5:00pm",
-    state: "Raleigh NC",
-    venue: "Lenovo Center",
-    type: "Resale Ticket",
-    eventData: {
-      month: "Mar",
-      day: "02",
-      time: "Sun - 17:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['9','10'],
-// ticketId:['1','2'],
-desc: "LOWER LEVEL",
-showBar: "",
-  GA: "",
-sell: "y",
-        trnsfer: "y",
-        btnColor:'#CE1126',
-        color:'#CE1126',
-
-}
-  },
-  {
-    artiste: "Carolina Hurricanes vs. Calgary Flames",
-    img: "https://s1.ticketm.net/dam/a/0a6/1a8879f7-58c5-415d-a6a4-8c9a794970a6_1277361_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "106",
-    row: "B",
-    seat: "10",
-    date: "Sun, Mar 02",
-    time: "5:00pm",
-    state: "Raleigh NC",
-    venue: "Lenovo Center",
-    type: "Resale Ticket",
-    eventData: {
-      month: "Mar",
-      day: "02",
-      time: "Sun - 17:00",
-      year: "2025",
-      region: "",
-      orderNo: "42-6432/UK",
-    },
-transfers:{
-seats:['9','10'],
-// ticketId:['1','2'],
-desc: "LOWER LEVEL",
-showBar: "",
-  GA: "",
-sell: "y",
-        trnsfer: "y",
-        btnColor:'#CE1126',
-        color:'#CE1126',
-
-}
-  },
-],`
-  },
+  
       {
     id:50,
     name:"When We Were Young",
@@ -2381,88 +797,8 @@ sell: "",
   },
 ]`
   },
-      {
-    id:50,
-    name:"Zach Top",
-   price:"" ,
-   date:"Feb 06",
-   fbSearch:"",
-   fbEvent:"",
-   fbGroup:"",
-   twitter:"",
-    detail:`[
-  {
-    artiste: "Zach Top",
-    img: "https://s1.ticketm.net/dam/a/610/45d7961d-b610-496a-98d3-6eeef1bab610_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "UNRES",
-    row: "",
-    seat: "",
-    date: "Thu, Feb 06",
-    time: "8:00pm",
-    state: "Ohio",
-    venue: "Val Air Ballroom",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "06",
-      year: "2025",
-      time: "Thu - 20:00",
-      region: "",
-      orderNo: ""
-    },
-    transfers: {
-      sec: "",
-      row: "",
-      seats: ['',''],
-      ticketId: ['1','2'], 
-      desc: "GA STANDING ROOM ONLY",
-      GA: "General Admission",
-      color: "",
-      venueMap: "",
-      gate: "",
-      btnColor: "",
-      sell: "y",
-      trnsfer: "y"
-    }
-  },
-  {
-    artiste: "Zach Top",
-    img: "https://s1.ticketm.net/dam/a/610/45d7961d-b610-496a-98d3-6eeef1bab610_EVENT_DETAIL_PAGE_16_9.jpg",
-    sec: "UNRES",
-    row: "",
-    seat: "",
-    date: "Thu, Feb 06",
-    time: "8:00pm",
-    state: "Ohio",
-    venue: "Val Air Ballroom",
-    type: "Verified Resale Ticket",
-    eventData: {
-      month: "Feb",
-      day: "06",
-      year: "2025",
-      time: "Thu - 20:00",
-      region: "",
-      orderNo: ""
-    },
-    transfers: {
-      sec: "",
-      row: "",
-      seats: ['',''],
-      ticketId: ['1','2'],
-      desc: "GA STANDING ROOM ONLY",
-      GA: "General Admission",
-      color: "",
-      venueMap: "",
-      gate: "",
-      btnColor: "",
-      sell: "",
-      trnsfer: ""
-    }
-  }
-
-]`
-  },
-      {
+     
+   {
     id:50,
     name:"Tyler, the Creator - CHROMAKOPIA: THE WORLD TOUR (dublin)",
    price:"" ,
@@ -2540,7 +876,499 @@ sell: "",
   },
 ]`
   },
-      // {
+     
+    
+        {
+    id:50,
+    name:"Houston Rodeo w/ Parker McCollum",
+   price:"" ,
+   date:"Mar 21",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+    {
+    yourName:"Johnson Anita",
+    artiste: "Houston Rodeo w/ Parker McCollum",
+    img: "https://s1.ticketm.net/dam/a/5a6/a1506156-e5a2-481f-8509-459d58b895a6_1253091_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "127",
+    row: "C",
+    seat: "7",
+    date: "Fri, Mar 21",
+    time: "6:45pm",
+    state: "Houston, TX",
+    venue: "NRG Stadium",
+    type: "Resale Ticket",
+    eventData: {
+      month: "Mar",
+      day: "21",
+      time: "Fri - 18:45",
+      year: "2025",
+      region: "",
+      orderNo: "42-6432/UK",
+    },
+transfers:{
+seats:['7','8'],
+// ticketId:['',''],
+desc: "100 LEVEL",
+showBar: "",
+  GA: "",
+sell: "",
+        trnsfer: "y",
+        ticketPrice:"$144.99"
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "Houston Rodeo w/ Parker McCollum",
+    img: "https://s1.ticketm.net/dam/a/5a6/a1506156-e5a2-481f-8509-459d58b895a6_1253091_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "127",
+    row: "C",
+    seat: "7",
+    date: "Fri, Mar 21",
+    time: "6:45pm",
+    state: "Houston, TX",
+    venue: "NRG Stadium",
+    type: "Resale Ticket",
+    eventData: {
+      month: "Mar",
+      day: "21",
+      time: "Fri - 18:45",
+      year: "2025",
+      region: "",
+      orderNo: "42-6432/UK",
+    },
+transfers:{
+seats:['7','8'],
+// ticketId:['',''],
+desc: "100 LEVEL",
+showBar: "",
+  GA: "",
+sell: "",
+        trnsfer: "y",
+        ticketPrice:"$144.99"
+       
+
+}
+  },
+],`
+  },
+        {
+    id:50,
+    name:"Sand in My Boots Festival - 3 Day Pass",
+   price:"" ,
+   date:"May 16",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+
+  {
+    yourName:"Johnson Anita",
+    artiste: "Sand in My Boots Festival - 3 Day Pass",
+    img: "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PARTY PIT",
+    row: "1",
+    seat: "3",
+    date: "Fri, May 16",
+    time: "",
+    state: "Gulf Shores, AL",
+    venue: "Gulf Shores Beach",
+    type: "Resale Ticket",
+    eventData: {
+      month: "May",
+      day: "16",
+      time: "Fri",
+      year: "2025",
+      region: "",
+      orderNo: "42-6432/UK",
+    },
+transfers:{
+seats:['3','4'],
+// ticketId:['',''],
+desc: "PARTY PIT SEATED",
+showBar: "",
+  GA: "",
+sell: "",
+        trnsfer: "y",
+        ticketPrice:"$144.99"
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "Sand in My Boots Festival - 3 Day Pass",
+    img: "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PARTY PIT",
+    row: "1",
+    seat: "4",
+    date: "Fri, May 16",
+    time: "",
+    state: "Gulf Shores, AL",
+    venue: "Gulf Shores Beach",
+    type: "Resale Ticket",
+    eventData: {
+      month: "May",
+      day: "16",
+      time: "Fri",
+      year: "2025",
+      region: "",
+      orderNo: "42-6432/UK",
+    },
+transfers:{
+seats:['3','4'],
+// ticketId:['',''],
+desc: "PARTY PIT SEATED",
+showBar: "",
+  GA: "",
+sell: "",
+        trnsfer: "y",
+        ticketPrice:"$144.99"
+       
+
+}
+  },
+],`
+  },
+
+   
+    {
+    id:50,
+    name:"Sabrina Carpenter (pensylvania)",
+   price:"" ,
+   date:"Oct 23",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+  
+  {
+    yourName:"Johnson Anita",
+    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
+    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PIT",
+    row: "",
+    seat: "",
+    date: "Thu, Oct 23",
+    time: "7:00 PM",
+    state: " Pittsburgh, PA", 
+    venue: "PPG Paints Arena",
+    type: "Verified Resale Ticket",
+    eventData: {
+      month: "Oct",
+      day: "23",
+      time: "Thu - 19:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:[''],
+ 
+desc: "PIT - STANDING ROOM ONLY",
+showBar: "",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
+    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PIT",
+    row: "",
+    seat: "",
+    date: "Thu, Oct 23",
+    time: "7:00 PM",
+    state: " Pittsburgh, PA", 
+    venue: "PPG Paints Arena",
+    type: "Verified Resale Ticket",
+    eventData: {
+      month: "Oct",
+      day: "23",
+      time: "Thu - 19:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:[''],
+ticketId:['1','2'],
+desc: "PIT - STANDING ROOM ONLY",
+showBar: "",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],`
+  },
+    {
+    id:50,
+    name:"Gracie Abrams (MSG)",
+   price:"" ,
+   date:"Jul 29",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+  {
+    yourName:"Johnson Anita",
+    artiste: "American Express Presents: An Evening with Gracie Abrams",
+    img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+   Floor 7c: "106",
+    roEE "10",
+    seat: "4",
+    date: "Tue, Jul 29",
+    6i3e: "8:00 PM",
+    state: "New York, NY",
+    venue: "Madison Square Gardent",
+    type: "Artist Presale",
+    eventData: {
+      month: "Jul",
+      day: "29",
+      time: "Tue - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+// ticketId:['1','2'],
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "Gracie Abrams: The Secret Of Us Deluxe Tour with Role Model",
+    img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "106",
+    row: "10",
+    seat: "4",
+    date: "Tue, Jul 29",
+    time: "8:00 PM",
+    state: "New York, NY",
+    venue: "Madison Square Gardent",
+    type: "Artist Presale",
+    eventData: {
+      month: "Jul",
+      day: "29",
+      time: "Tue - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+// ticketId:['1','2'],
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+]`
+  },
+    {
+    id:50,
+    name:"Charli xcx (minneapolis)",
+   price:"" ,
+   date:"Apr 26",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+  {
+
+  
+    yourName:"Johnson Anita",
+    artiste: "CHARLI XCX - BRAT 2025 - ARENA TOUR",
+    img: "https://s1.ticketm.net/dam/a/f2b/220a2ab5-5dc4-4c55-b39b-f61564286f2b_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "111",
+    row: "B",
+    seat: "4",
+    date: "Sat, Apr 26",
+    time: "8:00 PM",
+    state: " Minneapolis, MN", 
+    venue: "Target Center",
+    type: "Standard Admission",
+    eventData: {
+      month: "Apr",
+      day: "26",
+      time: "Sat - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+ 
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+
+  
+    yourName:"Johnson Anita",
+    artiste: "CHARLI XCX - BRAT 2025 - ARENA TOUR",
+    img: "https://s1.ticketm.net/dam/a/f2b/220a2ab5-5dc4-4c55-b39b-f61564286f2b_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "111",
+    row: "B",
+    seat: "5",
+    date: "Sat, Apr 26",
+    time: "8:00 PM",
+    state: " Minneapolis, MN", 
+    venue: "Target Center",
+    type: "Standard Admission",
+    eventData: {
+      month: "Apr",
+      day: "26",
+      time: "Sat - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+ 
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],`
+  },
+    {
+    id:50,
+    name:"Wunderhorse (birmingham)",
+   price:"" ,
+   date:"May 24",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+ 
+
+  {
+    
+  
+    yourName:"Johnson Anita",
+    artiste: "Wunderhorse",
+    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/160/da121b43-1e10-4603-914d-59f2e043c160_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "STALLS",
+    row: "",
+    seat: "",
+    date: "Sat, May 24",
+    time: "19:00",
+    state: " Birmingham", 
+    venue: "O2 Academy Birmingham",
+    type: "Standard Admission",
+    eventData: {
+      month: "May",
+      day: "24",
+      time: "Sat - 19:00",
+      year: "2025",
+      region: "UK",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:[''],
+ ticketId:["1","2"],
+ desc: "STALLS - SRO",
+showBar: "y",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+    
+  
+    yourName:"Johnson Anita",
+    artiste: "Wunderhorse",
+    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/160/da121b43-1e10-4603-914d-59f2e043c160_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "STALLS",
+    row: "",
+    seat: "",
+    date: "Sat, May 24",
+    time: "19:00",
+    state: " Birmingham", 
+    venue: "O2 Academy Birmingham",
+    type: "Standard Admission",
+    eventData: {
+      month: "May",
+      day: "24",
+      time: "Sat - 19:00",
+      year: "2025",
+      region: "UK",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:[''],
+ ticketId:["1","2"],
+desc: "STALLS - SRO",
+showBar: "",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],`
+  },
+    // {
   //   id:50,
   //   name:"",
   //  price:"" ,
@@ -2551,7 +1379,7 @@ sell: "",
   //  twitter:"",
   //   detail:``
   // },
-      // {
+    // {
   //   id:50,
   //   name:"",
   //  price:"" ,
@@ -2562,4 +1390,50 @@ sell: "",
   //  twitter:"",
   //   detail:``
   // },
+    // {
+  //   id:50,
+  //   name:"",
+  //  price:"" ,
+  //  date:"",
+  //  fbSearch:"",
+  //  fbEvent:"",
+  //  fbGroup:"",
+  //  twitter:"",
+  //   detail:``
+  // },
+    // {
+  //   id:50,
+  //   name:"",
+  //  price:"" ,
+  //  date:"",
+  //  fbSearch:"",
+  //  fbEvent:"",
+  //  fbGroup:"",
+  //  twitter:"",
+  //   detail:``
+  // },
+    // {
+  //   id:50,
+  //   name:"",
+  //  price:"" ,
+  //  date:"",
+  //  fbSearch:"",
+  //  fbEvent:"",
+  //  fbGroup:"",
+  //  twitter:"",
+  //   detail:``
+  // },
+    // {
+  //   id:50,
+  //   name:"",
+  //  price:"" ,
+  //  date:"",
+  //  fbSearch:"",
+  //  fbEvent:"",
+  //  fbGroup:"",
+  //  twitter:"",
+  //   detail:``
+  // },
+
+
 ];

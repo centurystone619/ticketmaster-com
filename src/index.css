@@ -338,3 +338,23 @@ input,textarea{
 .ticket-slide-up {
   animation: slideUp 0.5s ease-out forwards;
 }
+
+
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+ 
+  #artiste {
+    max-width: 300px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  #ticket-name {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+}

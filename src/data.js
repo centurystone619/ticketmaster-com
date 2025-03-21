@@ -1,483 +1,663 @@
+
+
 export const eventData=[
-  [
-      {
-        artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-        img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-        sec: "103",
-        row: "4",
-        seat: "15",
-        date: "Wed, May 14",
-        time: "8pm",
-        state: "North Carolina",
-        venue: "Live Oak Bank Pavilion",
-        type: "Free transfer",
-        eventData: {
-          month: "May",
-          day: "14",
-          year: "",
-          time: "Wed - 8",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['15','16','17','18'],
-          desc: "RAINSHINE*NOROOF",
-          GA: "",
-          color: "Black",
-          "venueMap": "Live Oak Bank Pavilion",
-          "gate": "",
-          "btnColor": "Black",
-          sell: "y",
-          trnsfer: "y"
-        }
-      },
-      {
-        artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-        img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-        sec: "103",
-        row: "4",
-        seat: "16",
-        date: "Wed, May 14",
-        time: "8pm",
-        state: "North Carolina",
-        venue: "Live Oak Bank Pavilion",
-        type: "Free transfer",
-        eventData: {
-          month: "May",
-          day: "14",
-          year: "",
-          time: "Wed - 8",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['16'],
-          desc: "RAINSHINE*NOROOF",
-          GA: "",
-          color: "Black",
-          venueMap: "Live Oak Bank Pavilion",
-          gate: "",
-          btnColor: "Black",
-          sell: "",
-          trnsfer: ""
-        }
-      }, 
-      {
-        artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-        img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-        sec: "101",
-        row: "3",
-        seat: "17",
-        date: "Wed, May 14",
-        time: "8pm",
-        state: "North Carolina",
-        venue: "Live Oak Bank Pavilion",
-        type: "Free transfer",
-        eventData: {
-          month: "May",
-          day: "14",
-          year: "",
-          time: "Wed - 8",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['17'],
-          desc: "RAINSHINE*NOROOF",
-          GA: "",
-          color: "",
-          "venueMap": "Live Oak Bank Pavilion",
-          "gate": "",
-          "btnColor": "",
-          sell: "y",
-          trnsfer: "y"
-        }
-      },
-      {
-        artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-        img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-        sec: "101",
-        row: "3",
-        seat: "18",
-        date: "Wed, May 14",
-        time: "8pm",
-        state: "North Carolina",
-        venue: "Live Oak Bank Pavilion",
-        type: "Free transfer",
-        eventData: {
-          month: "May",
-          day: "14",
-          year: "",
-          time: "Wed - 8",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['18'],
-          desc: "RAINSHINE*NOROOF",
-          GA: "",
-          color: "",
-          "venueMap": "Live Oak Bank Pavilion",
-          "gate": "",
-          "btnColor": "",
-          sell: "y",
-          trnsfer: "y"
-        }
-      }
-    ],
-  [
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "15",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
-      eventData: {
-        month: "Jun",
-        day: "13",
-        year: "",
-        time: "Fri - 7",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "",
-        "venueMap": "Live Oak Bank Pavilion",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
+
+//   [ 
+//     {
+//     yourName:"Johnson Anita",
+//     artiste: "Role Model with Special Guest Debbi Dawson",
+//     img: "https://s1.ticketm.net/dam/a/8ae/934b82fb-1e7a-4208-9d0f-947254d658ae_EVENT_DETAIL_PAGE_16_9.jpg",
+//     sec: "FLOOR",
+//     row: "",
+//     seat: "",
+//     date: "Sat, Mar 15",
+//     time: "7:00 PM",
+//     state: "Brooklyn, NY",
+//     venue: "Brooklyn Paramount",
+//     type: "Verified Resale Ticket",
+//     eventData: {
+//       month: "Mar",
+//       day: "15",
+//       time: "Sat - 19:00",
+//       year: "2025",
+//       region: "USA",
+//       orderNo: "42-7642/US",
+//     },
+// transfers:{
+// seats:['',''],
+// ticketId:['1','2'],
+// desc: "MAIN FLOOR",
+// showBar: "",
+//   GA: "General Admission",
+// sell: "y",
+//         trnsfer: "y",
+//         ticketPrice:"$117.99",
+      
+       
+
+// }
+//   },
+//   {
+//     yourName:"Johnson Anita",
+//     artiste: "Role Model with Special Guest Debbi Dawson",
+//     img: "https://s1.ticketm.net/dam/a/8ae/934b82fb-1e7a-4208-9d0f-947254d658ae_EVENT_DETAIL_PAGE_16_9.jpg",
+//     sec: "FLOOR",
+//     row: "",
+//     seat: "",
+//     date: "Sat, Mar 15",
+//     time: "7:00 PM",
+//     state: "Brooklyn, NY",
+//     venue: "Brooklyn Paramount",
+//     type: "Verified Resale Ticket",
+//     eventData: {
+//       month: "Mar",
+//       day: "15",
+//       time: "Sat - 19:00",
+//       year: "2025",
+//       region: "USA",
+//       orderNo: "42-7642/US",
+//     },
+// transfers:{
+// seats:['',''],
+// ticketId:['1','2'],
+// desc: "MAIN FLOOR",
+// showBar: "",
+//   GA: "General Admission",
+// sell: "y",
+//         trnsfer: "y",
+//         ticketPrice:"$117.99",
+      
+       
+
+// }
+//   },
+// ],
+
+
+// [
+
+//   {
+//     yourName:"Johnson Anita",
+//     artiste: "American Express Presents: An Evening with Gracie Abrams",
+//     img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+//     sec: "Floor 7",
+//     row: "EE",
+//     seat: "4",
+//     date: "Thu, Mar 20",
+//     time: "6:30 PM",
+//     state: "Brooklyn, NYY", 
+//     venue: "Brooklyn Paramount",
+//     type: "Artist Presale",
+//     eventData: {
+//       month: "Mar",
+//       day: "20",
+//       time: "Thu - 18:30",
+//       year: "2025",
+//       region: "USA",
+//       orderNo: "42-7642/US",
+//     },
+// transfers:{
+// seats:['4','5'],
+// // ticketId:['1','2'],
+// desc: "FLOOR 7",
+// showBar: "",
+//   GA: "",
+// sell: "y",
+//         trnsfer: "y",
+//         ticketPrice:"$117.99",
+      
+       
+
+// }
+//   },
+//   {
+//     yourName:"Johnson Anita",
+//     artiste: "American Express Presents: An Evening with Gracie Abrams",
+//     img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+//     sec: "Floor 7",
+//     row: "EE",
+//     seat: "5",
+//     date: "Thu, Mar 20",
+//     time: "6:30 PM",
+//     state: "Brooklyn, NYY", 
+//     venue: "Brooklyn Paramount",
+//     type: "Artist Presale",
+//     eventData: {
+//       month: "Mar",
+//       day: "20",
+//       time: "Thu - 18:30",
+//       year: "2025",
+//       region: "USA",
+//       orderNo: "42-7642/US",
+//     },
+// transfers:{
+// seats:['4','5'],
+// // ticketId:['1','2'],
+// desc: "FLOOR 7",
+// showBar: "",
+//   GA: "",
+// sell: "y",
+//         trnsfer: "y",
+//         ticketPrice:"$117.99",
+      
+       
+
+// }
+//   },
+// ],
+[
+  
+  {
+    yourName:"Johnson Anita",
+    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
+    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PIT",
+    row: "",
+    seat: "",
+    date: "Thu, Oct 23",
+    time: "7:00 PM",
+    state: " Pittsburgh, PA", 
+    venue: "PPG Paints Arena",
+    type: "Verified Resale Ticket",
+    eventData: {
+      month: "Oct",
+      day: "23",
+      time: "Thu - 19:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
     },
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "15",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
-      eventData: {
-        month: "Feb",
-        day: "15",
-        year: "",
-        time: "Sat - 1:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "",
-        venueMap: "Live Oak Bank Pavilion",
-        gate: "",
-        btnColor: "",
-        sell: "",
-        trnsfer: ""
-      }
-    }, 
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "230",
-      row: "1",
-      seat: "14",
-      date: "Sat, Feb 15",
-      time: "1:00pm",
-      state: "Tennessee",
-      venue: "Food City Center",
-      type: "Free transfer",
-      eventData: {
-        month: "Feb",
-        day: "15",
-        year: "",
-        time: "Sat - 1:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['14'],
-        desc: "200 LEVEL",
-        GA: "",
-        color: "",
-        "venueMap": "",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
+transfers:{
+seats:[''],
+ 
+desc: "PIT - STANDING ROOM ONLY",
+showBar: "",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
+    img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PIT",
+    row: "",
+    seat: "",
+    date: "Thu, Oct 23",
+    time: "7:00 PM",
+    state: " Pittsburgh, PA", 
+    venue: "PPG Paints Arena",
+    type: "Verified Resale Ticket",
+    eventData: {
+      month: "Oct",
+      day: "23",
+      time: "Thu - 19:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
     },
-    {
-      artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
-      sec: "230",
-      row: "1",
-      seat: "15",
-      date: "Sat, Feb 15",
-      time: "1:00pm",
-      state: "Tennessee",
-      venue: "Food City Center",
-      type: "Free transfer",
-      eventData: {
-        month: "Feb",
-        day: "15",
-        year: "",
-        time: "Sat - 1:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15'],
-        desc: "200 LEVEL",
-        GA: "",
-        color: "",
-        "venueMap": "",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    }
-  ],
+transfers:{
+seats:[''],
+ticketId:['1','2'],
+desc: "PIT - STANDING ROOM ONLY",
+showBar: "",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],
+[
+  {
+    yourName:"Johnson Anita",
+    artiste: "American Express Presents: An Evening with Gracie Abrams",
+    img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+   sec: "106",
+    row: "10",
+    seat: "4",
+    date: "Tue, Jul 29",
+    time: "8:00 PM",
+    state: "New York, NY",
+    venue: "Madison Square Gardent",
+    type: "Artist Presale",
+    eventData: {
+      month: "Jul",
+      day: "29",
+      time: "Tue - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+// ticketId:['1','2'],
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "Gracie Abrams: The Secret Of Us Deluxe Tour with Role Model",
+    img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "106",
+    row: "10",
+    seat: "4",
+    date: "Tue, Jul 29",
+    time: "8:00 PM",
+    state: "New York, NY",
+    venue: "Madison Square Gardent",
+    type: "Artist Presale",
+    eventData: {
+      month: "Jul",
+      day: "29",
+      time: "Tue - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+// ticketId:['1','2'],
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],
+
+
+// [
+
+//   {
+//     yourName:"Johnson Anita",
+//     artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
+//     img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
+//     sec: "105",
+//     row: "4",
+//     seat: "8",
+//     date: "Tue, Oct 28",
+//     time: "7:00 PM",
+//     state: "New York, NY",
+//     venue: "Madison Square Garden",
+//     type: "Team Sabrina Presale",
+//     eventData: {
+//       month: "Oct",
+//       day: "28",
+//       time: "Tue - 7:00",
+//       year: "2025",
+//       region: "USA",
+//       orderNo: "42-7642/US",
+//     },
+// transfers:{
+// seats:['8','9'],
+// // ticketId:['1','2'],
+// desc: "",
+// showBar: "",
+//   GA: "",
+// sell: "y",
+//         trnsfer: "y",
+//         ticketPrice:"€45.05",
+      
+       
+
+// }
+//   },
 
  
+//   {
+//     yourName:"Johnson Anita",
+//     artiste: "SABRINA CARPENTER: SHORT N' SWEET TOUR",
+//     img: "https://s1.ticketm.net/dam/a/e89/0077a6e2-a82d-4d67-bd68-c47aa3212e89_EVENT_DETAIL_PAGE_16_9.jpg",
+//     sec: "105",
+//     row: "4",
+//     seat: "9",
+//     date: "Tue, Oct 28",
+//     time: "7:00 PM",
+//     state: "New York, NY",
+//     venue: "Madison Square Garden",
+//     type: "Team Sabrina Presale",
+//     eventData: {
+//       month: "Oct",
+//       day: "28",
+//       time: "Tue - 7:00",
+//       year: "2025",
+//       region: "USA",
+//       orderNo: "42-7642/US",
+//     },
+// transfers:{
+// seats:['8','9'],
+// // ticketId:['1','2'],
+// desc: "",
+// showBar: "",
+//   GA: "",
+// sell: "y",
+//         trnsfer: "y",
+//         ticketPrice:"€45.05",
+      
+       
 
+// }
+//   },
+// ],
 
-]
+[
+  {
+
   
-  
-  [
-      {
-        artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-        img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-        sec: "101",
-        row: "3",
-        seat: "19",
-        date: "Wed, May 14",
-        time: "8pm",
-        state: "North Carolina",
-        venue: "Live Oak Bank Pavilion",
-        type: "Free transfer",
-        eventData: {
-          month: "May",
-          day: "14",
-          year: "",
-          time: "Wed - 8",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['19'],
-          desc: "RAINSHINE*NOROOF",
-          GA: "",
-          color: "",
-          "venueMap": "Live Oak Bank Pavilion",
-          "gate": "",
-          "btnColor": "",
-          sell: "y",
-          trnsfer: "y"
-        }
-      },
-      {
-        artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-        img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-        sec: "101",
-        row: "3",
-        seat: "20",
-        date: "Wed, May 14",
-        time: "8pm",
-        state: "North Carolina",
-        venue: "Live Oak Bank Pavilion",
-        type: "Free transfer",
-        eventData: {
-          month: "May",
-          day: "14",
-          year: "",
-          time: "Wed - 8",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['20'],
-          desc: "RAINSHINE*NOROOF",
-          GA: "",
-          color: "",
-          "venueMap": "Live Oak Bank Pavilion",
-          "gate": "",
-          "btnColor": "",
-          sell: "y",
-          trnsfer: "y"
-        }
-      }
-    ],
-  [
-    {
-      artiste: "Clemson Tigers Baseball vs. South Carolina Gamecocks Baseball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ed8/594ca3e9-7b5a-4800-a3c7-f9d3d3b77ed8_CUSTOM.jpg",
-      sec: "103",
-      row: "G",
-      seat: "5",
-      date: "Sat, Mar 1",
-      time: "1:30pm",
-      state: "South Carolina",
-      venue: "Fluor Field",
-      type: "Resale Ticket",
-      eventData: {
-        month: "Mar",
-        day: "1",
-        year: "",
-        time: "Sat - 1:30",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['5','6','7','8'],
-        desc: "100 Level",
-        GA: "",
-        color: "",
-        venueMap: "https://www.bing.com/images/search?view=detailV2&ccid=P7b3QBIh&id=A6E242E841771ADB104555733CA424D1AFB037D0&thid=OIP.P7b3QBIhzJy-RcxkjHNELAHaHa&mediaurl=https%3a%2f%2fvenue-images.boldticket.com%2f1849-large-v2.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3fb6f7401221cc9cbe45cc648c73442c%3frik%3d0Dewr9EkpDxzVQ%26pid%3dImgRaw%26r%3d0&exph=1280&expw=1280&q=WARNER+THEATER+DC+MAP&simid=608052728811233831&FORM=IRPRST&ck=C1CB6B079595E02E69EAE5A4CE26E4FD&selectedIndex=34&itb=0",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
+    yourName:"Johnson Anita",
+    artiste: "CHARLI XCX - BRAT 2025 - ARENA TOUR",
+    img: "https://s1.ticketm.net/dam/a/f2b/220a2ab5-5dc4-4c55-b39b-f61564286f2b_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "111",
+    row: "B",
+    seat: "4",
+    date: "Sat, Apr 26",
+    time: "8:00 PM",
+    state: " Minneapolis, MN", 
+    venue: "Target Center",
+    type: "Standard Admission",
+    eventData: {
+      month: "Apr",
+      day: "26",
+      time: "Sat - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
     },
-    {
-      artiste: "Clemson Tigers Baseball vs. South Carolina Gamecocks Baseball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ed8/594ca3e9-7b5a-4800-a3c7-f9d3d3b77ed8_CUSTOM.jpg",
-      sec: "103",
-      row: "G",
-      seat: "6",
-      date: "Sat, Mar 1",
-      time: "8pm",
-      state: "South Carolina",
-      venue: "Fluor Field",
-      type: "Resale Ticket",
-      eventData: {
-        month: "Mar",
-        day: "1",
-        year: "",
-        time: "Sat - 1:30",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['6'],
-        desc: "",
-        GA: "",
-        color: "",
-        venueMap: "https://www.bing.com/images/search?view=detailV2&ccid=P7b3QBIh&id=A6E242E841771ADB104555733CA424D1AFB037D0&thid=OIP.P7b3QBIhzJy-RcxkjHNELAHaHa&mediaurl=https%3a%2f%2fvenue-images.boldticket.com%2f1849-large-v2.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3fb6f7401221cc9cbe45cc648c73442c%3frik%3d0Dewr9EkpDxzVQ%26pid%3dImgRaw%26r%3d0&exph=1280&expw=1280&q=WARNER+THEATER+DC+MAP&simid=608052728811233831&FORM=IRPRST&ck=C1CB6B079595E02E69EAE5A4CE26E4FD&selectedIndex=34&itb=0",
-        gate: "",
-        btnColor: "",
-        sell: "",
-        trnsfer: ""
-      }
-    }, 
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "230",
-      row: "1",
-      seat: "14",
-      date: "Sat, Feb 15",
-      time: "1:00pm",
-      state: "Tennessee",
-      venue: "Food City Center",
-      type: "Free transfer",
-      eventData: {
-        month: "Feb",
-        day: "15",
-        year: "",
-        time: "Sat - 1:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['14'],
-        desc: "200 LEVEL",
-        GA: "",
-        color: "",
-        "venueMap": "",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    },
-    {
-      artiste: "Tennessee Volunteers Mens Basketball vs. Vanderbilt Commodores Mens Basketball",
-      img: "https://media.ticketmaster.com/en-us/dam/a/ad5/a699aaef-d0e1-4609-b140-91535fc4aad5_1685901_CUSTOM.jpg",
-      sec: "230",
-      row: "1",
-      seat: "15",
-      date: "Sat, Feb 15",
-      time: "1:00pm",
-      state: "Tennessee",
-      venue: "Food City Center",
-      type: "Free transfer",
-      eventData: {
-        month: "Feb",
-        day: "15",
-        year: "",
-        time: "Sat - 1:00",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15'],
-        desc: "200 LEVEL",
-        GA: "",
-        color: "",
-        "venueMap": "",
-        "gate": "",
-        "btnColor": "",
-        sell: "y",
-        trnsfer: "y"
-      }
-    }
-  ],
+transfers:{
+seats:['4','5'],
+ 
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
 
+}
+  },
+  {
+
+  
+    yourName:"Johnson Anita",
+    artiste: "CHARLI XCX - BRAT 2025 - ARENA TOUR",
+    img: "https://s1.ticketm.net/dam/a/f2b/220a2ab5-5dc4-4c55-b39b-f61564286f2b_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "111",
+    row: "B",
+    seat: "5",
+    date: "Sat, Apr 26",
+    time: "8:00 PM",
+    state: " Minneapolis, MN", 
+    venue: "Target Center",
+    type: "Standard Admission",
+    eventData: {
+      month: "Apr",
+      day: "26",
+      time: "Sat - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['4','5'],
+ 
+desc: "LOWER LEVEL",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],
+[
  
 
+  {
+    
+  
+    yourName:"Johnson Anita",
+    artiste: "Wunderhorse",
+    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/160/da121b43-1e10-4603-914d-59f2e043c160_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "STALLS",
+    row: "",
+    seat: "",
+    date: "Sat, May 24",
+    time: "19:00",
+    state: " Birmingham", 
+    venue: "O2 Academy Birmingham",
+    type: "Standard Admission",
+    eventData: {
+      month: "May",
+      day: "24",
+      time: "Sat - 19:00",
+      year: "2025",
+      region: "UK",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:[''],
+ ticketId:["1","2"],
+ desc: "STALLS - SRO",
+showBar: "y",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
 
+}
+  },
+  {
+    
+  
+    yourName:"Johnson Anita",
+    artiste: "Wunderhorse",
+    img: "https://media.ticketmaster.co.uk/tm/en-gb/dam/a/160/da121b43-1e10-4603-914d-59f2e043c160_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "STALLS",
+    row: "",
+    seat: "",
+    date: "Sat, May 24",
+    time: "19:00",
+    state: " Birmingham", 
+    venue: "O2 Academy Birmingham",
+    type: "Standard Admission",
+    eventData: {
+      month: "May",
+      day: "24",
+      time: "Sat - 19:00",
+      year: "2025",
+      region: "UK",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:[''],
+ ticketId:["1","2"],
+desc: "STALLS - SRO",
+showBar: "",
+  GA: "General Admission",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+],
+
+  [ 
+
+    {
+    yourName:"Johnson Anita",
+    artiste: "ROLE MODEL",
+    img: "https://s1.ticketm.net/dam/a/8ae/934b82fb-1e7a-4208-9d0f-947254d658ae_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "GA FLOOR",
+    row: "-",
+    seat: "-",
+    date: "Thu, Apr 03",
+    time: "8:00 PM",
+    state: "Oakland, CA",
+    venue: "Fox Theater - Oakland",
+    type: "Verified Resale Ticket",
+    eventData: {
+      month: "Mar",
+      day: "03",
+      time: "Thu - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['',''],
+ticketId:['1','2'],
+desc: "MAIN FLOOR",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+  {
+    yourName:"Johnson Anita",
+    artiste: "ROLE MODEL",
+    img: "https://s1.ticketm.net/dam/a/8ae/934b82fb-1e7a-4208-9d0f-947254d658ae_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "GA FLOOR",
+    row: "-",
+    seat: "-",
+    date: "Thu, Apr 03",
+    time: "8:00 PM",
+    state: "Oakland, CA",
+    venue: "Fox Theater - Oakland",
+    type: "Verified Resale Ticket",
+    eventData: {
+      month: "Mar",
+      day: "03",
+      time: "Thu - 20:00",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['',''],
+ticketId:['1','2'],
+desc: "MAIN FLOOR",
+showBar: "",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+      
+       
+
+}
+  },
+ 
+],
+
+[
+
+  {
+     yourName:"Johnson Anita",
+     artiste: "Gracie Abrams: The Secret Of Us Deluxe Tour with Role Model",
+     img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+     sec: "203",
+     row: "YY",
+     seat: "7",
+     date: "Sat, Jul 26",
+     time: "8:00 PM",
+     state: "Toronto, ON",
+     venue: "Budweiser Stage",
+     type: "Artist Presale",
+     eventData: {
+       month: "Jul",
+       day: "26",
+       time: "Sat - 20:00",
+       year: "2025",
+       region: "USA",
+       orderNo: "42-7642/US",
+     },
+ transfers:{
+ seats:['7','8'],
+ // ticketId:['1','2'],
+ desc: "LOWER LEVEL",
+ showBar: "",
+ venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+   GA: "",
+ sell: "y",
+         trnsfer: "y",
+         ticketPrice:"$117.99",
+       
+        
+ 
+ }
+   },
+ 
+ {
+     yourName:"Johnson Anita",
+     artiste: "Gracie Abrams: The Secret Of Us Deluxe Tour with Role Model",
+     img: "https://s1.ticketm.net/dam/a/4a2/7451169e-a112-426d-bac7-a1b6dedc44a2_EVENT_DETAIL_PAGE_16_9.jpg",
+     sec: "203",
+     row: "YY",
+     seat: "8",
+     date: "Sat, Jul 26",
+     time: "8:00 PM",
+     state: "Toronto, ON",
+     venue: "Budweiser Stage",
+     type: "Artist Presale",
+     eventData: {
+       month: "Jul",
+       day: "26",
+       time: "Sat - 20:00",
+       year: "2025",
+       region: "USA",
+       orderNo: "42-7642/US",
+     },
+ transfers:{
+ seats:['7','8'],
+ // ticketId:['1','2'],
+ desc: "LOWER LEVEL",
+ showBar: "",
+   GA: "",
+ sell: "y",
+         trnsfer: "y",
+         ticketPrice:"$117.99",
+       
+        
+ 
+ }
+ }
+ 
+ ]
 ]
