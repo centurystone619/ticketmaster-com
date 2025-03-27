@@ -25,10 +25,10 @@ export const eventData=[
           seats: ['7','8','9','10'],
           desc: "LOWER LEVEL",
           GA: "",
-          color: "Blue",
+          color: "Black",
           "venueMap": "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/33.757385,-84.396255/16?ms=1182,334&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=1&shading=hill&logo=n&da=ro&pp=33.757385,-84.396255;dfp;State+Farm+Arena",
           "gate": "",
-          "btnColor": "Blue",
+          "btnColor": "Black",
           sell: "y",
           trnsfer: "y"
         }
@@ -58,10 +58,10 @@ export const eventData=[
           seats: ['7','8','9','10'],
           desc: "LOWER LEVEL",
           GA: "",
-          color: "Blue",
+          color: "Black",
           "venueMap": "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/33.757385,-84.396255/16?ms=1182,334&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=1&shading=hill&logo=n&da=ro&pp=33.757385,-84.396255;dfp;State+Farm+Arena",
           "gate": "",
-          "btnColor": "Blue",
+          "btnColor": "Black",
           sell: "y",
           trnsfer: "y"
         }
