@@ -9,7 +9,7 @@ const TransferToForm = ({eventIndex,selectedItems,closeTransfer,transferTo, setT
     <div >
       {transferTo? (
         <div id="select-modal" className="ticket-slide-up  ">
-<form id="select-form" className="mt-[40vh] lg:mt-16  ">
+<form id="select-formto" className="mt-[40vh] lg:mt-16   ">
 <fieldset className="lg:text-center lg:w-[690px]  ">
                   <legend id="form-header" className=" w-full py-3 text-center lg:w-[650px] font-semibold text-azure-black ">
                   TRANSFER TO

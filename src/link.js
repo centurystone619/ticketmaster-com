@@ -1368,28 +1368,258 @@ sell: "y",
   },
 ],`
   },
-    // {
-  //   id:50,
-  //   name:"",
-  //  price:"" ,
-  //  date:"",
-  //  fbSearch:"",
-  //  fbEvent:"",
-  //  fbGroup:"",
-  //  twitter:"",
-  //   detail:``
-  // },
-    // {
-  //   id:50,
-  //   name:"",
-  //  price:"" ,
-  //  date:"",
-  //  fbSearch:"",
-  //  fbEvent:"",
-  //  fbGroup:"",
-  //  twitter:"",
-  //   detail:``
-  // },
+    {
+    id:50,
+    name:"Michael Rother Plays NEU! & Harmonia & Solo Works",
+   price:"" ,
+   date:"Mar 27",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:` [
+    {
+        yourName:"Johnson Anita",
+        artiste: "Michael Rother Plays NEU! & Harmonia & Solo Works",
+        img: "https://i.ticketweb.com//i/00/12/69/19/63_Edp.jpg?v=5",
+        sec: "GA",
+        row: "GA5",
+        seat: "-",
+        date: "Thu, Mar 27",
+        time: "8:00 PM",
+        state: "Chicago, IL",
+        venue: "Empty Bottle",
+        type: "Standard Admision",
+        eventData: {
+          month: "Mar",
+          day: "27",
+          time: "Thu - 20:00",
+          year: "2025",
+          region: "USA",
+          orderNo: "42-7642/US",
+        },
+    transfers:{
+    seats:['',""],
+    ticketId:['1','2'],
+    desc: "Ages 21+",
+    showBar: "",
+    venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+      GA: "",
+    sell: "y",
+            trnsfer: "y",
+            ticketPrice:"$117.99",
+          
+           
+    
+    }
+      },
+      {
+        yourName:"Johnson Anita",
+        artiste: "Michael Rother Plays NEU! & Harmonia & Solo Works",
+        img: "https://i.ticketweb.com//i/00/12/69/19/63_Edp.jpg?v=5",
+        sec: "GA",
+        row: "GA5",
+        seat: "-",
+        date: "Thu, Mar 27",
+        time: "8:00 PM",
+        state: "Chicago, IL",
+        venue: "Empty Bottle",
+        type: "Standard Admision",
+        eventData: {
+          month: "Mar",
+          day: "27",
+          time: "Thu - 20:00",
+          year: "2025",
+          region: "USA",
+          orderNo: "42-7642/US",
+        },
+    transfers:{
+    seats:[''],
+    ticketId:['1','2'],
+    desc: "Ages 21+",
+    showBar: "",
+    venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+      GA: "",
+    sell: "y",
+            trnsfer: "y",
+            ticketPrice:"$117.99",
+          
+           
+    
+    }
+      },
+ ],`
+  },
+    {
+    id:50,
+    name:"The Sturniolo Triplets",
+   price:"" ,
+   date:"Mar 30",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:`[
+    
+  {
+     yourName:"Johnson Anita",
+     artiste: "The Sturniolo Triplets",
+     img: "https://s1.ticketm.net/dam/a/d13/e8ecb590-b3fa-40bd-981e-dbe8724a0d13_EVENT_DETAIL_PAGE_16_9.jpg",
+     sec: "PIT",
+     row: "BBB",
+     seat: "106",
+     date: "Sun, Mar 30",
+     time: "8:30 PM",
+     state: "Houston, TX",
+     venue: "Hobby Center",
+     type: "VIP Gold Package",
+     eventData: {
+       month: "Mar",
+       day: "30",
+       time: "Sun - 20:30",
+       year: "2025",
+       region: "USA",
+       orderNo: "42-7642/US",
+     },
+ transfers:{
+ seats:['106','107'],
+ // ticketId:['1','2'],
+ desc: "PIT SEATING",
+ showBar: "",
+ venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+   GA: "",
+ sell: "y",
+         trnsfer: "y",
+         ticketPrice:"$117.99",
+       color:'black',
+       btnColor:"black"
+        
+ 
+ }
+   },
+   {
+    yourName:"Johnson Anita",
+    artiste: "The Sturniolo Triplets",
+    img: "https://s1.ticketm.net/dam/a/d13/e8ecb590-b3fa-40bd-981e-dbe8724a0d13_EVENT_DETAIL_PAGE_16_9.jpg",
+    sec: "PIT ",
+    row: "BBB",
+    seat: "107",
+    date: "Sun, Mar 30",
+    time: "8:30 PM",
+    state: "Houston, TX",
+    venue: "Hobby Center",
+    type: "VIP Gold Package",
+    eventData: {
+      month: "Mar",
+      day: "30",
+      time: "Sun - 20:30",
+      year: "2025",
+      region: "USA",
+      orderNo: "42-7642/US",
+    },
+transfers:{
+seats:['106','107'],
+// ticketId:['1','2'],
+desc: "PIT SEATING",
+showBar: "",
+venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+  GA: "",
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+           color:'black',
+       btnColor:"black"
+      
+       
+
+}
+  },
+ ],`
+  },
+    {
+    id:50,
+    name:"Calgary Flames vs. Dallas Stars",
+   price:"" ,
+   date:"Mar 27",
+   fbSearch:"",
+   fbEvent:"",
+   fbGroup:"",
+   twitter:"",
+    detail:` [
+    {
+        yourName:"Johnson Anita",
+        artiste: "Calgary Flames vs. Dallas Stars",
+        img: "https://media.d3.nhle.com/image/private/t_ratio16_9-size30/f_auto/prd/yalhyzol5o77lzu7qflq.jpg",
+        sec: "119",
+        row: "3",
+        seat: "6",
+        date: "Thu, Mar 27",
+        time: "7:00 PM",
+        state: "Calgary, AB",
+        venue: "Scotiabank Saddledome ", 
+        type: "Regular Price Ticket",
+        eventData: {
+          month: "Mar",
+          day: "27",
+          time: "Thu - 19:00",
+          year: "2025",
+          region: "USA",
+          orderNo: "42-7642/US",
+        },
+    transfers:{
+    seats:['6','7'],
+    // ticketId:['1','2'],
+    desc: "CLUB SEATS",
+    showBar: "",
+    // venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+      GA: "",
+    sell: "y",
+            trnsfer: "y",
+            ticketPrice:"$117.99",
+          color:'#c8102e',
+          btnColor:"#c8102e"
+           
+    
+    }
+      }, 
+      {
+        yourName:"Johnson Anita",
+        artiste: "Calgary Flames vs. Dallas Stars",
+        img: "https://media.d3.nhle.com/image/private/t_ratio16_9-size30/f_auto/prd/yalhyzol5o77lzu7qflq.jpg",
+        sec: "119",
+        row: "3",
+        seat: "7",
+        date: "Thu, Mar 27",
+        time: "7:00 PM",
+        state: "Calgary, AB",
+        venue: "Scotiabank Saddledome ", 
+        type: "Regular Price Ticket",
+        eventData: {
+          month: "Mar",
+          day: "27",
+          time: "Thu - 19:00",
+          year: "2025",
+          region: "USA",
+          orderNo: "42-7642/US",
+        },
+    transfers:{
+    seats:['6','7'],
+    // ticketId:['1','2'],
+    desc: "CLUB SEATS",
+    showBar: "",
+    // venueMap: " https://tixel.com/maps/43.6292,-79.4151",
+      GA: "",
+    sell: "y",
+            trnsfer: "y",
+            ticketPrice:"$117.99",
+          color:'#c8102e',
+          btnColor:"#c8102e"
+           
+    
+    }
+      }, 
+ ],`
+  },
     // {
   //   id:50,
   //   name:"",

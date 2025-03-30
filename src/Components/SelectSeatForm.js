@@ -24,7 +24,7 @@ const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : event
         <section id='form-section'>
         <div className='container mx-auto px-4'>
 
-<div className="lg:w-[650px] flex justify-around items-center border-b-2 py-2 mb-4  ">
+<div className="lg:w-[650px] flex justify-around items-center border-b-2 py-2 mb-4 relative  ">
             <div className="w-1/12"></div>
             <legend id="form-header" className=" my-2 w-10/12 text-center font-semibold nowrap">
               SELECT TICKET TO TRANSFER{" "}
@@ -44,7 +44,7 @@ const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : event
 
           </div>
 
-          <div className="flex border-2 border-black/80 p-2 max-w-[650px] ">
+          {/* <div className="flex border-2 border-black/80 p-2 max-w-[650px] ">
             <div className="w-14">
               <img src={error} alt="notice" />
             </div>
@@ -52,7 +52,7 @@ const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : event
               Only transfer tickets to people you know and trust to ensure
               everyone stays safe and socially distanced
             </div>
-          </div>
+          </div> */}
 
           <div className="flex item-center justify-between my-2">
           <ul className="flex space-x-1  ">
@@ -85,7 +85,7 @@ const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : event
 
 
 
-<div className="overflow-x-auto">
+<div className="overflow-x-auto ">
               {Array.isArray(itemsToDisplay) && itemsToDisplay
                 .reduce((chunks, item, index) => {
                   const chunkIndex = Math.floor(index / 4);
@@ -147,7 +147,7 @@ const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : event
 
 <div
  id="transfer-to-container"
- className="lg:w-[690px] mx-5 bg-[#f6f7f9] py-3  flex items-center  justify-between  "
+ className="lg:w-[690px] px-5 bg-[#f6f7f9] py-3  flex items-center  justify-between  "
 >
  <div>
    <button className="text-[#b1b2b5] font-semibold">
@@ -155,7 +155,7 @@ const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : event
    </button>
  </div>
  <button
-   id="transfer-to-btn"
+   id="transfer-to-btn" 
    type="submit"
    className="flex items-center  item-center justify-center bg-azure-azure-white px-2 py-1 text-azure-deepblue  font-semibold rounded  hover:underline  "
 onClick={handleSelection}
