@@ -14,7 +14,7 @@ const IndexBtn = ({
 
   return (
     <div>
-      <ul className="flex space-x-2 justify-center items-center pt-3">
+      <ul className="flex space-x-2 justify-center items-center  ">
         {indexData.map((_, index) => (
           <li
             key={index}

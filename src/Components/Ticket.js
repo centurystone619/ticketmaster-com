@@ -25,7 +25,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
           {/* <ul className="flex  item-center justify-between px-5 text-center  bg-black   py-3 "> */}
           <ul className={`flex  item-center justify-between px-5 text-center  ${
       eventIndex[0].transfers?.color ? eventIndex[0].transfers?.color : `bg-black`
-    }  py-3 `}    style={{
+    }  py-3\ `}    style={{
       backgroundColor: eventIndex[0]?.transfers?.color || 'black',
     }}>
             <li id="back-icon" className="flex item-center justify-start ">
@@ -38,9 +38,26 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
             </li>
             <li className="flex item-center  cursor-pointer" ><button className='font-semibold text-white' onClick={(e)=>setIsEmailVerificationOpen(true)}>Help</button></li>
           </ul>
+
+          {eventIndex[0].transfers?.addOns && <ul
+          className="flex   bg-azure-deepblue   "
+          style={{ fontSize: "14px" }}
+        >
+          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-3 ">
+            {/* UPCOMING ({events.length}) */}
+            {events.length > 1? 'MY TICKETS' : `MY TICKET`}
+          </li>
+          <li
+            className="border-b-4 border-none w-1/2  text-center font-semibold py-3"
+            style={{ color: "#B7C7ED" }}
+          >
+            ADD-ONS
+          </li>
+        </ul>}
+
         </nav>
   
-        <section className='flex  min-h-[600px] lg:w-1/2  lg:mx-auto  '>
+        <section id='wrapperheight' className='flex  h-[585px] lg:w-1/2  lg:mx-auto  '>
           <div id='ticket-wrapper' className='relative   ' >
   <div className='absolute min-w-100   overflow-x-auto   transform transition-transform duration-300 ease-in-out '   style={{
       transform: `translateX(${transX})`,
@@ -51,10 +68,10 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
      <ul className='w-full flex   space-x-10 overflow-x-hidden  w-[100vw]'  >
   
      {events[selectedIndex].map((subArray)=>(
-      <li id='single-ticket' className=" rounded-xl " >
+      <li id='single-ticket' className=" rounded-[10px]  " >
        
   <div >
-    {subArray.transfers?.color? (<header className=" text-white text-center py-2 sm:rounded-tl-2xl sm:rounded-tr-2xl" style={{ backgroundColor: subArray?.transfers?.color }}>{subArray.type}</header>):(<header className="bg-azure-deepblue text-white text-center py-2 sm:rounded-tl-2xl sm:rounded-tr-2xl">{subArray.type}</header>)}
+    {subArray.transfers?.color? (<header className=" text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]" style={{ backgroundColor: subArray?.transfers?.color }}>{subArray.type}</header>):(<header className="bg-azure-deepblue text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]">{subArray.type}</header>)}
   </div>
   
   <div   id="sec-wrapper"
@@ -122,6 +139,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
                       backgroundImage: `url(${subArray.img})`,
                       backgroundPosition: "center",
                       backgroundSize: "cover",
+                     filter: "contrast(120%) brightness(100%) " 
                     }}
                     className="relative h-48 w-full z-10 inset-0 opacity-85"
                   >

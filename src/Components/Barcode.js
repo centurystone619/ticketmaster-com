@@ -175,6 +175,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
             width: "100vw",
             height: "100vh",
             zIndex: "1",
+              filter: "contrast(120%) brightness(100%) "
           }}
           className="absolute top-0 h-screen lg:mx-auto left-0  flex flex-col "
         >

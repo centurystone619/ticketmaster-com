@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flag } from './flags'
-import ticketWhite from '../assets/tickwhite.png'
+import ticketWhite from '../assets/evt.jpg'
 import eventFooter from '../assets/eventFooter.jpg'
 
 
@@ -181,6 +181,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: "96vw",
+  filter: "contrast(120%) brightness(100%) "
               }}
               className="relative h-48 w-full z-10 mx-2 my-1 inset-0 opacity-85 "
            onClick={(e)=>handleEventClick(index)}
@@ -219,8 +220,8 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
 
 
 <div className="flex items-start text-center w-full justify-start text-xs">
-                      <img src={ticketWhite} className="w-3 h-4 flex" />
-                     <p>{
+                      <img src={ticketWhite} className=""  id='tickwhite'/>
+                     <p id='ticktext'>{
     // Check for the first available tickets (seats or ticketId)
     (events[index] && events[index][0] && events[index][0].transfers) 
       ? (
@@ -300,6 +301,8 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: "96vw",
+               
+               filter: "contrast(120%) brightness(100%) "
               }}
               className="relative h-48 w-full z-10 mx-2 my-1 inset-0 opacity-85 "
            onClick={(e)=>handleEventClick(index)}
@@ -346,8 +349,8 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
 
 
 <div className="flex items-start text-center w-full justify-start text-xs">
-                      <img src={ticketWhite} className="w-3 h-4 flex" />
-                     <p>{
+                      <img src={ticketWhite} id='tickwhite' className="" />
+                     <p id='ticktext'>{
     // Check for the first available tickets (seats or ticketId)
     (events[index] && events[index][0] && events[index][0].transfers) 
       ? (
