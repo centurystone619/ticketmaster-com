@@ -45,7 +45,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
         >
           <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-3 ">
             {/* UPCOMING ({events.length}) */}
-            {events.length > 1? 'MY TICKETS' : `MY TICKET`}
+            {events.length > 1? 'MY TICKETS' : `MY TICKET`} {eventIndex.length}
           </li>
           <li
             className="border-b-4 border-none w-1/2  text-center font-semibold py-3"
