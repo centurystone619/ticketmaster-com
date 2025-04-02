@@ -201,6 +201,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
 
                 {time? 
                (<div
+               id="ticket-date"
                   // id="event-date"
                   className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
                 >
@@ -209,6 +210,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                   {date}, {time} <em className="mx-1">•</em> {venue}
                 </div>) : 
                 (<div
+                id="ticket-date"
                   // id="event-date"
                   className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
                 >
@@ -331,6 +333,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                
                {time? 
                (<div
+               id="ticket-date"
                   // id="event-date"
                   className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
                 >
@@ -339,6 +342,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                   {date}, {time} <em className="mx-1">•</em> {venue}
                 </div>) : 
                 (<div
+                id="ticket-date"
                   // id="event-date"
                   className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
                 >
