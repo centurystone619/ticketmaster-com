@@ -31,7 +31,8 @@ export const eventData=[
             gate: "",
             btnColor: "Black",
             sell: "y",
-            trnsfer: "y"
+            trnsfer: "y",
+              addOns:"y"
           }
         },
         {
