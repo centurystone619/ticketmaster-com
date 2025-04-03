@@ -15,7 +15,7 @@ export const eventData=[
           eventData: {
             month: "Mar",
             day: "30",
-            year: "",
+            year: "2025",
             time: "Sun - 5:05",
             region: "",
             orderNo: ""
@@ -50,7 +50,7 @@ export const eventData=[
           eventData: {
             month: "Mar",
             day: "30",
-            year: "",
+            year: "2025",
             time: "Sun - 5:05",
             region: "",
             orderNo: ""
