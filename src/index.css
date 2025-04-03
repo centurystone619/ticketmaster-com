@@ -219,14 +219,40 @@
 
 #walletInfo {
   font-size: 18px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
+#walletInfoSec {
+  font-size: 18px;
+  font-weight: 500;
+  word-break: normal;
+}
 
+#blankInfo {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+#blankTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: #006ce6;
+}
+
+#blankSec {
+  font-size: 11px;
+  font-weight: 700;
+  color: #006ce6;
+}
 
 #walletTitle {
   font-size: 11px;
-  font-weight: 500;
+  /* font-weight: 500; */
+}
+
+#blankTime {
+  font-size: 11px;
+  font-weight: 800;
 }
 
 #select-modal {
