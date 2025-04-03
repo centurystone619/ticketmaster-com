@@ -32,7 +32,8 @@ export const eventData=[
             btnColor: "",
             sell: "y",
             trnsfer: "y",
-              addOns:"y"
+              addOns:"y",
+              walletBlank:"y",
           }
         },
         {
@@ -66,7 +67,8 @@ export const eventData=[
             btnColor: "",
             sell: "y",
             trnsfer: "y",
-              addOns:"y"
+              addOns:"y",
+               walletBlank:"y",
           }
         },
     ],
