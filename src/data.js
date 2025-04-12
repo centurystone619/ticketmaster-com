@@ -26,10 +26,10 @@ export const eventData=[
           ticketId:['1','2','3','4'],
         desc: "GA FLR STANDING",
         GA: "General Admission",
-        color: "BLACK",
+        color: "",
         "venueMap": "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/44.987053,-93.248142/11?ms=646,144&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro&pp=44.975174,-93.263504;dfp;The+Armory&pp=44.977467,-93.23278;edp;Armory&pp=44.998932,-93.244652;dfp;Northeast+Minneapolis+...",
         "gate": "",
-        "btnColor": "BLACK",
+        "btnColor": "",
         sell: "y",
         trnsfer: "y"
       }
@@ -59,10 +59,10 @@ export const eventData=[
         seats: [],
         desc: "GA FLR STANDING",
         GA: "General Admission",
-        color: "BLACK",
+        color: "",
         venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/44.987053,-93.248142/11?ms=646,144&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro&pp=44.975174,-93.263504;dfp;The+Armory&pp=44.977467,-93.23278;edp;Armory&pp=44.998932,-93.244652;dfp;Northeast+Minneapolis+...",
         gate: "",
-        btnColor: "BLACK",
+        btnColor: "",
         sell: "",
         trnsfer: ""
       }
