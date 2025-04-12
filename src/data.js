@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "2025 NCAA Men's Basketball Championship - Final Four - Final",
-        img: "https://media.ticketmaster.com/en-us/dam/a/b80/6c99ea06-da08-4213-97d1-49f351fd9b80_1512001_CUSTOM.jpg",
+        img: "https://s1.ticketm.net/dam/a/f7c/00abe3c8-7939-4399-8f3c-a65c89fb9f7c_EVENT_DETAIL_PAGE_16_9.jpg",
         sec: "143",
         row: "GG",
         seat: "7",
