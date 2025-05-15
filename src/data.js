@@ -83,7 +83,7 @@ export const eventData=[
         date: "Fri, Jun 6",
         time: "6:30pm",
         state: "Illinois",
-        venue: "The Salt Shed Outdoors (Fairgrounds)",
+        venue: "The Salt Shed Outdoors ",
         type: "Artist Presale",
         eventData: {
           month: "June",
