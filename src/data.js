@@ -23,7 +23,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['',''],
+          seats: ['-','-'],
           desc: "PREMIUM GA",
           GA: "General Admission",
           color: "",
