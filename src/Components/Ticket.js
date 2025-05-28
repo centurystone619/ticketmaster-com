@@ -40,8 +40,9 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
           </ul>
 
           {eventIndex[0].transfers?.addOns && <ul
-          className="flex   bg-azure-deepblue   "
-          style={{ fontSize: "14px" }}
+          className="flex      "
+          // style={{ fontSize: "14px" }}
+          style={{ fontSize: "14px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
         >
           <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-3 ">
             {/* UPCOMING ({events.length}) */}
@@ -49,7 +50,8 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
           </li>
           <li
             className="border-b-4 border-none w-1/2  text-center font-semibold py-3"
-            style={{ color: "#B7C7ED" }}
+            // style={{ color: "#B7C7ED" }}
+            style={{color: "#B7C7ED", fontSize: "14px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
           >
             ADD-ONS
           </li>

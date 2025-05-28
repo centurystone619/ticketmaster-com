@@ -79,8 +79,9 @@
 
 #single-ticket {
   flex: 1 1 30%; /* Adjust this value to set the width of each ticket */
-  margin: 10px; /* Add some margin for spacing between tickets */
-  min-width: 300px;
+  margin: 5px; /* Add some margin for spacing between tickets */
+  /* min-width: 340px; */
+  min-width: 350px;
   margin-top: 5px;
   
 }

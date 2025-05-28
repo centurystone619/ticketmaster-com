@@ -45,32 +45,81 @@ const [showWalletBtn ,setShowWalletBtn] = useState(false)
 };
 
 
-
 const handleTicketbtn = (index) => {
   // Directly set the new index
   setSeatIndex(index);
   
-  // Then update the translation based on the new index
+  // Then update the translation based on the new index (big screen)
   if (index === 0) {
-    setTransX("27px");
+    setTransX("22px");
   } else if (index === 1) {
-    setTransX("-293px");
+    setTransX("-332px");
   }
   else if (index === 2) {
-    setTransX("-607px")
+    setTransX("-692px")
   }
   else if(index === 3){
-    setTransX("-932px")
+    setTransX("-1054px")
   } else if(index === 4){
-    setTransX("-1248px")
+    setTransX("-1413px")
   }
     
 };
 
+// const handleTicketbtn = (index) => {
+//   // Directly set the new index
+//   setSeatIndex(index);
+  
+//   // Then update the translation based on the new index (small screen)
+//   if (index === 0) {
+//     setTransX("13px");
+//   } else if (index === 1) {
+//     setTransX("-337px");
+//   }
+//   else if (index === 2) {
+//     setTransX("-687px")
+//   }
+//   else if(index === 3){
+//     setTransX("-1037px")
+//   } else if(index === 4){
+//     setTransX("-1384px")
+//   }
+    
+// };
+
+// const handleTicketbtn = (index) => {
+//   // Directly set the new index
+//   setSeatIndex(index);
+  
+//   // Then update the translation based on the new index
+//   if (index === 0) {
+//     setTransX("27px");
+//   } else if (index === 1) {
+//     setTransX("-293px");
+//   }
+//   else if (index === 2) {
+//     setTransX("-607px")
+//   }
+//   else if(index === 3){
+//     setTransX("-932px")
+//   } else if(index === 4){
+//     setTransX("-1248px")
+//   }
+    
+// };
+
+// useEffect(() => {
+//   if (selectSeatIndex !== null) {
+//     // Adjust the translation for the selected index
+//     setTransX("27px");
+//     setSeatIndex(0)
+//   } 
+// }, []);
+
 useEffect(() => {
   if (selectSeatIndex !== null) {
-    // Adjust the translation for the selected index
-    setTransX("27px");
+    // Adjust the translation for the selected index (big screen)
+    setTransX("22px");
     setSeatIndex(0)
   } 
 }, []);
