@@ -6,7 +6,7 @@ export const eventData=[
         img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
         sec: "PREM",
         row: "",
-        seat: "1",
+        seat: "",
         date: "Thu, Jun 5",
         time: "6:30pm",
         state: "Illinois",
@@ -96,7 +96,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['','','',''],
+          seats: ['1','2','3','4'],
           desc: "PREMIUM GA",
           GA: "General Admission",
           color: "",
