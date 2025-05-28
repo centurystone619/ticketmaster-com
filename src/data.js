@@ -6,7 +6,7 @@ export const eventData=[
         img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
         sec: "PREM",
         row: "",
-        seat: "",
+        seat: "1",
         date: "Thu, Jun 5",
         time: "6:30pm",
         state: "Illinois",
