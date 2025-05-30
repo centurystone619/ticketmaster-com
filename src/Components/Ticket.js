@@ -10,10 +10,11 @@ import Wallet from './Wallet'
 import Form from './Form'
 import VerificationEmail from './VerificationEmail'
 import Sports from './Sports'
+import TicketDetails from './TicketDetails'
 
 
 
-const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelected,transX,selectSeatIndex, handleTicketbtn,flagIndex,seatIndex,isBarcodeOpen,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen,setIsFormOpen,isFormOpen,openForm,handleCloseIndex}) => {
+const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelected,transX,selectSeatIndex, handleTicketbtn,flagIndex,seatIndex,isBarcodeOpen,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen,setIsFormOpen,isFormOpen,openForm,handleCloseIndex,setIsTicketDetailsOpen,isTicketDetailsOpen}) => {
 
   const [isEmailVerificationOpen,setIsEmailVerificationOpen]=useState(null)
  
@@ -220,7 +221,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
                             }}
                           >
                             {" "}
-                            <button id="GA-btn" >Ticket Details</button>
+                            <button onClick={()=>setIsTicketDetailsOpen(true)} id="GA-btn" >Ticket Details</button>
                           </li>
                         </ul>
                       ) : (
@@ -262,7 +263,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
                                 }}
                               >
                                 {" "}
-                                <button id="GA-btn" >Ticket Details</button>
+                                <button onClick={()=>setIsTicketDetailsOpen(true)} id="GA-btn" >Ticket Details</button>
                               </li>
                             </ul>
                       )}
@@ -328,6 +329,7 @@ const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelec
         <Wallet isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} eventIndex={eventIndex} seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} />}
   {isFormOpen && <Form  setIsFormOpen={setIsFormOpen} selectedIndex={selectedIndex} eventIndex={eventIndex} /> }
   {isEmailVerificationOpen && <VerificationEmail events={events} selectedIndex={selectedIndex} setIsEmailVerificationOpen={setIsEmailVerificationOpen} />}
+  {isTicketDetailsOpen && <TicketDetails eventIndex={eventIndex} events={events} selectSeatIndex={selectedIndex} setIsTicketDetailsOpen={setIsTicketDetailsOpen}/>}
       </main>
     )}
     </>

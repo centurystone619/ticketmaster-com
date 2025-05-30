@@ -80,8 +80,8 @@
 #single-ticket {
   flex: 1 1 30%; /* Adjust this value to set the width of each ticket */
   margin: 5px; /* Add some margin for spacing between tickets */
-  /* min-width: 340px; */
-  min-width: 350px;
+  min-width: 340px;
+  /* min-width: 350px; */
   margin-top: 5px;
   
 }
@@ -376,6 +376,9 @@ input,textarea{
   font-weight: 500;
 }
 
+#details-border{
+border-bottom: 1px solid #051441;
+}
 
 @keyframes slideUp {
   from {

@@ -17,6 +17,7 @@ const[isBarcodeOpen,setIsBarcodeOpen]=useState(null)
 const [isWalletOpen,setIsWalletOpen] =useState(null)
 const [isFormOpen,setIsFormOpen] = useState(null)
 const [showWalletBtn ,setShowWalletBtn] = useState(false)
+const [isTicketDetailsOpen,setIsTicketDetailsOpen]=useState(null)
 
 
 
@@ -111,7 +112,7 @@ const handleTicketbtn = (index) => {
 // useEffect(() => {
 //   if (selectSeatIndex !== null) {
 //     // Adjust the translation for the selected index
-//     setTransX("27px");
+//     setTransX("13px");
 //     setSeatIndex(0)
 //   } 
 // }, []);
@@ -163,7 +164,7 @@ const handleCloseIndex =()=>{
 <div id="fullbody" className="lg:w-2/3 m-auto flex flex-col bg-white/80 overflow-hidden">
 
 {isIndexSelected? <div className="ticket-slide-up"><Ticket  showWalletBtn={showWalletBtn} handleCloseIndex={handleCloseIndex} setSeatIndex={setSeatIndex} events={events} selectedIndex={selectedIndex} setIsIndexSelected={setIsIndexSelected} selectSeatIndex={selectSeatIndex} eventIndex={eventIndex}  transX={transX} 
-seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} flagIndex={flagIndex} isBarcodeOpen={isBarcodeOpen} setIsBarcodeOpen={setIsBarcodeOpen}  isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen} openForm={openForm} /></div>  : <div><MyEvents events={events} flagIndex={flagIndex}  handleEventClick={handleEventClick}  setIsIndexSelected={setIsIndexSelected}
+seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} flagIndex={flagIndex} isBarcodeOpen={isBarcodeOpen} setIsBarcodeOpen={setIsBarcodeOpen}  isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen} openForm={openForm} setIsTicketDetailsOpen={setIsTicketDetailsOpen} isTicketDetailsOpen={isTicketDetailsOpen} /></div>  : <div><MyEvents events={events} flagIndex={flagIndex}  handleEventClick={handleEventClick}  setIsIndexSelected={setIsIndexSelected}
 setSelectedIndex={setSelectedIndex}  eventIndex={eventIndex} firstEvents={firstEvents} transX={transX} selectSeatIndex={selectSeatIndex} /></div> }
 
 

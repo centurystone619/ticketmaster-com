@@ -12,13 +12,19 @@ export const eventData=[
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
+          promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
         eventData: {
           month: "Jun",
           day: "5",
           year: "2025",
           time: "Thu - 6:30",
           region: "",
-          orderNo: ""
+          orderNo: "",
+            barcodeNo:'',
+          
         },
         transfers: {
           sec: "",
@@ -34,6 +40,7 @@ export const eventData=[
           trnsfer: "y",
             addOns:"y",
             walletBlank:"y",
+            ticketPrice:''
         }
       },
       {
@@ -47,13 +54,18 @@ export const eventData=[
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
+          promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
         eventData: {
           month: "Jun",
           day: "5",
           year: "2025",
           time: "Thu - 6:30",
           region: "",
-          orderNo: ""
+          orderNo: "",
+            barcodeNo:''
         },
         transfers: {
           sec: "",
@@ -69,6 +81,8 @@ export const eventData=[
           trnsfer: "y",
             addOns:"y",
              walletBlank:"y",
+                         ticketPrice:''
+
         }
       },
   ],
@@ -85,13 +99,19 @@ export const eventData=[
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
+          promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
         eventData: {
           month: "June",
           day: "6",
           year: "",
           time: "Fri - 6:30",
           region: "",
-          orderNo: ""
+          orderNo: "",
+            barcodeNo:'',
+
         },
         transfers: {
           sec: "",
@@ -105,7 +125,9 @@ export const eventData=[
           btnColor: "",
           sell: "y",
           trnsfer: "y",
-            addOns:"y"
+            addOns:"y",
+                        ticketPrice:''
+
         }
       }, 
       {
@@ -119,13 +141,18 @@ export const eventData=[
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
+          promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
         eventData: {
           month: "Jun",
           day: "6",
           year: "",
           time: "Fri - 6:30",
           region: "",
-          orderNo: ""
+          orderNo: "",
+            barcodeNo:''
         },
         transfers: {
           sec: "",
@@ -139,7 +166,9 @@ export const eventData=[
           btnColor: "",
           sell: "y",
           trnsfer: "y",
-            addOns:"y"
+            addOns:"y",
+                        ticketPrice:''
+
         }
       },
       {
@@ -153,13 +182,18 @@ export const eventData=[
           state: "North Carolina",
           venue: "Live Oak Bank Pavilion",
           type: "Free transfer",
+            promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
           eventData: {
             month: "May",
             day: "14",
             year: "",
             time: "Wed - 8",
             region: "",
-            orderNo: ""
+            orderNo: "",
+              barcodeNo:''
           },
           transfers: {
             sec: "",
@@ -173,7 +207,9 @@ export const eventData=[
             btnColor: "Black",
             sell: "y",
             trnsfer: "y",
-              addOns:"y"
+              addOns:"y",
+                          ticketPrice:''
+
           }
         },
         {
@@ -187,13 +223,19 @@ export const eventData=[
           state: "North Carolina",
           venue: "Live Oak Bank Pavilion",
           type: "Free transfer",
+            promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
           eventData: {
             month: "May",
             day: "14",
             year: "",
             time: "Wed - 8",
             region: "",
-            orderNo: ""
+            orderNo: "",
+              barcodeNo:'',
+              
           },
           transfers: {
             sec: "",
@@ -207,7 +249,9 @@ export const eventData=[
             btnColor: "Black",
             sell: "y",
             trnsfer: "y",
-              addOns:"y"
+              addOns:"y",
+                          ticketPrice:''
+
           }
         },
     ],
@@ -223,13 +267,19 @@ export const eventData=[
       state: "North Carolina",
       venue: "Live Oak Bank Pavilion",
       type: "Verified Resale",
+        promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
       eventData: {
         month: "Jun",
         day: "13",
         year: "",
         time: "Fri - 7",
         region: "",
-        orderNo: ""
+        orderNo: "",
+          barcodeNo:'',
+         
       },
       transfers: {
         sec: "",
@@ -243,7 +293,9 @@ export const eventData=[
         btnColor: "Black",
         sell: "y",
         trnsfer: "y",
-          addOns:"y"
+          addOns:"y",
+                      ticketPrice:''
+
       }
     },
     {
@@ -257,13 +309,18 @@ export const eventData=[
       state: "North Carolina",
       venue: "Live Oak Bank Pavilion",
       type: "Verified Resale",
+        promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
       eventData: {
         month: "Jun",
         day: "13",
         year: "",
         time: "Fri - 7",
         region: "",
-        orderNo: ""
+        orderNo: "",
+          barcodeNo:''
       },
       transfers: {
         sec: "",
@@ -277,7 +334,9 @@ export const eventData=[
         btnColor: "Black",
         sell: "y",
         trnsfer: "y",
-          addOns:"y"
+          addOns:"y",
+                      ticketPrice:''
+
       }
     },
     {
@@ -291,13 +350,18 @@ export const eventData=[
       state: "North Carolina",
       venue: "Live Oak Bank Pavilion",
       type: "Verified Resale",
+        promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
       eventData: {
         month: "Jun",
         day: "13",
         year: "",
         time: "Fri - 7",
         region: "",
-        orderNo: ""
+        orderNo: "",
+          barcodeNo:''
       },
       transfers: {
         sec: "",
@@ -311,7 +375,9 @@ export const eventData=[
         btnColor: "Black",
         sell: "y",
         trnsfer: "y",
-          addOns:"y"
+          addOns:"y",
+                      ticketPrice:''
+
       }
     },
     {
@@ -325,13 +391,18 @@ export const eventData=[
       state: "North Carolina",
       venue: "Live Oak Bank Pavilion",
       type: "Verified Resale",
+        promoter:'AEG PRESENTS',
+     artisteName:'',
+     showName:"",
+street:'',
       eventData: {
         month: "Jun",
         day: "13",
         year: "",
         time: "Fri - 7",
         region: "",
-        orderNo: ""
+        orderNo: "",
+          barcodeNo:''
       },
       transfers: {
         sec: "",
@@ -345,7 +416,9 @@ export const eventData=[
         btnColor: "Black",
         sell: "y",
         trnsfer: "y",
-          addOns:"y"
+          addOns:"y",
+                      ticketPrice:''
+
       }
     },
    
@@ -354,3 +427,7 @@ export const eventData=[
  
 
 ]
+
+    
+
+
