@@ -96,7 +96,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['','','',''],
+          seats: ['1','2','3','4'],
           desc: "PREMIUM GA",
           GA: "General Admission",
           color: "",
