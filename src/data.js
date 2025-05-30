@@ -1,356 +1,78 @@
 export const eventData=[
-  [
 
-        {
-        artiste: "Caamp",
-        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "PREM",
-        row: "",
-        seat: "",
-        date: "Thu, Jun 5",
-        time: "6:30pm",
-        state: "Illinois",
-        venue: "The Salt Shed Outdoors (Fairgrounds)",
-        type: "Artist Presale",
-        eventData: {
-          month: "Jun",
-          day: "5",
-          year: "2025",
-          time: "Thu - 6:30",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['1','2'],
-          desc: "PREMIUM GA",
-          GA: "General Admission",
-          color: "",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
-          gate: "",
-          btnColor: "",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y",
-            walletBlank:"y",
-        }
-      },
-      {
-        artiste: "Caamp",
-        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "PREM",
-        row: "",
-        seat: "",
-        date: "Thu, Jun 5",
-        time: "6:30pm",
-        state: "Illinois",
-        venue: "The Salt Shed Outdoors (Fairgrounds)",
-        type: "Artist Presale",
-        eventData: {
-          month: "Jun",
-          day: "5",
-          year: "2025",
-          time: "Thu - 6:30",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['',''],
-          desc: "Artist Presal",
-          GA: "",
-          color: "",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
-          btnColor: "",
-          btnColor: "",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y",
-             walletBlank:"y",
-        }
-      },
-  ],
-  [
-     
-       {
-           artiste: "Caamp",
-        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "PREM",
-        row: "",
-        seat: "",
-        date: "Fri, Jun 6",
-        time: "6:30pm",
-        state: "Illinois",
-        venue: "The Salt Shed Outdoors (Fairgrounds) ",
-        type: "Artist Presale",
-        eventData: {
-          month: "June",
-          day: "6",
-          year: "",
-          time: "Fri - 6:30",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['1','2','3','4'],
-          desc: "PREMIUM GA",
-          GA: "General Admission",
-          color: "",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
-          gate: "",
-          btnColor: "",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y"
-        }
-      }, 
-      {
-        artiste: "Caamp",
-        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "PREM",
-        row: "",
-        seat: "",
-        date: "Fri, Jun 6",
-        time: "6:30pm",
-        state: "Illinois",
-        venue: "The Salt Shed Outdoors (Fairgrounds)",
-        type: "Artist Presale",
-        eventData: {
-          month: "Jun",
-          day: "6",
-          year: "",
-          time: "Fri - 6:30",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['','','',''],
-          desc: "PREMIUM GA",
-          GA: "General Admission",
-          color: "",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
-          gate: "",
-          btnColor: "",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y"
-        }
-      },
-      {
-          artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-          img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-          sec: "103",
-          row: "10",
-          seat: "17",
-          date: "Wed, May 14",
-          time: "8pm",
-          state: "North Carolina",
-          venue: "Live Oak Bank Pavilion",
-          type: "Free transfer",
-          eventData: {
-            month: "May",
-            day: "14",
-            year: "",
-            time: "Wed - 8",
-            region: "",
-            orderNo: ""
-          },
-          transfers: {
-            sec: "",
-            row: "",
-            seats: ['15','16','17','18'],
-            desc: "RAINSHINE*NOROOF",
-            GA: "",
-            color: "",
-            venueMap: "Live Oak Bank Pavilion",
-            gate: "",
-            btnColor: "",
-            sell: "y",
-            trnsfer: "y",
-              addOns:"y"
-          }
-        },
-        {
-          artiste: "Teddy Swims - I've Tried Everything But Therapy Tour",
-          img: "https://media.ticketmaster.com/en-us/dam/a/87e/6779f1f2-1911-41b8-aea5-6e8de4c6987e_CUSTOM.jpg",
-          sec: "103",
-          row: "10",
-          seat: "18",
-          date: "Wed, May 14",
-          time: "8pm",
-          state: "North Carolina",
-          venue: "Live Oak Bank Pavilion",
-          type: "Free transfer",
-          eventData: {
-            month: "May",
-            day: "14",
-            year: "",
-            time: "Wed - 8",
-            region: "",
-            orderNo: ""
-          },
-          transfers: {
-            sec: "",
-            row: "",
-            seats: ['15','16','17','18'],
-            desc: "RAINSHINE*NOROOF",
-            GA: "",
-            color: "Black",
-            venueMap: "Live Oak Bank Pavilion",
-            gate: "",
-            btnColor: "Black",
-            sell: "y",
-            trnsfer: "y",
-              addOns:"y"
-          }
-        },
-    ],
-  [
-    {
-      artiste: "FATHER JOHN MISTY",
-      img: "https://media.ticketmaster.com/en-us/dam/a/b83/47424346-3365-4801-b688-89cd09858b83_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "15",
-      date: "Thu, Jul 17",
-      time: "6pm",
-      state: "Chicago, IL",
-      venue: "The Salt Shed Outdoors (Fairgrounds)",
-      type: "Verified Resale",
+[
+   {
+      yourName:"Johnson Anita",
+         artiste: "Gracie Abrams: The Secret Of Us Tour",
+      img:'https://media.ticketmaster.co.uk/tm/en-gb/dam/a/6b8/a2a3b887-1a52-46e5-908a-de2787f056b8_EVENT_DETAIL_PAGE_16_9.jpg',
+      
+      sec: "FLR",
+      row: "",
+      seat: "",
+      date: "Wed, Jun 25",
+      time: "18:30",
+      state: "Nottingham",
+      venue: "Motorpoint Arena Nottingham", 
+      type: "Artist Presale",
       eventData: {
         month: "Jun",
-        day: "13",
+        day: "25",
+        time: "Wed - 18:30",
         year: "",
-        time: "Fri - 7",
-        region: "",
-        orderNo: ""
+        region: "UK",
+        orderNo: "42-7642/US",
       },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "Black",
-        venueMap: "https://tixel.com/maps/34.248402,-77.950996",
-        gate: "",
-        btnColor: "Black",
-        sell: "y",
-        trnsfer: "y",
-          addOns:"y"
-      }
+  transfers:{
+  seats:['',''],
+   ticketId:['1','2'],
+  desc: "GA FLR STANDING",
+  showBar: "",
+  venueMap: "https://tixel.com/maps/52.952499,-1.1407",
+    GA: "General Admission",
+  sell: "y",
+          trnsfer: "y",
+          ticketPrice:"$117.99",
+        
+         
+  
+  }
     },
     {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "16",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
+      yourName:"Johnson Anita",
+      artiste: "Gracie Abrams: The Secret Of Us Tour",
+      img:'https://media.ticketmaster.co.uk/tm/en-gb/dam/a/6b8/a2a3b887-1a52-46e5-908a-de2787f056b8_EVENT_DETAIL_PAGE_16_9.jpg',
+      sec: "FLR",
+      row: "",
+      seat: "",
+      date: "Wed, Jun 25",
+      time: "18:30",
+      state: "Nottingham",
+      venue: "Motorpoint Arena Nottingham", 
+      type: "Artist Presale",
       eventData: {
         month: "Jun",
-        day: "13",
+        day: "25",
+        time: "Wed - 18:30",
         year: "",
-        time: "Fri - 7",
-        region: "",
-        orderNo: ""
+        region: "UK",
+        orderNo: "42-7642/US",
       },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "Black",
-        venueMap: "https://tixel.com/maps/34.248402,-77.950996",
-        gate: "",
-        btnColor: "Black",
-        sell: "y",
-        trnsfer: "y",
-          addOns:"y"
-      }
+  transfers:{
+  seats:['',''],
+   ticketId:['1','2'],
+  desc: "GA FLR STANDING",
+  showBar: "",
+  venueMap: "https://tixel.com/maps/52.952499,-1.1407",
+    GA: "General Admission",
+  sell: "y",
+          trnsfer: "y",
+          ticketPrice:"$117.99",
+        
+         
+  
+  }
     },
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "17",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
-      eventData: {
-        month: "Jun",
-        day: "13",
-        year: "",
-        time: "Fri - 7",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "Black",
-        venueMap: "",
-        gate: "",
-        btnColor: "Black",
-        sell: "y",
-        trnsfer: "y",
-          addOns:"y"
-      }
-    },
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "18",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
-      eventData: {
-        month: "Jun",
-        day: "13",
-        year: "",
-        time: "Fri - 7",
-        region: "",
-        orderNo: ""
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "Black",
-        venueMap: "",
-        gate: "",
-        btnColor: "Black",
-        sell: "y",
-        trnsfer: "y",
-          addOns:"y"
-      }
-    },
-   
-  ],
-
+],
  
 
 ]
