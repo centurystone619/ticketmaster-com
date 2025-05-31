@@ -11,8 +11,13 @@ let number = parseFloat(transfers.ticketPrice.replace(/[^\d.]/g, ''))
 let displayDate = date.replace(',', '').toUpperCase()
 const calculateFee = number * 28/100 
 const fee = calculateFee.toFixed(2)
-const calculateTotal = calculateFee + number  // Use calculateFee (number) not fee (string)
+
+const calculateTax=number * 9/100
+const tax = calculateTax.toFixed(2)
+ // Use calculateFee (number) not fee (string)
+const calculateTotal = calculateFee + number + calculateTax
 const grandTotal = calculateTotal.toFixed(2)
+
 
   return (
     < div className="ticket-slide-up absolute  top-0 w-full lg:w-[710px] h-full bg-[#fafafa]  ">
@@ -132,7 +137,7 @@ const grandTotal = calculateTotal.toFixed(2)
     
    <li className='flex justify-between items-center px-5  text-azure-black text-[14px] font-[400] text-center'>
     
-    <p>Ticket Face Value</p>
+    <p>Face Price</p>
     <span>{transfers.ticketPrice}</span>
     
     </li> 
@@ -140,14 +145,21 @@ const grandTotal = calculateTotal.toFixed(2)
      <li className='flex justify-between items-center  text-azure-black text-[14px] font-[400] px-5'>
     
     <p>Fee</p>
-    <span>{fee}</span>
+    <span>{transfers.ticketPrice[0]}{fee}</span>
+    
+    </li> 
+
+      <li className='flex justify-between items-center  text-azure-black text-[14px] font-[400] px-5'>
+    
+    <p>Tax</p>
+    <span>{transfers.ticketPrice[0]}{tax}</span>
     
     </li> 
 
       <li className='flex justify-between items-center  text-azure-black text-[16px] font-[400] px-5'>
     
     <p>GRAND TOTAL</p>
-    <span>{grandTotal}</span>
+    <span>{transfers.ticketPrice[0]}{grandTotal}</span>
     
     </li> 
 
