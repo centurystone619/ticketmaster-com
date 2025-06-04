@@ -29,7 +29,7 @@ street:'',
         transfers: {
           sec: "",
           row: "",
-          seats: ['',''],
+          seats: ['1','2'],
           desc: "Gen Admission",
           GA: "General Admission",
           color: "",
