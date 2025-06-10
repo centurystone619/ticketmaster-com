@@ -395,6 +395,9 @@ border-bottom: 1px solid #051441;
   animation: slideUp 0.5s ease-out forwards;
 }
 
+ #big-screen{
+    display: none;
+  }
 
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
@@ -414,6 +417,14 @@ border-bottom: 1px solid #051441;
   }
   #wrapperheight{
     height: 595px;
+  }
+
+  #big-screen{
+    display: flex;
+  }
+
+  #small-screen{
+    display: none;
   }
 
 }

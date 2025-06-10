@@ -14,8 +14,7 @@ const IndexBtn = ({
 
   return (
     <div>
-      {/* Single ul element - responsive translations handled by parent component */}
-      <ul className="flex space-x-2 justify-center items-center cursor-pointer">
+      <ul id='' className="flex space-x-2 justify-center items-center  ">
         {indexData.map((_, index) => (
           <li
             key={index}

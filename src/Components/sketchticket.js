@@ -14,7 +14,7 @@ import TicketDetails from './TicketDetails'
 
 
 
-const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,setIsIndexSelected,transX,selectSeatIndex, handleTicketbtn,flagIndex,seatIndex,isBarcodeOpen,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen,setIsFormOpen,isFormOpen,openForm,handleCloseIndex,setIsTicketDetailsOpen,isTicketDetailsOpen}) => {
+const Ticket = ({showWalletBtn, eventIndex, events,selectedIndex,setIsIndexSelected,transX,selectSeatIndex, handleTicketbtn,flagIndex,seatIndex,isBarcodeOpen,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen,setIsFormOpen,isFormOpen,openForm,handleCloseIndex,setIsTicketDetailsOpen,isTicketDetailsOpen}) => {
 
   const [isEmailVerificationOpen,setIsEmailVerificationOpen]=useState(null)
  
@@ -60,11 +60,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
 
         </nav>
   
-        {/* <section id='wrapperheight' className={`flex  h-[585px] lg:w-1/2  lg:mx-auto  `}> */}
- <section
-            id="wrapperheight"
-            className={`flex h-[585px] lg:w-1/2 lg:mx-auto `}
-          >        
+        <section id='wrapperheight' className='flex  h-[585px] lg:w-1/2  lg:mx-auto  '>
           <div id='ticket-wrapper' className='relative   ' >
   <div className='absolute min-w-100   overflow-x-auto   transform transition-transform duration-300 ease-in-out '   style={{
       transform: `translateX(${transX})`,
@@ -75,7 +71,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
      <ul className='w-full flex   space-x-10 overflow-x-hidden  w-[100vw]'  >
   
      {events[selectedIndex].map((subArray)=>(
-      <li id='single-ticket' className=" rounded-[10px]  "  >
+      <li id='single-ticket' className=" rounded-[10px]  " >
        
   <div >
     {subArray.transfers?.color? (<header className=" text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]" style={{ backgroundColor: subArray?.transfers?.color }}>{subArray.type}</header>):(<header className="bg-azure-deepblue text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]">{subArray.type}</header>)}
