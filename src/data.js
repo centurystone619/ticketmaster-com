@@ -2,7 +2,7 @@ export const eventData=[
   [
 
         {
-        artiste: "Caamp presented by Heineken Silver",
+        artiste: "The Weeknd: After Hours Til Dawn Tour With Playboi Carti And Mike Dean",
         img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
         sec: "GENADM",
         row: "",
