@@ -2,9 +2,9 @@ export const eventData=[
   [
 
         {
-        artiste: "The Weeknd: After Hours Til Dawn Tour With Playboi Carti And Mike Dean",
+        artiste: "Caamp",
         img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "GENADM",
+        sec: "PREM",
         row: "",
         seat: "",
         date: "Thu, Jun 5",
@@ -12,25 +12,19 @@ export const eventData=[
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
-          promoter:'Heineken Silver',
-     artisteName:'',
-     showName:"",
-street:'',
         eventData: {
           month: "Jun",
           day: "5",
           year: "2025",
           time: "Thu - 6:30",
           region: "",
-          orderNo: "46-27929/BA",
-            barcodeNo:'48380THDAL',
-          
+          orderNo: ""
         },
         transfers: {
           sec: "",
           row: "",
-          seats: ['1','2'],
-          desc: "Gen Admission",
+          seats: ['',''],
+          desc: "PREMIUM GA",
           GA: "General Admission",
           color: "",
           venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
@@ -40,13 +34,12 @@ street:'',
           trnsfer: "y",
             addOns:"y",
             walletBlank:"y",
-            ticketPrice:''
         }
       },
       {
-        artiste: "Caamp presented by Heineken Silver",
+        artiste: "Caamp",
         img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "GENADM",
+        sec: "PREM",
         row: "",
         seat: "",
         date: "Thu, Jun 5",
@@ -54,24 +47,19 @@ street:'',
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
-          promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
         eventData: {
           month: "Jun",
           day: "5",
           year: "2025",
           time: "Thu - 6:30",
           region: "",
-          orderNo: "",
-            barcodeNo:''
+          orderNo: ""
         },
         transfers: {
           sec: "",
           row: "",
           seats: ['',''],
-          desc: "Gen Admission",
+          desc: "Artist Presal",
           GA: "",
           color: "",
           venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
@@ -81,57 +69,13 @@ street:'',
           trnsfer: "y",
             addOns:"y",
              walletBlank:"y",
-                         ticketPrice:''
-
         }
       },
   ],
   [
      
        {
-           artiste: "Caamp presented by Heineken Silver",
-        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
-        sec: "GENADM",
-        row: "",
-        seat: "",
-        date: "Fri, Jun 6",
-        time: "6:30pm",
-        state: "Illinois",
-        venue: "The Salt Shed Outdoors (Fairgrounds)",
-        type: "Artist Presale",
-          promoter:'Heineken Silver',
-     artisteName:'',
-     showName:"",
-street:'',
-        eventData: {
-          month: "June",
-          day: "6",
-          year: "",
-          time: "Fri - 6:30",
-          region: "",
-          orderNo: "4727-029/BHA4",
-            barcodeNo:'492929182-9383',
-
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['1','2','3','4'],
-          desc: "Gen Admission",
-          GA: "General Admission",
-          color: "",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
-          gate: "",
-          btnColor: "",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y",
-                        ticketPrice:''
-
-        }
-      }, 
-      {
-        artiste: "Caamp",
+           artiste: "Caamp",
         img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
         sec: "PREM",
         row: "",
@@ -141,18 +85,13 @@ street:'',
         state: "Illinois",
         venue: "The Salt Shed Outdoors (Fairgrounds)",
         type: "Artist Presale",
-          promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
         eventData: {
-          month: "Jun",
+          month: "June",
           day: "6",
           year: "",
           time: "Fri - 6:30",
           region: "",
-          orderNo: "",
-            barcodeNo:''
+          orderNo: ""
         },
         transfers: {
           sec: "",
@@ -166,9 +105,41 @@ street:'',
           btnColor: "",
           sell: "y",
           trnsfer: "y",
-            addOns:"y",
-                        ticketPrice:''
-
+            addOns:"y"
+        }
+      }, 
+      {
+        artiste: "Caamp",
+        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
+        sec: "PREM",
+        row: "",
+        seat: "",
+        date: "Fri, Jun 6",
+        time: "6:30pm",
+        state: "Illinois",
+        venue: "The Salt Shed Outdoors (Fairgrounds)",
+        type: "Artist Presale",
+        eventData: {
+          month: "Jun",
+          day: "6",
+          year: "",
+          time: "Fri - 6:30",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['','','',''],
+          desc: "PREMIUM GA",
+          GA: "General Admission",
+          color: "",
+          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.906479,-87.659401/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=41.906479,-87.659401;dfp.ss;The+Salt+Shed",
+          gate: "",
+          btnColor: "",
+          sell: "y",
+          trnsfer: "y",
+            addOns:"y"
         }
       },
       {
@@ -182,18 +153,13 @@ street:'',
           state: "North Carolina",
           venue: "Live Oak Bank Pavilion",
           type: "Free transfer",
-            promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
           eventData: {
             month: "May",
             day: "14",
             year: "",
             time: "Wed - 8",
             region: "",
-            orderNo: "",
-              barcodeNo:''
+            orderNo: ""
           },
           transfers: {
             sec: "",
@@ -207,9 +173,7 @@ street:'',
             btnColor: "Black",
             sell: "y",
             trnsfer: "y",
-              addOns:"y",
-                          ticketPrice:''
-
+              addOns:"y"
           }
         },
         {
@@ -223,19 +187,13 @@ street:'',
           state: "North Carolina",
           venue: "Live Oak Bank Pavilion",
           type: "Free transfer",
-            promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
           eventData: {
             month: "May",
             day: "14",
             year: "",
             time: "Wed - 8",
             region: "",
-            orderNo: "",
-              barcodeNo:'',
-              
+            orderNo: ""
           },
           transfers: {
             sec: "",
@@ -249,94 +207,78 @@ street:'',
             btnColor: "Black",
             sell: "y",
             trnsfer: "y",
-              addOns:"y",
-                          ticketPrice:''
-
+              addOns:"y"
           }
         },
     ],
   [
     {
-      artiste: "Riley Green: Damn Country Music Tour",
+      artiste: "Riley Green",
       img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "102",
-      row: "20",
-      seat: "10",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
+      sec: "3",
+      row: "X",
+      seat: "6",
+      date: "Sat, Jun 28",
+      time: "7:30 PM",
+      state: "MILWAUKEE",
+      venue: "BMO Pavilion",
       type: "Verified Resale",
-        promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
       eventData: {
         month: "Jun",
-        day: "13",
+        day: "28",
         year: "",
-        time: "Fri - 7",
+        time: "Sat - 28",
         region: "",
-        orderNo: "",
-          barcodeNo:'',
-         
+        orderNo: ""
       },
       transfers: {
         sec: "",
         row: "",
-        seats: ['10','11','12','13'],
-        desc: "RAINSHINE*NOROOF",
+        seats: ['6','7','8','9'],
+        desc: "RESERVED SEATS",
         GA: "",
         color: "",
-        venueMap: "https://tixel.com/maps/34.248402,-77.950996",
+        venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
         btnColor: "",
         sell: "y",
         trnsfer: "y",
-          addOns:"y",
-                      ticketPrice:''
-
+          addOns:"y"
       }
     },
     {
-      artiste: "Riley Green: Damn Country Music Tour",
+      artiste: "Riley Green",
       img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "102",
-      row: "20",
-      seat: "11",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
+      sec: "3",
+      row: "X",
+      seat: "7",
+      date: "Sat, Jun 28",
+      time: "7:30 PM",
+      state: "MILWAUKEE",
+      venue: "BMO Pavilion",
       type: "Verified Resale",
-        promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
       eventData: {
         month: "Jun",
-        day: "13",
+        day: "28",
         year: "",
-        time: "Fri - 7",
+        time: "Sat - 28",
         region: "",
-        orderNo: "",
-          barcodeNo:''
+        orderNo: ""
       },
       transfers: {
         sec: "",
         row: "",
-        seats: ['10','11','12','13'],
-        desc: "RAINSHINE*NOROOF",
+        seats: ['6','7','8','9'],
+        desc: "RESERVED SEATS",
+        GA: "",
         GA: "",
         color: "",
-        venueMap: "https://tixel.com/maps/34.248402,-77.950996",
+        venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
         btnColor: "",
         sell: "y",
         trnsfer: "y",
-          addOns:"y",
-                      ticketPrice:''
-
+          addOns:"y"
       }
     },
     {
@@ -344,65 +286,19 @@ street:'',
       img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
       sec: "101",
       row: "13",
-      seat: "10",
+      seat: "17",
       date: "Fri, Jun 13",
       time: "7pm",
       state: "North Carolina",
       venue: "Live Oak Bank Pavilion",
       type: "Verified Resale",
-        promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
       eventData: {
         month: "Jun",
         day: "13",
         year: "",
         time: "Fri - 7",
         region: "",
-        orderNo: "",
-          barcodeNo:''
-      },
-      transfers: {
-        sec: "",
-        row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
-        GA: "",
-        color: "",
-        venueMap: "",
-        gate: "",
-        btnColor: "",
-        sell: "y",
-        trnsfer: "y",
-          addOns:"y",
-                      ticketPrice:''
-
-      }
-    },
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "11",
-      date: "Fri, Jun 13",
-      time: "7pm",
-      state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
-        promoter:'AEG PRESENTS',
-     artisteName:'',
-     showName:"",
-street:'',
-      eventData: {
-        month: "Jun",
-        day: "13",
-        year: "",
-        time: "Fri - 7",
-        region: "",
-        orderNo: "",
-          barcodeNo:''
+        orderNo: ""
       },
       transfers: {
         sec: "",
@@ -416,9 +312,41 @@ street:'',
         btnColor: "Black",
         sell: "y",
         trnsfer: "y",
-          addOns:"y",
-                      ticketPrice:''
-
+          addOns:"y"
+      }
+    },
+    {
+      artiste: "Riley Green: Damn Country Music Tour",
+      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
+      sec: "101",
+      row: "13",
+      seat: "18",
+      date: "Fri, Jun 13",
+      time: "7pm",
+      state: "North Carolina",
+      venue: "Live Oak Bank Pavilion",
+      type: "Verified Resale",
+      eventData: {
+        month: "Jun",
+        day: "13",
+        year: "",
+        time: "Fri - 7",
+        region: "",
+        orderNo: ""
+      },
+      transfers: {
+        sec: "",
+        row: "",
+        seats: ['15','16','17','18'],
+        desc: "RAINSHINE*NOROOF",
+        GA: "",
+        color: "Black",
+        venueMap: "",
+        gate: "",
+        btnColor: "Black",
+        sell: "y",
+        trnsfer: "y",
+          addOns:"y"
       }
     },
    
@@ -427,7 +355,3 @@ street:'',
  
 
 ]
-
-    
-
-
