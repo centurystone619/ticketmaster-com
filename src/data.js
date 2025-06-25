@@ -215,7 +215,7 @@ export const eventData=[
     {
       artiste: "Parker McCollum Tour",
       img: "https://media.ticketmaster.com/en-us/dam/a/b8c/5f4f5fab-6c0a-4fbd-bcfe-fdf7995dcb8c_CUSTOM.jpg",
-      sec: "LAWN6",
+      sec: "LAWN8",
       row: "",
       seat: "",
       date: "Fri, Jun 27",
@@ -237,10 +237,10 @@ export const eventData=[
         seats: ['1','2','3','4'],
         desc: "GA LAWN",
         GA: "General Admission",
-        color: "Black",
+        color: "",
         venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
-        btnColor: "Black",
+        btnColor: "",
         sell: "y",
         trnsfer: "y",
           addOns:"y"
@@ -249,7 +249,7 @@ export const eventData=[
     {
       artiste: "Parker McCollum Tour",
       img: "https://media.ticketmaster.com/en-us/dam/a/b8c/5f4f5fab-6c0a-4fbd-bcfe-fdf7995dcb8c_CUSTOM.jpg",
-      sec: "LAWN6",
+      sec: "LAWN8",
       row: "",
       seat: "",
       date: "Fri, Jun 27",
@@ -272,10 +272,10 @@ export const eventData=[
         desc: "GA LAWN",
         GA: "General Admission",
         GA: "",
-        color: "black",
+        color: "",
         venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
-        btnColor: "black",
+        btnColor: "",
         sell: "y",
         trnsfer: "y",
           addOns:"y"
