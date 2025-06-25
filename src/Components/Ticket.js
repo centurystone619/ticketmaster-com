@@ -160,6 +160,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
      
     }}>
                           {subArray.artiste}
+              {subArray.artisteLineBreak && <p>{subArray.artisteLineBreak}</p>}            
                         </div>
                       </div>
   

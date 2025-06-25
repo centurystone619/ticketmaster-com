@@ -294,7 +294,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
        
        
        <div className='h-[77vh]  overflow-auto'>
-        {firstEvents.map(({artiste,time,img,venue,date,transfers},index)=>(
+        {firstEvents.map(({artiste,time,img,venue,date,transfers,artisteLineBreak},index)=>(
           <div
           key={index}
               id="cover-bg"
@@ -318,7 +318,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                   className="flex item-center justify-start text-center text-wrap "
                 >
                   <div id="artiste-ev" className=" w-full">
-                    {artiste}
+                    {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
                   </div>
                 </div>
 

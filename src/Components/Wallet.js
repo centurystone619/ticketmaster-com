@@ -196,6 +196,9 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                       }}
                     >
                       {t.artiste}
+                                 {t.artisteLineBreak && <span className='ml-1'>{t.artisteLineBreak}</span>}       
+
+
                     </p> : 
                      <p
                       id="walletInfo"

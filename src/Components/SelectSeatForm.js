@@ -9,13 +9,15 @@ const SelectSeatForm = ({ setOpenSelection,selectedItems,isSelected, ticketId,tr
 
 const handleSelection=(e)=>{
   e.preventDefault()
-  if(selectedItems.length <= 1){
-    setOpenSelection(false)
-    setOpenWarning(true)
+  // if(selectedItems.length <= 1){
+  //   setOpenSelection(false)
+  //   setOpenWarning(false)
     
-  }else{setOpenSelection(true)
-    setOpenWarning(false)
-  }
+  // }else{setOpenSelection(true)
+  //   setOpenWarning(false)
+  // }
+
+  setOpenSelection(true)
 }
 const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : eventTransfers.seats;
   return (
@@ -172,7 +174,7 @@ onClick={handleSelection}
 
     
 
-{openWarning &&
+{/* {openWarning &&
 
 <div className='w-[100%] h-[100vh] lg:-left-80 absolute top-0 left-0  bg-black  bg-opacity-50 justify-center flex items-center'>
 <div className='mx-3 bg-white '>
@@ -184,7 +186,7 @@ onClick={handleSelection}
   </div>
 </div>
 
-}
+} */}
         </div>
   )
 }

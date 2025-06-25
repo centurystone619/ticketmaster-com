@@ -188,12 +188,15 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
             <button className="px-2" onClick={(e) => setIsBarcodeOpen(false)}>
               <img src={close} alt="Close" />
             </button>
-            <div className="flex items-start justify-center flex-col">
+            <div className={`flex items-start justify-center flex-col  `}>
               <h1>
                 {eventIndex[0].artiste.length > 40
                   ? `${eventIndex[0].artiste.substring(0, 40)} ...`
                   : eventIndex[0].artiste}
+
+           {eventIndex[0].artisteLineBreak && <span className='ml-1'>{eventIndex[0].artisteLineBreak}</span>}       
               </h1>
+              
               <div
                 id="ticket-date"
                 className="flex justify-center items-center text-center text-nowrap -mt-1 "
