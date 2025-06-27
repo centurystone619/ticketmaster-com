@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "Caamp",
-        img: "https://media.ticketmaster.com/en-us/dam/a/998/487e4ae2-a2ca-46c1-930e-7966a9713998_CUSTOM.jpg",
+        img: "https://github.com/centurystone619/Img/blob/main/lorde.jpeg?raw=true",
         sec: "PREM",
         row: "",
         seat: "",
