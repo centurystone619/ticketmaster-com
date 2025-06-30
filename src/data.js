@@ -213,7 +213,7 @@ export const eventData=[
     ],
   [
     {
-      artiste: "Parker McCollum Tour",
+      artiste: "flipturn - THE BURNOUT DAYS TOUR",
       img: "https://media.ticketmaster.com/en-us/dam/a/b8c/5f4f5fab-6c0a-4fbd-bcfe-fdf7995dcb8c_CUSTOM.jpg",
       sec: "LAWN8",
       row: "",
