@@ -211,14 +211,14 @@ export const eventData=[
           }
         },
     ],
-  [
-    {
+[
+   {
       artiste: "flipturn - THE BURNOUT DAYS TOUR",
       img: "https://media.ticketmaster.com/en-us/dam/a/5dd/e0d3b0cb-71ac-4d55-ab80-2786b5bce5dd_CUSTOM.jpg",
       sec: "General Admission",
-      row: "GA",
+      row: "NA",
       seat: "",
-      date: "Sat, Jul 19",
+      date: "Sat, Jul 19, 2025",
       time: "7:00 PM",
       state: "North Carolina",
       venue: "Greenfield Lake Amphitheater",
@@ -247,13 +247,13 @@ export const eventData=[
           addOns:"y"
       }
     },
-    {
+     {
       artiste: "flipturn - THE BURNOUT DAYS TOUR",
       img: "https://media.ticketmaster.com/en-us/dam/a/5dd/e0d3b0cb-71ac-4d55-ab80-2786b5bce5dd_CUSTOM.jpg",
       sec: "General Admission",
-      row: "GA",
+      row: "NA",
       seat: "",
-      date: "Sat, Jul 19",
+      date: "Sat, Jul 19, 2025",
       time: "7:00 PM",
       state: "North Carolina",
       venue: "Greenfield Lake Amphitheater",
@@ -270,11 +270,11 @@ export const eventData=[
         sec: "",
         row: "",
         seats: ['','','',''],
+        ticketId:['1','2','3','4'],
         desc: "General Admission",
-        GA: "General Admission",
         GA: "",
         color: "",
-        venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/34.210197,-77.939789/16?ms=768,440&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=34.210197,-77.939789;dfp.ss;Greenfield+Lake+Amphit...",
+        venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
         btnColor: "",
         sell: "y",
@@ -282,76 +282,77 @@ export const eventData=[
           addOns:"y"
       }
     },
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "17",
-      date: "Fri, Jun 13",
-      time: "7pm",
+     {
+      artiste: "flipturn - THE BURNOUT DAYS TOUR",
+      img: "https://media.ticketmaster.com/en-us/dam/a/5dd/e0d3b0cb-71ac-4d55-ab80-2786b5bce5dd_CUSTOM.jpg",
+      sec: "General Admission",
+      row: "NA",
+      seat: "",
+      date: "Sat, Jul 19, 2025",
+      time: "7:00 PM",
       state: "North Carolina",
       venue: "Greenfield Lake Amphitheater",
-      type: "Verified Resale",
+      type: "Standard Admission",
       eventData: {
-        month: "Jun",
-        day: "13",
+        month: "Jul",
+        day: "19",
         year: "",
-        time: "Fri - 7",
+        time: "Sat - 19",
         region: "",
         orderNo: ""
       },
       transfers: {
         sec: "",
         row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
+        seats: ['','','',''],
+        ticketId:['1','2','3','4'],
+        desc: "General Admission",
         GA: "",
-        color: "Black",
-        venueMap: "",
+        color: "",
+        venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
-        btnColor: "Black",
+        btnColor: "",
         sell: "y",
         trnsfer: "y",
           addOns:"y"
       }
     },
-    {
-      artiste: "Riley Green: Damn Country Music Tour",
-      img: "https://media.ticketmaster.com/en-us/dam/a/269/7c0769a7-9987-4a13-8dce-c8075aab8269_CUSTOM.jpg",
-      sec: "101",
-      row: "13",
-      seat: "18",
-      date: "Fri, Jun 13",
-      time: "7pm",
+     {
+      artiste: "flipturn - THE BURNOUT DAYS TOUR",
+      img: "https://media.ticketmaster.com/en-us/dam/a/5dd/e0d3b0cb-71ac-4d55-ab80-2786b5bce5dd_CUSTOM.jpg",
+      sec: "General Admission",
+      row: "NA",
+      seat: "",
+      date: "Sat, Jul 19, 2025",
+      time: "7:00 PM",
       state: "North Carolina",
-      venue: "Live Oak Bank Pavilion",
-      type: "Verified Resale",
+      venue: "Greenfield Lake Amphitheater",
+      type: "Standard Admission",
       eventData: {
-        month: "Jun",
-        day: "13",
+        month: "Jul",
+        day: "19",
         year: "",
-        time: "Fri - 7",
+        time: "Sat - 19",
         region: "",
         orderNo: ""
       },
       transfers: {
         sec: "",
         row: "",
-        seats: ['15','16','17','18'],
-        desc: "RAINSHINE*NOROOF",
+        seats: ['','','',''],
+        ticketId:['1','2','3','4'],
+        desc: "General Admission",
         GA: "",
-        color: "Black",
-        venueMap: "",
+        color: "",
+        venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/43.028515,-87.896629/16?ms=768,240&sv=9.38&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=43.028515,-87.896629;dfp.ss;BMO+Pavilion",
         gate: "",
-        btnColor: "Black",
+        btnColor: "",
         sell: "y",
         trnsfer: "y",
           addOns:"y"
       }
     },
-   
-  ],
+],
 
  
 
