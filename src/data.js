@@ -235,7 +235,7 @@ export const eventData=[
         sec: "",
         row: "",
         seats: ['','','',''],
-        ticketId:['1','2','3','4'],
+        ticketId:['1','2','',''],
         desc: "General Admission",
         GA: "",
         color: "",
@@ -269,7 +269,7 @@ export const eventData=[
       transfers: {
         sec: "",
         row: "",
-        seats: ['1','2','3','4'],
+        seats: ['','','',''],
         desc: "General Admission",
         GA: "General Admission",
         GA: "",
