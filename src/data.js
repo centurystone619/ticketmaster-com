@@ -235,7 +235,7 @@ export const eventData=[
         sec: "",
         row: "",
         seats: ['','','',''],
-        ticketId:['1','2'],
+        ticketId:['1','2','3','4'],
         desc: "General Admission",
         GA: "General Admission",
         color: "",
