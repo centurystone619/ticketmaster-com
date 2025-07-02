@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "Chicago",
-        img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/jjj.jpg",
+        img: "https://github.com/centurystone619/Img/blob/main/jjj.jpg?raw=true",
         sec: "1",
         row: "Y",
         seat: "",
