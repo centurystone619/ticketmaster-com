@@ -64,7 +64,7 @@ export const eventData=[
           color: "",
           venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/44.788477,-89.843941/6?ms=1182,480&sv=9.38&heid=36684,707070&fpp=44.78847694396973,-89.84394073486328;178&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=1&shading=hill&logo=n&da=ro",
           gate: "",
-          btnColor: "black",
+          btnColor: "",
           sell: "y",
           trnsfer: "y",
             addOns:"y",
