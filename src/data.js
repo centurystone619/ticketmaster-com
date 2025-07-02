@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "Chicago",
-        img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/IMG_8635.WEBP",
+        img: "https://github.com/centurystone619/Img/blob/main/chicagologo.jpg?raw=true",
         sec: "1",
         row: "Y",
         seat: "",
@@ -38,7 +38,7 @@ export const eventData=[
       },
       {
         artiste: "Chicago",
-        img: "https://raw.githubusercontent.com/centurystone619/Img/refs/heads/main/IMG_8635.WEBP",
+        img: "https://github.com/centurystone619/Img/blob/main/chicagologo.jpg?raw=true",
         sec: "1",
         row: "Y",
         seat: "",
