@@ -24,7 +24,7 @@ export const eventData=[
           sec: "",
           row: "",
           seats:['','', '',''],
-          ticketId:ticketId:['1','2', '3','4'],
+          ticketId:['1','2', '3','4'],
           desc: "RESERVED SEATS",
           GA: "",
           color: "",
