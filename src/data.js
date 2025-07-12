@@ -23,7 +23,8 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['3','4'],
+          seats: ['',''',''],
+          ticketId:[“1”,”2”,”3”,”4”],
           desc: "RESERVED SEATS",
           GA: "",
           color: "",
