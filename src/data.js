@@ -72,8 +72,7 @@ export const eventData=[
         }
       },
   {
-    
-        artiste: "Chicago",
+    artiste: "Chicago",
         img: "https://github.com/centurystone619/Img/blob/main/rru.jpg?raw=true",
         sec: "1",
         row: "Y",
@@ -108,8 +107,7 @@ export const eventData=[
        }
       },
   {
-    
-        artiste: "Chicago",
+      artiste: "Chicago",
         img: "https://github.com/centurystone619/Img/blob/main/rru.jpg?raw=true",
         sec: "1",
         row: "Y",
