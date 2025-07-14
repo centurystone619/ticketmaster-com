@@ -59,7 +59,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['3','4'],
+          seats: ['10','11','12','12'],
           desc: "",
           GA: "",
           color: "",
@@ -77,7 +77,7 @@ export const eventData=[
         img: "https://github.com/centurystone619/Img/blob/main/eep.jpg?raw=true",
         sec: "T",
         row: "64",
-        seat: "19",
+        seat: "13",
         date: "Sat, Jul 19",
         time: "6:00 PM",
         state: "Madison, WI",
@@ -94,7 +94,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['',''],
+          seats: ['10','11','12','12'],
           desc: "",
           GA: "",
           color: "",
