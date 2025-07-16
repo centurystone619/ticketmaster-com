@@ -93,13 +93,13 @@ const grandTotal = calculateTotal.toFixed(2)
                   {venue && <li>{venue}</li>}
                   {state && <li>{street.toUpperCase()}</li>}
                   <li> <div className=" mb-1">
-                        <span className="inline ">
-                          {displayDate.toUpperCase()}
+                       {displayDate && <span className="inline ">
+                          { displayDate.toUpperCase()}
                           {/* {time && <em>,</em>} */}
                         <span  className='ml-1'>{eventData.year && eventData.year}</span>  
                           {time && <span className="px-1">{time.toUpperCase()}</span>}
                           {/* {(date || time) && <em> • </em>} */}
-                        </span>
+                        </span>} 
                         {/* <span className="inline break-words">
                           {venue}
                         </span> */}

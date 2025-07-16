@@ -1,175 +1,393 @@
-import { useEffect, useState } from "react";
-import MyEvents from "./Components/MyEvents";
-import { eventData } from "./data";
-import Ticket from "./Components/Ticket";
+import React from 'react'
+import { Flag } from './flags'
+import ticketWhite from '../assets/evt.jpg'
+import eventFooter from '../assets/eventFooter.jpg'
 
 
-
-
-function App() {
-  const [events,setEvents] = useState(eventData)
-  const [flagIndex,setFlagIndex] = useState(0)
-  const[isIndexSelected,setIsIndexSelected]=useState(false)
- const[selectedIndex,setSelectedIndex]= useState(0)
- const[seatIndex,setSeatIndex]= useState(0)
-const [transX,setTransX]= useState('')
-const[isBarcodeOpen,setIsBarcodeOpen]=useState(null)
-const [isWalletOpen,setIsWalletOpen] =useState(null)
-const [isFormOpen,setIsFormOpen] = useState(null)
-const [showWalletBtn ,setShowWalletBtn] = useState(false)
-const [isTicketDetailsOpen,setIsTicketDetailsOpen]=useState(null)
-
-
-
-
- const firstEvents = events.map(item => item[0]);
+const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelected, setSelectedIndex,firstEvents}) => {
 
  
-
-
- const eventIndex=events[selectedIndex]
-
- const selectSeatIndex = eventIndex[seatIndex]
-
-
- useEffect(() => {
-  if (isWalletOpen) {
-    setIsBarcodeOpen(false);
-  }
-}, [isWalletOpen]);
-
- const handleEventClick = (index) => {
-  setSelectedIndex(index);
-  setIsIndexSelected(true);
- setShowWalletBtn(false)
- 
-};
-
-
-const handleTicketbtn = (index) => {
-  // Directly set the new index
-  setSeatIndex(index);
-  
-  // Then update the translation based on the new index (big screen)
-  if (index === 0) {
-    setTransX("22px");
-  } else if (index === 1) {
-    setTransX("-332px");
-  }
-  else if (index === 2) {
-    setTransX("-692px")
-  }
-  else if(index === 3){
-    setTransX("-1054px")
-  } else if(index === 4){
-    setTransX("-1413px")
-  }
-    
-};
-
-// const handleTicketbtn = (index) => {
-//   // Directly set the new index
-//   setSeatIndex(index);
-  
-//   // Then update the translation based on the new index (small screen)
-//   if (index === 0) {
-//     setTransX("13px");
-//   } else if (index === 1) {
-//     setTransX("-337px");
-//   }
-//   else if (index === 2) {
-//     setTransX("-687px")
-//   }
-//   else if(index === 3){
-//     setTransX("-1037px")
-//   } else if(index === 4){
-//     setTransX("-1384px")
-//   }
-    
-// };
-
-// const handleTicketbtn = (index) => {
-//   // Directly set the new index
-//   setSeatIndex(index);
-  
-//   // Then update the translation based on the new index
-//   if (index === 0) {
-//     setTransX("27px");
-//   } else if (index === 1) {
-//     setTransX("-293px");
-//   }
-//   else if (index === 2) {
-//     setTransX("-607px")
-//   }
-//   else if(index === 3){
-//     setTransX("-932px")
-//   } else if(index === 4){
-//     setTransX("-1248px")
-//   }
-    
-// };
-
-// useEffect(() => {
-//   if (selectSeatIndex !== null) {
-//     // Adjust the translation for the selected index
-//     setTransX("13px");
-//     setSeatIndex(0)
-//   } 
-// }, []);
-
-useEffect(() => {
-  if (selectSeatIndex !== null) {
-    // Adjust the translation for the selected index (big screen)
-    setTransX("22px");
-    setSeatIndex(0)
-  } 
-}, []);
-
-useEffect(() => {
- setEvents(events)
-}, [events]);
-
-
-const handleCloseIndex =()=>{
-  setIsIndexSelected(false)
-  setSeatIndex(0)
-  handleTicketbtn(0)
-  setIsFormOpen(false)
-}
-
-  useEffect(() => {
-    if (events[0][0]?.eventData?.region.startsWith("Canada")) {
-      setFlagIndex(3); // Set flagIndex to 2 or any value you want
-    } else if (events[0][0].eventData?.region.startsWith("AUS")) {
-      setFlagIndex(2);
-    } else if (events[0][0]?.eventData?.region.startsWith("UK")) {
-      setFlagIndex(1);
-    } else if (events[0][0]?.eventData?.region.startsWith("IE")) {
-      setFlagIndex(4);
-    } else if (events[0][0]?.eventData?.region.startsWith("GER")) {
-      setFlagIndex(5);
-    }else{setFlagIndex(0)}
-  }, [events]);
-
-  const openForm = () => {
-    setIsFormOpen(true);
-    
-  };
-
- 
-
-   
 
   return (
-<div id="fullbody" className="lg:w-2/3 m-auto flex flex-col bg-white/80 overflow-hidden">
+    <>
+     {(eventIndex[0].eventData?.region.startsWith("UK") || 
+    eventIndex[0].eventData?.region.startsWith("IE") || 
+    eventIndex[0].eventData?.region.startsWith("GER"))?
+     ( 
+  //    <div className="flex flex-col min-h-screen bg-#ffffff">
+  //     <div>
+        // <nav className="bg-black/80 py-3 text-azure-white px-5">
+       
+        // <ul
+        //         className="flex items-center justify-start space-x-4"
+        //         style={{ fontSize: "14px" }}
+        //       >
+        //         <li className="flex items-center w-1/4"></li>
+        //         <li
+        //           className="flex justify-center items-center  text-white w-2/4 "
+        //           style={{ fontSize: "14px" }}
+        //         >
+        //           <h1 className="text-nowrap text-center">My Events</h1>
+        //           <div className="border-grey border rounded-full mx-2 ">
+        //             <img src={Flag[flagIndex]} alt="us-flag" id="usFlag" />
+        //           </div>
+        //         </li>
 
-{isIndexSelected? <div className="ticket-slide-up"><Ticket  showWalletBtn={showWalletBtn} handleCloseIndex={handleCloseIndex} setSeatIndex={setSeatIndex} events={events} selectedIndex={selectedIndex} setIsIndexSelected={setIsIndexSelected} selectSeatIndex={selectSeatIndex} eventIndex={eventIndex}  transX={transX} 
-seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} flagIndex={flagIndex} isBarcodeOpen={isBarcodeOpen} setIsBarcodeOpen={setIsBarcodeOpen}  isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen} openForm={openForm} setIsTicketDetailsOpen={setIsTicketDetailsOpen} isTicketDetailsOpen={isTicketDetailsOpen} /></div>  : <div><MyEvents events={events} flagIndex={flagIndex}  handleEventClick={handleEventClick}  setIsIndexSelected={setIsIndexSelected}
-setSelectedIndex={setSelectedIndex}  eventIndex={eventIndex} firstEvents={firstEvents} transX={transX} selectSeatIndex={selectSeatIndex} /></div> }
+        //         <li className="flex items-center  text-white w-1/4 ">
+        //           <h1
+        //             id="eventUl"
+        //             className="text-center w-full"
+        //             style={{ fontSize: "14px" }}
+        //           >
+        //             Help
+        //           </h1>
+        //         </li>
+        //       </ul>
+
+        // </nav>
+
+        // <ul className="flex  " style={{ fontSize: "14px" }}>
+        //       <li className="border-azure-black  text-center border-b-4 w-1/2 text-azure-black font-semibold py-2 ">
+        //         UPCOMING ({ events.length})
+        //       </li>
+        //       <li className="border-black/20  text-center border-b-4 w-1/2 text-black/20 font-semibold py-2 ">
+        //         PAST ({events.length + 6})
+        //       </li>
+        //     </ul>
+
+  //       </div>
+        
+  //       <div>
+  //         {firstEvents.map(({artiste, img, venue, date, time,transfers},index)=>(
+  //           <div
+  //           key={index}
+  //               id="cover-bg"
+  //               style={{
+  //                 backgroundImage: `url(${img})`,
+  //                 backgroundPosition: "center",
+  //                 backgroundSize: "cover",
+  //                 width: "96vw",
+  //               }}
+  //               className="relative h-48 w-full z-10 mx-2 inset-0 opacity-85 mt-3"
+  //               onClick={(e)=>handleEventClick(index)}
+  //             >
+         
+  //               <div
+  //                 id="text-wrapper"
+  //                 className="absolute w-full z-20 px-3 py-2 "
+  //               >
+  //                 <div
+  //                   id="event-name"
+  //                   className="flex item-center justify-start text-center text-wrap "
+  //                 >
+  //                   <div id="artiste-ev" className=" w-full">
+  //                     {artiste}
+  //                   </div>
+  //                 </div>
+
+  //                 <div className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs ">
+  //                   {date}, {time} <em className="mx-1">•</em> {venue}
+  //                 </div>
+  //                 <div className="flex items-start text-center w-full justify-start text-xs">
+  //                     <img src={ticketWhite} className="w-3 h-4 flex" />
+  //                    <p>{
+  //   // Check for the first available tickets (seats or ticketId)
+  //   (events[index] && events[index][0] && events[index][0].transfers) 
+  //     ? (
+  //       events[index][0].transfers.seats?.length || events[index][0].transfers.ticketId?.length
+  //         ? `${events[index][0].transfers.seats?.length || events[index][0].transfers.ticketId?.length} tickets`
+  //         : "No tickets available"
+  //     ) 
+  //     : "No tickets available"
+  // }</p>
+  //                   </div>
+
+                 
+  //               </div>
+  //             </div>
+  //         ))}
+  //       </div>
+        
+        
+  //       <div className="mt-auto  ">
+  //           <img src={eventFooter} className="w-full pb-2 max-h-20" />
+  //         </div>
+        
+  //       </div>
+
+  <div className=''>
+              
+        <nav className="bg-black   text-azure-white px-5 py-3">
+          <ul
+            className="flex items-center justify-start space-x-4"
+            style={{ fontSize: "14px" }}
+          >
+            <li className="flex items-center w-1/4"></li>
+            <li
+              className="flex justify-center items-center  text-white w-2/4 "
+              style={{ fontSize: "14px" }}
+            >
+              <h1 className="text-nowrap text-center">My Events</h1>
+              <div className="border-grey border rounded-full mx-2 ">
+                <img src={Flag[flagIndex]} alt="us-flag" id="usFlag" />
+              </div>
+            </li>
+
+            <li className="flex items-center  text-white w-1/4 ">
+              <h1
+                id="eventUl"
+                className="text-center w-full"
+                style={{ fontSize: "14px" }}
+              >
+                Help
+              </h1>
+            </li>
+          </ul>
+        </nav>
 
 
-</div>
-  );
+
+        {/* <ul
+          className="flex   bg-azure-deepblue   "
+          style={{ fontSize: "14px" }}
+        >
+          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-2 ">
+            UPCOMING ({events.length})
+          </li>
+          <li
+            className="border-b-4 border-none w-1/2  text-center font-semibold py-2"
+            style={{ color: "#B7C7ED" }}
+          >
+            PAST ({events.length + 6})
+          </li>
+        </ul> */}
+       
+       <ul className="flex  " style={{ fontSize: "14px" }}>
+              <li className="border-azure-black  text-center border-b-4 w-1/2 text-azure-black font-semibold py-2 ">
+                UPCOMING ({ events.length})
+              </li>
+              <li className="border-black/20  text-center border-b-4 w-1/2 text-black/20 font-semibold py-2 ">
+                PAST ({events.length + 6})
+              </li>
+            </ul>
+       
+       <div className='h-[77vh]  overflow-auto'>
+        {firstEvents.map(({artiste,time,img,venue,date,transfers},index)=>(
+          <div
+          key={index}
+              id="cover-bg"
+              style={{
+                backgroundImage: `url(${img})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: "96vw",
+  filter: "contrast(120%) brightness(100%) "
+              }}
+              className="relative h-48 w-full z-10 mx-2 my-1 inset-0 opacity-85 "
+           onClick={(e)=>handleEventClick(index)}
+            >
+              <div
+                id="text-wrapper"
+                className="absolute w-full z-20 px-3 py-2 "
+              >
+                <div
+                  id="event-name"
+                  className="flex item-center justify-start text-center text-wrap "
+                >
+                  <div id="artiste-ev" className=" w-full">
+                    {artiste}
+                  </div>
+                </div>
+
+                {time? 
+               (<div
+               id="ticket-date"
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}, {time} <em className="mx-1">•</em> {venue}
+                </div>) : 
+                (<div
+                id="ticket-date"
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}<em className="mx-1">•</em> {venue}
+                </div>)}
+               
+
+
+<div className="flex items-start text-center w-full justify-start text-xs">
+                      <img src={ticketWhite} className=""  id='tickwhite'/>
+                     <p id='ticktext'>{
+    // Check for the first available tickets (seats or ticketId)
+    (events[index] && events[index][0] && events[index][0].transfers) 
+      ? (
+        events[index][0].transfers.seats?.length || events[index][0].transfers.ticketId?.length
+          ? `${events[index][0].transfers.seats?.length || events[index][0].transfers.ticketId?.length} tickets`
+          : "No tickets available"
+      ) 
+      : "No tickets available"
+  }</p>
+                    </div>
+
+
+
+              </div>
+            </div>
+        ))}
+       </div>
+     
+  
+      
+      </div>
+        )
+      :
+      (  
+      <div className=''>
+              
+        <nav className="bg-black   text-azure-white px-5 py-3">
+          <ul
+            className="flex items-center justify-start space-x-4"
+            style={{ fontSize: "14px" }}
+          >
+            <li className="flex items-center w-1/4"></li>
+            <li
+              className="flex justify-center items-center  text-white w-2/4 "
+              style={{ fontSize: "14px" }}
+            >
+              <h1 className="text-nowrap text-center">My Events</h1>
+              <div className="border-grey border rounded-full mx-2 ">
+                <img src={Flag[flagIndex]} alt="us-flag" id="usFlag" />
+              </div>
+            </li>
+
+            <li className="flex items-center  text-white w-1/4 ">
+              <h1
+                id="eventUl"
+                className="text-center w-full"
+                style={{ fontSize: "14px" }}
+              >
+                Help
+              </h1>
+            </li>
+          </ul>
+        </nav>
+        <ul
+          className="flex   bg-azure-deepblue   "
+          style={{ fontSize: "14px" }}
+        >
+          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-2 ">
+            UPCOMING ({events.length})
+          </li>
+          <li
+            className="border-b-4 border-none w-1/2  text-center font-semibold py-2"
+            style={{ color: "#B7C7ED" }}
+          >
+            PAST ({events.length + 6})
+          </li>
+        </ul>
+       
+       
+       <div className='h-[77vh]  overflow-auto'>
+        {firstEvents.map(({artiste,time,img,venue,date,transfers,artisteLineBreak},index)=>(
+          <div
+          key={index}
+              id="cover-bg"
+              style={{
+                backgroundImage: `url(${img})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: "96vw",
+               
+               filter: "contrast(120%) brightness(100%) "
+              }}
+              className="relative h-48 w-full z-10 mx-2 my-1 inset-0 opacity-85 "
+           onClick={(e)=>handleEventClick(index)}
+            >
+              <div
+                id="text-wrapper"
+                className="absolute w-full z-20 px-3 py-2 "
+              >
+                <div
+                  id="event-name"
+                  className="flex item-center justify-start text-center text-wrap "
+                >
+                  <div id="artiste-ev" className=" w-full">
+                    {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
+                  </div>
+                </div>
+
+                {/* <div
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}, {time} <em className="mx-1">•</em> {venue}
+                </div> */}
+               
+               {time? 
+               (<div
+               id="ticket-date"
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}, {time} <em className="mx-1">•</em> {venue}
+                </div>) : 
+                (<div
+                id="ticket-date"
+                  // id="event-date"
+                  className="flex justify-start item-start text-center whitespace-nowrap -mt-1  w-full text-xs "
+                >
+                  
+                 
+                  {date}<em className="mx-1">•</em> {venue}
+                </div>)}
+
+
+<div className="flex items-start text-center w-full justify-start text-xs">
+                      <img src={ticketWhite} id='tickwhite' className="" />
+                     <p id='ticktext'>{
+    // Check for the first available tickets (seats or ticketId)
+    (events[index] && events[index][0] && events[index][0].transfers) 
+      ? (
+        events[index][0].transfers.seats?.length || events[index][0].transfers.ticketId?.length
+          ? `${events[index][0].transfers.seats?.length || events[index][0].transfers.ticketId?.length} tickets`
+          : "No tickets available"
+      ) 
+      : "No tickets available"
+  }</p>
+                    </div>
+
+
+
+              </div>
+            </div>
+        ))}
+       </div>
+     
+  
+      
+      </div>
+    
+    )}
+
+    
+    
+    <div className="mt-auto  ">
+            <img src={eventFooter} className="w-full pb-4 max-h-20" />
+          </div>
+
+    </>
+   
+  )
 }
 
-export default App;
+export default MyEvents

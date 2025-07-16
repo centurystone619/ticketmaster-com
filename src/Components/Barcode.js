@@ -97,7 +97,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                     <li>
                       <li className="mt-5">
                         {eventIndex[0].transfers.GA ? (
-                          <ul className="flex space-x-3 m-auto item-center justify-center ">
+                          <ul className="flex flex-col space-x-3 m-auto item-center justify-center ">
                             <li className="leading-none">
                               <p id="barcodeSec">SEC</p>
                               <p id="barcodeSecIndex">{eventIndex[0].sec}</p>
@@ -228,11 +228,11 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
               </li>
               <li className="text-white">
                 {eventIndex[0].transfers?.GA ? (
-                  <ul className="text-white flex space-x-2">
+                  <ul className="text-white flex  flex-col-reverse space-x-2">
                     <li className="leading-none mb-4">
-                      <p id="barcodeSec" className="font-semibold -mb-2">
+                      {/* <p id="barcodeSec" className="font-semibold -mb-2">
                         SEC
-                      </p>
+                      </p> */}
                       <p
                         id="barcodeSecIndex"
                         className="text-2xl  bg-opacity-60 p-2 rounded"
@@ -262,7 +262,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                         {eventIndex[0].sec}
                       </p>
                     </li>
-                    <li className="leading-none mb-4">
+                   {selectSeatIndex.row &&  <li className="leading-none mb-4">
                       <p id="barcodeSec" className="font-semibold">
                         ROW
                       </p>
@@ -272,8 +272,8 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                       >
                         {eventIndex[0].row}
                       </p>
-                    </li>
-                    <li className="leading-none mb-4">
+                    </li>}
+                   {selectedIndex.seat &&  <li className="leading-none mb-4">
                       <p id="barcodeSec" className="font-semibold">
                         SEAT
                       </p>
@@ -283,7 +283,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                       >
                         {selectSeatIndex.seat}
                       </p>
-                    </li>
+                    </li>}
                   </ul>
                 )}
               </li>

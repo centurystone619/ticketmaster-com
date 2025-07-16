@@ -144,7 +144,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
     backgroundPosition: 'center 50%',
     backgroundColor:'#006ce6'
   }}
-  className="h-20 w-full"
+  className="h-20 w-full  "
 ></div>
 ):(
   <div
@@ -209,7 +209,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                         whiteSpace: 'normal',
                       }}
                     >
-                      {t.artiste}
+                      {t.artiste} {t?.artisteLineBreak }
                     </p> }
                   </li>
                   <li>
@@ -246,10 +246,16 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                           <p id="walletInfo">{t.row}</p>
                         </li> */}
 
-                        {t.transfers?.walletBlank?(
+{t.row && 
+<div>
+   {t.transfers?.walletBlank?(
+                         
  <li className='text-center'>
- <p id="blankSec">ROW</p>
+ 
+     <p id="blankSec">ROW</p>
  <p id="walletInfoSec">{t.row}</p>
+ 
+
 </li>
                         ):(
                           <li>
@@ -257,13 +263,16 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                           <p id="walletInfo">{t.row}</p>
                         </li>
                         )}
+  </div>}
+                       
                         {/* <li>
                           <p id="walletTitle">SEAT</p>
                           <p id="walletInfo">{t.seat}</p>
                         </li> */}
-
-                        {t.transfers?.walletBlank?(
+{t.seat && <div>
+      {t.transfers?.walletBlank?(
                             <li className='text-end'>
+                              
                             <p id="blankSec">SEAT</p>
                             <p id="walletInfoSec">{t.seat}</p>
                           </li>
@@ -272,7 +281,8 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                           <p id="walletTitle">SEAT</p>
                           <p id="walletInfo">{t.seat}</p>
                         </li>
-                        )}
+                        )}</div>}
+                    
                       </ul>
                     )}
                   </li>
@@ -307,7 +317,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                   {/* <img src={volumebg} className="w-10" alt="Volume Background" /> */}
                   <div className='flex  justify-between items-center mx-3 '>
                     <p >                           
-                             <img src={logoImg} className="w-6" alt="Volume Background" />
+                             <img src={logoImg} className="w-6 rounded-[5px]" alt="Volume Background" />
 
 
                     </p>
