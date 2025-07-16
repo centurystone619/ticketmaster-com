@@ -372,7 +372,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
         {firstEvents.map(({artiste,time,img,venue,date,transfers,artisteLineBreak,eventData,state},index)=>(
 
 
-<ul   key={index} className=' my-3  '>
+<ul   key={index} className=' my-3  ' onClick={(e)=>handleEventClick(index)}>
   <li style={{
                 backgroundImage: `url(${img})`,
                 backgroundPosition: "center",
@@ -382,7 +382,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               }} 
               
                className=" h-48 w-full   mx-2  inset-0 z-0 relative  "
-          onClick={(e)=>handleEventClick(index)}
+          
               
               ></li>
 
