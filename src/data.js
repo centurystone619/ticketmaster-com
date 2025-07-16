@@ -11,7 +11,7 @@ export const eventData=[
         sec: "T",
         row: "64",
         seat: "10",
-        date: "Sat, Jul 19, 2025",
+        date: "Sat, Jul 19",
         time: "6:00 PM",
         state: "Madison, WI",
         venue: "Camp Randall",
