@@ -117,7 +117,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               <li id='eventdetails' className='w-full mx-2  inset-0 z-10 relative'> 
                 <ul className='w-[96vw] z-1'>
                    <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white px-3  pt-1text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
 
                     <p className='flex'></p>
                   </li>
@@ -184,7 +184,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               <li id='eventdetails'  className='w-full  mx-2   inset-0 z-10 relative  '> 
                 <ul className='w-[96vw] z-1'>
                <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white p pt-1x-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
 
                     <p className='flex'></p>
                   </li>
@@ -323,7 +323,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               <li id='eventdetails' className='w-full mx-2  inset-0 z-10 relative'> 
                 <ul className='w-[96vw] z-1'>
                       <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white px-3 tex pt-1t-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
 
                     <p className='flex'></p>
                   </li>
@@ -391,7 +391,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                   {/* <li className='bg-black w-[55%] -mb-1 text-azure-white px-3 pt-1 text-nowrap font-[500] whitespace-nowrap '>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</li> */}
 
                   <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white px-3 pt-1 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()}, {eventData.year} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
 
                     <p className='flex'></p>
                   </li>
