@@ -322,7 +322,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
 </li>
                         <li className='pb-2 pt-2 flex justify-between items-center'>
                           
-                            <p className='text-nowrap'>{venue}, {state}</p>
+                            <p className='text-nowrap whitespace-nowrap flex-1 '>{venue}, {state} </p>
 
  <div className="flex items-start text-center w-full justify-end font-[500]">
                      <div className='flex items-center justify-center text-center'>
