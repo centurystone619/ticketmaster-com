@@ -273,7 +273,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                         {eventIndex[0].row}
                       </p>
                     </li>}
-                   {selectedIndex.seat &&  <li className="leading-none mb-4">
+                   {selectSeatIndex.transfers.seats && !selectSeatIndex.transfers.ticketId &&  <li className="leading-none mb-4">
                       <p id="barcodeSec" className="font-semibold">
                         SEAT
                       </p>
@@ -284,6 +284,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                         {selectSeatIndex.seat}
                       </p>
                     </li>}
+                   
                   </ul>
                 )}
               </li>
