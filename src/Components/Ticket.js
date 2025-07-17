@@ -156,11 +156,11 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                         className="flex item-center justify-center text-center text-nowrap "
                       >
                         <div id="artiste" className={`max-w-80 `}  style={{
-      fontSize: subArray.artiste.length <= 35 ? '18px' : '16px', 
+      fontSize: '18px', 
      
     }}>
                           {subArray.artiste}
-              {subArray.artisteLineBreak && <p>{subArray.artisteLineBreak}</p>}            
+              {subArray.artisteLineBreak && <p style={{lineHeight:'1.4'}}>{subArray.artisteLineBreak}</p>}            
                         </div>
                       </div>
   

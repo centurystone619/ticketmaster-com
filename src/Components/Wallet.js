@@ -124,17 +124,17 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                 </div>
                 <div className="w-5/12">
                   <ul className="px-5 -space-y-1">
-                    <li id="walletTitle" className={`${t.transfers?.walletBlank? 'text-start text-[#006ce6] font-[800]' : 'text-end font-[500]'}`}>
+                    <li id="walletTitle" className={`${!t.transfers?.walletBlank? 'text-start text-[#006ce6] font-[800]' : 'text-end font-[500]'}`}>
                       {t.time}
                     </li>
-                    <li id="walletInfo" className={`${t.transfers?.walletBlank? 'text-start' : 'text-end'}`}>
+                    <li id="walletInfo" className={`${!t.transfers?.walletBlank? 'text-start' : 'text-end'}`}>
                       {t?.eventData?.month} {t?.eventData?.day}, {t?.eventData?.year}
                     </li>
                   </ul>
                 </div>
               </div>
 
-{t.transfers.walletBlank? (
+{!t.transfers.walletBlank? (
   <div
   style={{
     backgroundImage: `url(${logoImg}) `,
@@ -173,7 +173,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                 <ul className="text-azure-white mx-4 space-y-3 pt-2 text-wrap">
                   <li>
                     {/* <p id="walletTitle">{t.venue}</p> */}
-                    {t.transfers.walletBlank? (<p id="blankTitle">{t.venue}</p>):(<p id="walletTitle" className='font-[500]'>{t.venue}</p>) }
+                    {!t.transfers.walletBlank? (<p id="blankTitle">{t.venue}</p>):(<p id="walletTitle" className='font-[500]'>{t.venue}</p>) }
                     {/* <p
                       id="walletInfo"
                       className="w-full leading-none"
@@ -185,7 +185,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                     >
                       {t.artiste}
                     </p> */}
-                    {t.transfers.walletBlank?  
+                    {!t.transfers.walletBlank?  
                     <p
                       id="blankInfo"
                       className="w-full leading-none"
@@ -195,8 +195,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                         whiteSpace: 'normal',
                       }}
                     >
-                      {t.artiste}
-                                 {t.artisteLineBreak && <span className='ml-1'>{t.artisteLineBreak}</span>}       
+                      {t.artiste} {t.artisteLineBreak && <span className=''>{t.artisteLineBreak}</span>}       
 
 
                     </p> : 
@@ -232,7 +231,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                           <p id="walletInfo">{t.sec}</p>
                         </li> */}
 
-                        {t.transfers?.walletBlank?( <li>
+                        {!t.transfers?.walletBlank?( <li>
                           <p id="blankSec">SECTION</p>
                           <p id="walletInfoSec" >{t.sec}</p>
                         </li>):(
@@ -248,7 +247,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
 
 {t.row && 
 <div>
-   {t.transfers?.walletBlank?(
+   {!t.transfers?.walletBlank?(
                          
  <li className='text-center'>
  
@@ -270,7 +269,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                           <p id="walletInfo">{t.seat}</p>
                         </li> */}
 {t.seat && <div>
-      {t.transfers?.walletBlank?(
+      {!t.transfers?.walletBlank?(
                             <li className='text-end'>
                               
                             <p id="blankSec">SEAT</p>
@@ -296,7 +295,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                     <p id="walletInfo">{t.transfers?.gate}</p></div>) : (<div><p id="walletTitle">ENTRY INFO</p>
                       <p id="walletInfo">{t.transfers?.desc}</p></div>) } */}
                     
-                    {t.transfers.walletBlank? (
+                    {!t.transfers.walletBlank? (
                                                  <p id="blankSec">ENTRY INFO</p>
 
                     ): (
@@ -312,7 +311,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                   </li>
                 </ul>
 
-                {t.transfers.walletBlank?(
+                {!t.transfers.walletBlank?(
                   <div className="absolute bottom-0  w-full mb-2">
                   {/* <img src={volumebg} className="w-10" alt="Volume Background" /> */}
                   <div className='flex  justify-between items-center mx-3 '>

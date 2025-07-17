@@ -50,7 +50,7 @@
 #artiste {
   word-wrap: break-word; /* Ensures words break to prevent overflow */
   margin: 0; /* Removes any margin */
-  line-height: 1; /* Reduces line height to eliminate extra space */
+  line-height: 1.4; /* Reduces line height to eliminate extra space */
   text-align: center; /* Centers the text */
 
   font-family: sans-serif;

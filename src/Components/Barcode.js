@@ -189,13 +189,28 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
               <img src={close} alt="Close" />
             </button>
             <div className={`flex items-start justify-center flex-col  `}>
-              <h1>
+              {/* <h1>
                 {eventIndex[0].artiste.length > 40
-                  ? `${eventIndex[0].artiste.substring(0, 40)} ...`
-                  : eventIndex[0].artiste}
+                  ? `${eventIndex[0].artiste.substring(0, 38)} ...`
+                  : eventIndex[0].artiste} {eventIndex[0].artisteLineBreak && <span className=''>{eventIndex[0].artisteLineBreak}</span>}       
+              </h1> */}
 
-           {eventIndex[0].artisteLineBreak && <span className='ml-1'>{eventIndex[0].artisteLineBreak}</span>}       
-              </h1>
+<h1>
+  {(() => {
+    const mainArtiste = eventIndex[0].artiste;
+    const lineBreak = eventIndex[0].artisteLineBreak || '';
+    const fullArtiste = mainArtiste + (lineBreak ? ` ${lineBreak}` : '');
+    
+    return fullArtiste.length > 40
+      ? `${fullArtiste.substring(0, 38)} ...`
+      : (
+          <>
+            {mainArtiste}
+            {lineBreak && <> {lineBreak}</>}
+          </>
+        );
+  })()}
+</h1>
               
               <div
                 id="ticket-date"
