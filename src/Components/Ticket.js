@@ -179,6 +179,42 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                           {subArray.venue}
                         </p>
                       </div>
+
+      {/* {
+  subArray?.date?.length  >= 13 ? (
+    <div
+                        id="ticket-date"
+                        className="flex justify-center item-center text-center text-nowrap mb-1"
+                      >
+                        <p className="text-nowrap text-center">
+                          {subArray.date}
+                        </p>
+                        <p className="flex text-nowrap text-center">
+                        {subArray.time &&<em>,</em>}  
+                          <p className="px-1">{subArray.time}</p> <em>•</em>
+                        </p>
+                        <p className="text-nowrap text-center pl-1">
+                          {subArray.venue}
+                        </p>
+                      </div>
+  ) : (
+   <div
+                        id="ticket-date"
+                        className="flex justify-center item-center text-center text-nowrap mb-1"
+                      >
+                        <p className="text-nowrap text-center">
+                          {subArray.date}
+                        </p>
+                        <p className="flex text-nowrap text-center">
+                        {subArray.time &&<em>,</em>}  
+                          <p className="px-1">{subArray.time}</p> <em>•</em>
+                        </p>
+                        <p className="text-nowrap text-center pl-1">
+                          {subArray.venue}
+                        </p>
+                      </div>
+  )
+} */}
                     </div>
                   </div>
   

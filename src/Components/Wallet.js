@@ -24,7 +24,21 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
 
    
   // };
-
+const formatDate = (dateString) => {
+  if (!dateString) return '';
+  
+  try {
+    const date = new Date(dateString);
+    const options = { 
+      month: 'short', 
+      day: '2-digit', 
+      year: 'numeric' 
+    };
+    return date.toLocaleDateString('en-US', options);
+  } catch (error) {
+    return dateString;
+  }
+};
 
   const getColorClass = () => {
     const firstEvent = eventIndex?.[0];
@@ -101,6 +115,7 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
           }}
         >
           {eventIndex?.map((t, index) => (
+      
             <div
               id={`ticket-${index}`}
               key={index}
@@ -127,9 +142,17 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
                     <li id="walletTitle" className={`${!t.transfers?.walletBlank? 'text-start text-[#006ce6] font-[800]' : 'text-end font-[500]'}`}>
                       {t.time}
                     </li>
-                    <li id="walletInfo" className={`${!t.transfers?.walletBlank? 'text-start' : 'text-end'}`}>
-                      {t?.eventData?.month} {t?.eventData?.day}, {t?.eventData?.year}
+                    
+ 
+
+                    {t.date.length >= 13? (
+                      <li id="walletInfo" className={`${!t.transfers?.walletBlank? 'text-start' : 'text-end'}`}>
+                {formatDate(t.date)}
                     </li>
+                    ):(
+                       <li id="walletInfo" className={`${!t.transfers?.walletBlank? 'text-start' : 'text-end'}`}>
+                      {t?.eventData?.month} {t?.eventData?.day}, {t?.eventData?.year}
+                    </li>)}
                   </ul>
                 </div>
               </div>
