@@ -6,6 +6,27 @@ import CountDownEvent from './CountdownEvent'
 import eventCalendar from '../assets/eventcal.jpg'
 
 
+const truncateAtCommaInRange = (venue, state, minLength = 40, maxLength = 45) => {
+  if (!venue || !state) return '';
+  
+  const combined = `${venue}, ${state}`;
+  
+  if (combined.length <= minLength) {
+    return combined;
+  }
+  
+  // Look for comma between positions 40 and 45
+  for (let i = minLength; i <= maxLength && i < combined.length; i++) {
+    if (combined[i] === ',') {
+      return combined.substring(0, i + 1) + '...';
+    }
+  }
+  
+  // If no comma found in range, truncate at maxLength
+  return combined.substring(0, maxLength) + '...';
+};
+
+
 const formatTime = (timeString) => {
   if (!timeString) return '';
   
@@ -147,7 +168,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
 </li>
                         <li className='pb-2 pt-2 flex justify-between items-center'>
                           
-                             <p className='text-nowrap whitespace-nowrap flex-1 '>{venue}, {state} </p>
+                             <p className='text-nowrap whitespace-nowrap flex-1 '>    {truncateAtCommaInRange(venue, state)} </p>
 
  <div className="flex items-start text-center w-full justify-end font-[500]">
                      <div className='flex items-center justify-center text-center'>
@@ -219,7 +240,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                         {/* <li  className=' mt-2 w-11/12'></li> */}
                         <li className='pb-2 pt-2 flex justify-between items-center'>
                           
-                              <p className='text-nowrap whitespace-nowrap flex-1 '>{venue}, {state} </p>
+                              <p className='text-nowrap whitespace-nowrap flex-1 '>   {truncateAtCommaInRange(venue, state)} </p>
 
                           
                           
@@ -352,7 +373,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
 </li>
                         <li className='pb-2 pt-2 flex justify-between items-center'>
                           
-                            <p className='text-nowrap whitespace-nowrap flex-1 '>{venue}, {state} </p>
+                            <p className='text-nowrap whitespace-nowrap flex-1 '>   {truncateAtCommaInRange(venue, state)} </p>
 
  <div className="flex items-start text-center w-full justify-end font-[500]">
                      <div className='flex items-center justify-center text-center'>
@@ -426,7 +447,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                         {/* <li  className=' mt-2 w-11/12'></li> */}
                         <li className='pb-2 pt-2 flex justify-between items-center'>
 
-                            <p className='text-nowrap whitespace-nowrap flex-1 '>{venue}, {state} </p>
+                            <p className='text-nowrap whitespace-nowrap flex-1 '>   {truncateAtCommaInRange(venue, state)} </p>
 
                           
                           
