@@ -6,13 +6,31 @@ import CountDownEvent from './CountdownEvent'
 import eventCalendar from '../assets/eventcal.jpg'
 
 
+const formatTime = (timeString) => {
+  if (!timeString) return '';
+  
+  // Convert to uppercase and check if it needs formatting
+  const upperTime = timeString.toUpperCase();
+  
+  // If it's just a number followed by AM/PM (like "6PM")
+  if (/^\d+(AM|PM)$/.test(upperTime)) {
+    return upperTime.replace(/(AM|PM)$/, ':00 $1');
+  }
+  
+  // If it already has colon but no space (like "6:30PM")
+  if (/^\d+:\d+(AM|PM)$/.test(upperTime)) {
+    return upperTime.replace(/(AM|PM)$/, ' $1');
+  }
+  
+  return upperTime;
+};
 
 const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelected, setSelectedIndex,firstEvents}) => {
 
  const {artiste,time,img,venue,date,transfers,artisteLineBreak,eventData,state}= events[0][0]
 
 
-
+ 
 
 
 
@@ -117,7 +135,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               <li id='eventdetails' className='w-full mx-2  inset-0 z-10 relative'> 
                 <ul className='w-[96vw] z-1'>
                    <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3  pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white px-3  pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {formatTime(time)}</p>
 
                     <p className='flex'></p>
                   </li>
@@ -184,7 +202,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               <li id='eventdetails'  className='w-full  mx-2   inset-0 z-10 relative  '> 
                 <ul className='w-[96vw] z-1'>
                <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white p pt-2 px-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white p pt-2 px-3 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {formatTime(time)}</p>
 
                     <p className='flex'></p>
                   </li>
@@ -323,7 +341,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
               <li id='eventdetails' className='w-full mx-2  inset-0 z-10 relative'> 
                 <ul className='w-[96vw] z-1'>
                       <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white px-3 pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {formatTime(time)}</p>
 
                     <p className='flex'></p>
                   </li>
@@ -391,7 +409,7 @@ const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelec
                  
 
                   <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {(time).toUpperCase()}</p>
+                    <p className='bg-black text-azure-white px-3 pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {formatTime(time)}</p>
 
                     <p className='flex'></p>
                   </li>
