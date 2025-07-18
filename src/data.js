@@ -4,10 +4,10 @@ export const eventData=[
         {
         artiste: "Coldplay: Music Of The Spheres World Tour - delivered by DHL",
         img: "https://github.com/centurystone619/Img/blob/main/eep.jpg?raw=true",
-        sec: "T",
-        row: "64",
-        seat: "10",
-        date: "Sat, Jul 19, 2025",
+        sec: "M",
+        row: "31",
+        seat: "6",
+        date: "Sat, Jul 19",
         time: "6:00 PM",
         state: "Madison, WI",
         venue: "Camp Randall",
@@ -23,7 +23,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats:['10','11', '12','13'],
+          seats:['6','7','8','9'],
           desc: "",
           GA: "",
           color: "",
