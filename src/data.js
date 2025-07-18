@@ -24,7 +24,6 @@ export const eventData=[
           sec: "",
           row: "",
           seats:['6','7', '8','9'],
-          ticketId:['','', '',''],
           desc: "",
           GA: "",
           color: "",
