@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "flipturn - THE BURNOUT DAYS TOUR",
-        img: "https://github.com/centurystone619/Img/blob/main/slp.jpg?raw=true",
+        img: "https://github.com/centurystone619/Img/blob/main/slpp.jpg?raw=true",
         sec: "GA3",
         row: "",
         seat: "",
@@ -39,7 +39,7 @@ export const eventData=[
       },
       {
         artiste: "flipturn - THE BURNOUT DAYS TOUR",
-        img: "https://github.com/centurystone619/Img/blob/main/slp.jpg?raw=true",
+        img: "https://github.com/centurystone619/Img/blob/main/slpp.jpg?raw=true",
         sec: "GA3",
         row: "",
         seat: "",
