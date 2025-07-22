@@ -11,7 +11,7 @@ export const eventData=[
         time: "7:30 PM",
         state: "Minnesota",
         venue: "Xcel Energy Center",
-        type: "Resale Ticket",
+        type: "Artist Presale",
         eventData: {
           month: "Aug",
           day: "13",
@@ -46,7 +46,7 @@ export const eventData=[
         time: "7:30 PM",
         state: "Minnesota",
         venue: "Xcel Energy Center",
-        type: "Resale Ticket",
+        type: "Artist Presale",
         eventData: {
           month: "Aug",
           day: "13",
