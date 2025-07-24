@@ -2,7 +2,8 @@ export const eventData=[
   [
 
         {
-        artiste: "The Red Clay Strays: Get Right Tour",
+               artiste: "The Red Clay Strays: Get Right Tour ",
+
         img: "https://github.com/centurystone619/Img/blob/main/opp0.jpg?raw=true",
         sec: "LAWN4",
         row: "",
@@ -34,7 +35,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletBlank:"",
+            walletColor:'green'
         }
       },
       {
@@ -69,7 +70,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-             walletBlank:"",
+             walletBlank:"y",
         }
       },
 
@@ -105,7 +106,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-             walletBlank:"",
+             walletBlank:"y",
         }
         },
   ],
