@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "Tate McRae: Miss Possessive Tour",
-        img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.png?raw=true",
+        img: "https://github.com/centurystone619/Img/blob/main/imh.jpeg?raw=true",
         sec: "103",
         row: "24",
         seat: "6",
