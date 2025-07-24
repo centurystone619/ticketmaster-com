@@ -71,6 +71,7 @@ export const eventData=[
              walletBlank:"y",
         }
       },
+
       {
         artiste: "The Red Clay Strays: Get Right Tour",
         img: "https://github.com/centurystone619/Img/blob/main/opp0.jpg?raw=true",
@@ -86,7 +87,7 @@ export const eventData=[
           month: "Aug",
           day: "15",
           year: "2025",
-          time: "Fri - 7:00",
+          time: "Wee - 7:00",
           region: "",
           orderNo: ""
         },
@@ -103,8 +104,9 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletBlank:"y",
+             walletBlank:"y",
         }
+        },
   ],
   
 ]
