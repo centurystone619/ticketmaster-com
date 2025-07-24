@@ -23,8 +23,8 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: [“”,“”,“”],
-          ticketId:[“1”,“2”,“3”],
+          seats: ['',''],
+          ticketId:['','',''],
           desc: "JEFFGORDONLWN",
           GA: "General Admission",
           color: "#080404",
