@@ -124,7 +124,12 @@ const formatDate = (dateString) => {
                 height: '50vh',
                 minWidth: '300px',
                 flexShrink: 0,
-                background: colorStyle || '#004EE7',
+                // background: colorStyle || '#004EE7',
+               background: `${
+  eventIndex?.[0].transfers?.walletColor 
+    ? eventIndex[0].transfers.walletColor 
+    : colorStyle || '#004EE7'
+}`
               }}
             >
               <div className="flex text-white py-2">
@@ -139,7 +144,11 @@ const formatDate = (dateString) => {
                 </div>
                 <div className="w-5/12">
                   <ul className="px-5 -space-y-1">
-                    <li id="walletTitle" className={`${!t.transfers?.walletBlank? 'text-start text-[#006ce6] font-[800]' : 'text-end font-[500]'}`}>
+                    {/* <li id="walletTitle" className={`${!t.transfers?.walletBlank? 'text-start text-[#006ce6] font-[800]' : 'text-end font-[500]'}`}>
+                      {t.time}
+                    </li> */}
+
+                      <li id="walletTitle" className={`${!t.transfers?.walletBlank? (t.transfers.walletColor? 'text-start  font-[800]' : 'text-start text-[#006ce6] font-[800]') : ('text-end font-[500]')}`}>
                       {t.time}
                     </li>
                     
@@ -196,7 +205,9 @@ const formatDate = (dateString) => {
                 <ul className="text-azure-white mx-4 space-y-3 pt-2 text-wrap">
                   <li>
                     {/* <p id="walletTitle">{t.venue}</p> */}
-                    {!t.transfers.walletBlank? (<p id="blankTitle">{t.venue}</p>):(<p id="walletTitle" className='font-[500]'>{t.venue}</p>) }
+                    {/* {!t.transfers.walletBlank? (<p id="blankTitle">{t.venue}</p>):(<p id="walletTitle" className='font-[500]'>{t.venue}</p>) } */}
+
+                       {!t.transfers.walletBlank? (t.transfers.walletColor? <p id="" className='blankTitle'>{t.venue}</p>:<p id="blankTitle">{t.venue}</p>):(<p id="walletTitle" className='font-[500]'>{t.venue}</p>) }
                     {/* <p
                       id="walletInfo"
                       className="w-full leading-none"
@@ -209,19 +220,35 @@ const formatDate = (dateString) => {
                       {t.artiste}
                     </p> */}
                     {!t.transfers.walletBlank?  
-                    <p
-                      id="blankInfo"
-                      className="w-full leading-none"
-                      style={{
-                        overflowWrap: 'break-word',
-                        wordBreak: 'break-word',
-                        whiteSpace: 'normal',
-                      }}
-                    >
-                      {t.artiste} {t.artisteLineBreak && <span className=''>{t.artisteLineBreak}</span>}       
+                    // <p
+                    //   id="blankInfo"
+                    //   className="w-full leading-none"
+                    //   style={{
+                    //     overflowWrap: 'break-word',
+                    //     wordBreak: 'break-word',
+                    //     whiteSpace: 'normal',
+                    //   }}
+                    // >
+                    //   {t.artiste}  {t.artisteLineBreak && <span className=''>{t.artisteLineBreak} </span>}       
 
 
-                    </p> : 
+                    // </p>
+                    // 
+                    <p 
+  // id="blankInfo" 
+  className="w-full leading-none blankInfo" 
+  style={{
+    overflowWrap: 'break-word',
+    wordBreak: 'break-word',
+    whiteSpace: 'normal',
+    fontSize: (() => {
+      const totalLength = (t.artiste || '').length + (t.artisteLineBreak || '').length;
+      return totalLength < 45 ? '18px' : '10px'; // Adjust sizes as needed
+    })()
+  }}
+>
+  {t.artiste} {t.artisteLineBreak && <span>{t.artisteLineBreak}</span>}
+</p> : 
                      <p
                       id="walletInfo"
                       className="w-full leading-none"
@@ -308,18 +335,11 @@ const formatDate = (dateString) => {
                       </ul>
                     )}
                   </li>
-                  <li>
-                  {/* {t.transfers?.gate? (<div>
-                    {t.transfers?.walletBlank?(               
-                           <p id="blankSec">ENTRY INFO</p>
-):(                   
-                       <p id="walletTitle">ENTRY INFO</p>
-)}
-                    <p id="walletInfo">{t.transfers?.gate}</p></div>) : (<div><p id="walletTitle">ENTRY INFO</p>
-                      <p id="walletInfo">{t.transfers?.desc}</p></div>) } */}
-                    
+                  <li className='flex items-start justify-between'>
+                    <div>
+          
                     {!t.transfers.walletBlank? (
-                                                 <p id="blankSec">ENTRY INFO</p>
+                                                 t.transfers.walletColor? <p id="" className='blankSec'>ENTRY INFO</p>  : <p id="blankSec">ENTRY INFO</p>
 
                     ): (
                       <p id="walletTitle">ENTRY INFO</p>
@@ -331,6 +351,12 @@ const formatDate = (dateString) => {
                     ):(
                       <p id="walletInfo">{t.transfers?.desc}</p>
                     )  }
+                  </div>
+
+                  <div>
+                    <p className='blankSec'>Ticket Type</p>
+                     <p id="walletInfo">{t.type}</p>
+                  </div>
                   </li>
                 </ul>
 
