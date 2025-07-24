@@ -34,7 +34,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletBlank:"y",
+            walletBlank:"",
         }
       },
       {
@@ -69,7 +69,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-             walletBlank:"y",
+             walletBlank:"",
         }
       },
 
@@ -105,7 +105,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-             walletBlank:"y",
+             walletBlank:"",
         }
         },
   ],
