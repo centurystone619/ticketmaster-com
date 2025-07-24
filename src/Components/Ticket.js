@@ -235,7 +235,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                               id="checkmark"
                               style={{
                                 backgroundColor:
-                                  subArray.transfers?.colorBtn || "#004ee7",
+                                  subArray.transfers?.btnColor || "#004ee7",
                               }}
                               onClick={(e) => setIsBarcodeOpen(true)}
                             >
@@ -243,7 +243,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                                 <div
                                   className="flex items-center justify-center m-auto
                               text-center m-auto py-1 "
-                                >
+                                 >
                                   <img
                                     src={ViewTicket}
                                     alt="checkmark"
@@ -258,7 +258,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                           <li
                             className="pb-5"
                             style={{
-                              color: subArray.transfers?.colorBtn || "#004ee7",
+                              color: subArray.transfers?.btnColor || "#004ee7",
                             }}
                           >
                             {" "}
@@ -285,7 +285,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                                     <div
                                       className="flex items-center justify-center m-auto
                               text-center m-auto py-1 "
-                                    >
+                                     >
                                       <img
                                         src={ViewTicket}
                                         alt="checkmark"

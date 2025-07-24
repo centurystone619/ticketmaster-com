@@ -35,7 +35,7 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
                   <button
                     id="trasfer-btn"
                     onClick={openForm}
-                    style={{ background: "#004EE7" }}
+                    style={{ background:eventIndex[0].transfers.btnColor || "#004EE7" }}
                     className=" hover:bg-opacity-10 rounded-md text-white w-32 text-center py-2"
                   >
                     Transfer
