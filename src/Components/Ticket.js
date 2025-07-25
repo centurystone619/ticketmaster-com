@@ -90,7 +90,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                           <div className="">
                             
                             <p id="sec-GA" className="">
-                              SEC
+                              {subArray.transfers?.sportSec? 'Section' : 'SEC'}
                             </p>
                             <p id="numSec" className="text-center text-nowrap">
                               {subArray.sec}
@@ -106,7 +106,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                       </div>): (   <div className="flex items-center justify-around text-center text-azure-white   bg-transparent w-full" >
                         <div>
                           <p id="sec-GA" className=" ">
-                            SEC
+                            {subArray.transfers?.sportSec? 'Section' : 'SEC'}
                           </p>
                           <p id="num" className="text-center text-nowrap">
                             {subArray.sec}{" "}
@@ -117,7 +117,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                             <div>
                               {" "}
                               <p id="sec-GA" className="text-center">
-                                ROW
+                                {subArray.transfers?.sportSec? 'Row' : ' ROW'}
                               </p>
                               <p id="num" className="text-center text-nowrap  ">
                                 {subArray.row}
@@ -130,7 +130,8 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                             <div className="text-nowrap text-center">
                               {" "}
                               <p id="sec-GA" className=" ">
-                                SEAT
+                                                                {subArray.transfers?.sportSec? 'Seat' : ' SEAT'}
+
                               </p>
                               <p id="num" className="text-center text-nowrap ">
                                 {subArray.seat}

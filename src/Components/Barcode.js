@@ -268,7 +268,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                   <ul className="flex items-center justify-center space-x-12 text-white">
                     <li className="leading-none mb-4">
                       <p id="barcodeSec" className="font-semibold">
-                        SEC
+                         {eventIndex[0].transfers?.sportSec? 'Section' : 'SEC'}
                       </p>
                       <p
                         id="barcodeSecIndex"
@@ -279,7 +279,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                     </li>
                    {selectSeatIndex.row &&  <li className="leading-none mb-4">
                       <p id="barcodeSec" className="font-semibold">
-                        ROW
+                          {eventIndex[0].transfers?.sportSec? 'Row' : 'ROW'}
                       </p>
                       <p
                         id="barcodeSecIndex"
@@ -290,7 +290,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                     </li>}
                    {selectSeatIndex.transfers.seats && !selectSeatIndex.transfers.ticketId &&  <li className="leading-none mb-4">
                       <p id="barcodeSec" className="font-semibold">
-                        SEAT
+                          {eventIndex[0].transfers?.sportSec? 'Seat' : 'SEAT'}
                       </p>
                       <p
                         id="barcodeSecIndex"
