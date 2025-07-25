@@ -80,7 +80,7 @@ export const eventData=[
         sec: "UN",
         row: "J",
         seat: "12",
-        date: "Sat, Aug 30,",
+        date: "Sat, Aug 30",
         time: "7:30pm",
         state: "South Carolina",
         venue: "Clemson Memorial Stadium",
