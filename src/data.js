@@ -5,8 +5,8 @@ export const eventData=[
                artiste: "Clemson V LSU ",
 
         img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
-        sec: "P",
-        row: "GG",
+        sec: "UN",
+        row: "J",
         seat: "8",
         date: "Sat, Aug 30",
         time: "7:30pm",
@@ -25,7 +25,7 @@ export const eventData=[
           sec: "",
           row: "",
           seats: ['8','9','10','11'],
-          desc: "Gate 9",
+          desc: "Gate 5",
           GA: "",
           color: "#582c7c",
           venueMap: "",
@@ -34,15 +34,14 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"",
-            walletColor:'green',
-          sportSec:'y'
+            walletColor:'green'
         }
       },
       {
         artiste: "Clemson V LSU",
         img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
-        sec: "P",
-        row: "GG",
+        sec: "UN",
+        row: "J",
         seat: "9",
         date: "Sat, Aug 30 ",
         time: "7:300 PM",
@@ -61,7 +60,7 @@ export const eventData=[
           sec: "",
           row: "",
           seats: ['',''],
-          desc: "Gate 9",
+          desc: "Gate 5",
           GA: "",
           color: "#582c7c",
           venueMap: "",
@@ -70,18 +69,17 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"",
-          sportSec:'y'
         }
       },
 
       {
         artiste: "Clemson V LSU",
         img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
-        sec: "P",
-        row: "GG",
+        sec: "UN",
+        row: "J",
         seat: "10",
         date: "Sat, Aug 30, ",
-        time: "7:300 PM",
+        time: "7:30 PM",
         state: "South Carolina",
         venue: "Clemson Memorial Stadium",
         type: "Renewal Season IPTAY Lower Dec",
@@ -97,7 +95,7 @@ export const eventData=[
           sec: "",
           row: "",
           seats: ['',''],
-          desc: "Gate 9",
+          desc: "Gate 5",
           GA: "",
           color: "#581864",
           venueMap: "",
@@ -106,14 +104,13 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-          sportSec:'y'
         }
         },
         {
         artiste: "Clemson V LSU",
         img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
-        sec: "P",
-        row: "GG",
+        sec: "UN",
+        row: "J",
         seat: "11",
         date: "Sat, Aug 30, ",
         time: "7:300 PM",
@@ -132,7 +129,7 @@ export const eventData=[
           sec: "",
           row: "",
           seats: ['',''],
-          desc: "Gate 7",
+          desc: "Gate 5",
           GA: "",
           color: "#581864",
           venueMap: "",
@@ -141,7 +138,6 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-          sportSec:'y'
         }
         },
   ],
