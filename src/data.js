@@ -34,8 +34,8 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"",
-            walletColor:””,
-            sportSec:”y”
+            walletColor:'',
+            sportSec:'y'
         }
       },
       {
@@ -70,6 +70,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"",
+          sportSec:'y'
         }
       },
 
@@ -105,6 +106,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
+          sportSec:'y'
         }
         },
         {
@@ -139,6 +141,7 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
+          sportSec:'y'
         }
         },
   ],
