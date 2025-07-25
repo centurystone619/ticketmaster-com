@@ -29,11 +29,11 @@ export const eventData=[
           GA: "",
           color: "#582c7c",
           venueMap: "",
-          gate: "",
+          gate: "Gate 7",
           btnColor: "#582c7c",
           sell: "y",
           trnsfer: "y",
-            addOns:"y",
+            addOns:"",
             walletColor:'green'
         }
       },
@@ -62,13 +62,13 @@ export const eventData=[
           seats: ['',''],
           desc: "Gate 7",
           GA: "",
-          color: "#581864",
+          color: "#582c7c",
           venueMap: "",
           gate: "",
-          btnColor: "#581864",
+          btnColor: "#582c7c",
           sell: "y",
           trnsfer: "y",
-            addOns:"y",
+            addOns:"",
         }
       },
 
