@@ -83,7 +83,7 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
 
 </div>
 
-{eventIndex[0].transfers?.venueMap && (<div className="w-12/12 flex item-center justify-center">
+{eventIndex[0].transfers?.venueMap ? (<div className="w-12/12 flex item-center justify-center">
         <div
           id="map"
           className=" w-11/12 h-14 "
@@ -98,7 +98,12 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
             {eventIndex[0].venue}
           </div>
         </div>
-      </div>)}
+      </div>) : (
+
+        <div className='w-full flex items-center justify-center' >
+  <button    id="trasfer-btn" className='w-11/12 text-center py-3 hover:bg-opacity-10 rounded-md text-white' style={{ background:eventIndex[0].transfers.btnColor || "#004EE7" }}> More Ticket Actions</button>
+</div>
+      )}
 
 
 
