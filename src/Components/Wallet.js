@@ -336,7 +336,7 @@ const formatDate = (dateString) => {
                     )}
                   </li>
                   <li className='flex items-start justify-between'>
-                    <div>
+                    <div >
           
                     {!t.transfers.walletBlank? (
                                                  t.transfers.walletColor? <p id="" className='blankSec'>ENTRY INFO</p>  : <p id="blankSec">ENTRY INFO</p>
@@ -353,10 +353,11 @@ const formatDate = (dateString) => {
                     )  }
                   </div>
 
-                  <div>
-                    <p className='blankSec'>Ticket Type</p>
-                     <p id="walletInfo">{t.type}</p>
-                  </div>
+                 {t.transfers.sportSec &&  <div >
+                      {/* <p id="walletTitle" className=' blankSec'>Ticket Type</p> */}
+                     {  t.transfers.walletColor? <p id="" className='blankSec font-[700]'>Ticket Type</p>  : <p id="blankSec" className='font-[700]'>Ticket Type</p>}
+                     <p id="walletInfo" className=''>{t.type}</p>
+                  </div>}
                   </li>
                 </ul>
 
