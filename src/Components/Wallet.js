@@ -6,6 +6,22 @@ import Screenreader from '../assets/screenreaderbg.png';
 import IndexBtn from './IndexBtn';
 import logoImg from '../assets/tml.PNG'
 
+const truncateType = (typeString, minLength = 17, maxLength = 22) => {
+  if (!typeString || typeString.length <= maxLength) {
+    return typeString;
+  }
+  
+  // Look for space between minLength and maxLength
+  for (let i = minLength; i <= maxLength && i < typeString.length; i++) {
+    if (typeString[i] === ' ') {
+      return typeString.substring(0, i) + '...';
+    }
+  }
+  
+  // If no space found in range, truncate at maxLength
+  return typeString.substring(0, maxLength) + '...';
+};
+
 const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => {
   const walletWrapperRef = useRef(null);
 
@@ -24,6 +40,10 @@ const Wallet = ({ setIsWalletOpen, eventIndex, seatIndex, handleTicketbtn }) => 
 
    
   // };
+
+
+
+  
 const formatDate = (dateString) => {
   if (!dateString) return '';
   
@@ -356,7 +376,18 @@ const formatDate = (dateString) => {
                  {t.transfers.sportSec &&  <div >
                       {/* <p id="walletTitle" className=' blankSec'>Ticket Type</p> */}
                      {  t.transfers.walletColor? <p id="" className='blankSec font-[700]'>Ticket Type</p>  : <p id="blankSec" className='font-[700]'>Ticket Type</p>}
-                     <p id="walletInfo" className=''>{t.type}</p>
+                     <p id="walletInfo" className=''>{(() => {
+    const entryInfoText = t.transfers?.gate || t.transfers?.desc || '';
+    
+    if (entryInfoText.length <= 9) {
+      // If gate/desc is 10 chars or less, use different truncation params (24-28)
+      return truncateType(t.type, 24, 28);
+    } else {
+      // If gate/desc is more than 10 chars, use original truncation params (17-22)
+      return truncateType(t.type, 17, 22);
+    }
+  })()}</p>
+                     {/* <p>{truncateType(t.type)}</p> */}
                   </div>}
                   </li>
                 </ul>
