@@ -57,15 +57,15 @@ const grandTotal = calculateTotal.toFixed(2)
           {eventIndex[0]?.transfers?.sportSec? (
           <ul>
                 <li className='  py-3' id='details-border' >
-                                  <p className='text-azure-black text-[16px] font-[500] px-5'>Seat Location</p>
-<span className='text-azure-black text-[14px] font-[400] px-5 '>
+                                  <p className='text-azure-black text-[14px] font-[500] px-5'>Seat Location</p>
+<span className='text-azure-black text-[13px] font-[400] px-5 '>
   Section {sec} / Row {row} / Seat {seat}
 </span>
   </li>
 
     <li className='  py-3' id='details-border' >
-                <p className='text-azure-black text-[16px] font-[500] px-5'>{artiste}</p>
-<span className='text-azure-black text-[14px] font-[400]  '>
+                <p className='text-azure-black text-[14px] font-[500] px-5'>{artiste}</p>
+<span className='text-azure-black text-[13px] font-[400]  '>
                       <div className="px-5 mb-1">
                         <span className="inline">
                           {eventData.month} {eventData.day}
@@ -78,14 +78,14 @@ const grandTotal = calculateTotal.toFixed(2)
     </span>            </li>
 
     <li className='  py-3' id='details-border' >
-                <p className='text-azure-black text-[16px] font-[500] px-5'>Entry Info</p>
-<span className='text-azure-black text-[14px] font-[400] px-5  '>
+                <p className='text-azure-black text-[14px] font-[500] px-5'>Entry Info</p>
+<span className='text-azure-black text-[13px] font-[400] px-5  '>
                       {transfers.gate? `${transfers.gate}`: `${transfers.desc}`}
     </span>            </li>
 
      <li className='  py-3' id='details-border' >
-                <p className='text-azure-black text-[16px] font-[500] px-5'>Ticket Info</p>
-<span className='text-azure-black text-[14px] font-[400]  '>
+                <p className='text-azure-black text-[14px] font-[500] px-5'>Ticket Info</p>
+<span className='text-azure-black text-[13px] font-[400]  '>
                       <div className="px-5 mb-1">
                         <span className="inline">
                           {eventData.month} {eventData.day}
@@ -98,37 +98,37 @@ const grandTotal = calculateTotal.toFixed(2)
     </span>            </li>
 
      <li className='  py-3' id='details-border' >
-                <p className='text-azure-black text-[16px] font-[500] px-5'>Barcode Number</p>
-                <span className='text-azure-black text-[14px] font-[400] px-5'>{eventData.barcodeNo}</span>
+                <p className='text-azure-black text-[14px] font-[500] px-5'>Barcode Number</p>
+                <span className='text-azure-black text-[13px] font-[400] px-5'>{eventData.barcodeNo}</span>
             </li>
 
 
              <li className='  py-3' id='details-border' >
-                              <p className='text-azure-black text-[16px] font-[500] px-5'>Venue</p>
+                              <p className='text-azure-black text-[14px] font-[500] px-5'>Venue</p>
 
-                <span className='text-azure-black text-[16px] font-[500] px-5'>{venue}</span>
+                <span className='text-azure-black text-[13px] font-[400] px-5'>{venue}</span>
                 {/* <span className='text-azure-black text-[14px] font-[400] px-5'>{state}</span> */}
             </li>
 
                <li className='  py-3' id='details-border' >
-                              <p className='text-azure-black text-[16px] font-[500] px-5'>Account Number</p>
+                              <p className='text-azure-black text-[14px] font-[500] px-5'>Account Number</p>
 
-                <span className='text-azure-black text-[16px] font-[500] px-5'>{yourName}</span>
+                <span className='text-azure-black text-[13px] font-[400] px-5'>{yourName}</span>
                 {/* <span className='text-azure-black text-[14px] font-[400] px-5'>{state}</span> */}
             </li>
 
              <li className='  py-3' id='details-border' >
-                <p className='text-azure-black text-[16px] font-[500] px-5'>Ticket Type</p>
-                <span className='text-azure-black text-[16px] font-[400] px-5'>{type}</span>
+                <p className='text-azure-black text-[14px] font-[500] px-5'>Ticket Type</p>
+                <span className='text-azure-black text-[13px] font-[400] px-5'>{type}</span>
             </li>
 
      
 
                <li  id='details-border' className='  py-3'  >
-                <p className='text-azure-black text-[16px] font-[500] px-5'>Ticket Price</p>
+                <p className='text-azure-black text-[14px] font-[500] px-5'>Ticket Price</p>
 <ul className=''>
     
-   <li className='flex justify-between items-center px-5  text-azure-black text-[14px] font-[400] text-center'>
+   <li className='flex justify-between items-center px-5  text-azure-black text-[13px] font-[400] text-center'>
     
     <p>Ticket Face Value</p>
     <span>{transfers.ticketPrice}</span>
@@ -149,7 +149,7 @@ const grandTotal = calculateTotal.toFixed(2)
     
     </li>  */}
 
-      <li className='flex justify-between items-center  text-azure-black text-[16px] font-[400] px-5'>
+      <li className='flex justify-between items-center  text-azure-black text-[14px] font-[400] px-5'>
     
     <p>Grand Total</p>
     <span>{transfers.ticketPrice}</span>
@@ -162,9 +162,9 @@ const grandTotal = calculateTotal.toFixed(2)
 
      </li>
 
-      <li  id='details-border' className='flex flex-col justify-start items-start  text-azure-black text-[16px] font-[400] px-5 py-3'>
-      <p className='text-azure-black text-[16px] font-[500] '>Terms & Conditions</p>
-      <span className='text-[14px]'>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
+      <li  id='details-border' className='flex flex-col justify-start items-start  text-azure-black text-[14px] font-[400] px-5 py-3'>
+      <p className='text-azure-black text-[14px] font-[500] '>Terms & Conditions</p>
+      <span className='text-[13px]'>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
      </li>
           </ul>
          ):(
