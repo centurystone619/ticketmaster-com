@@ -1,14 +1,20 @@
 import React from 'react'
 import deleteImg from '../assets/delete.png'
 
+
+const formatTime = (time) => {
+  if (!time) return time;
+  // Add space before AM/PM if it doesn't exist
+  return time.replace(/(\d)(am|pm)$/i, '$1 $2');
+};
 const TicketDetails = ({eventIndex,events,selectedIndex,setIsTicketDetailsOpen}) => {
     const details =eventIndex[0]
     const {artiste,img,date,time,venue,eventData,state,transfers,sec,row,yourName,seat,type,promoter,artisteName,showName,street} = details
 
    
     
-let number = parseFloat(transfers.ticketPrice.replace(/[^\d.]/g, ''))
-let displayDate = date.replace(',', '').toUpperCase()
+let number = parseFloat(transfers.ticketPrice?.replace(/[^\d.]/g, ''))
+let displayDate = date?.replace(',', '').toUpperCase()
 const calculateFee = number * 28/100 
 const fee = calculateFee.toFixed(2)
 
@@ -21,7 +27,7 @@ const grandTotal = calculateTotal.toFixed(2)
 
   return (
     < div className="ticket-slide-up absolute  top-0 w-full lg:w-[710px] h-full bg-[#fafafa]  ">
-        <div className='h-[100vh] overflow-auto w-[100vw] pb-5'>
+        <div className=''>
 <nav>
           {/* <ul className="flex  item-center justify-between px-5 text-center  bg-black   py-3  "> */}
           <ul className={`flex  item-center justify-between px-5 text-center space-x-10 ${
@@ -34,7 +40,7 @@ const grandTotal = calculateTotal.toFixed(2)
                 <img src={deleteImg} alt='close ticket' />
               </button>
             </li>
-            <li className="flex-1 item-center text-center font-semibold text-white">
+            <li className="flex-1 item-center text-start font-semibold text-[21px] text-white">
               Ticket Details
             </li>
 
@@ -47,6 +53,121 @@ const grandTotal = calculateTotal.toFixed(2)
           </nav>
 
 
+         <div className='h-[100vh] overflow-auto w-[100vw] pb-5 bg-[#fafafa]'>
+          {eventIndex[0]?.transfers?.sportSec? (
+          <ul>
+                <li className='  py-3' id='details-border' >
+                                  <p className='text-azure-black text-[16px] font-[500] px-5'>Seat Location</p>
+<span className='text-azure-black text-[14px] font-[400] px-5 '>
+  Section {sec} / Row {row} / Seat {seat}
+</span>
+  </li>
+
+    <li className='  py-3' id='details-border' >
+                <p className='text-azure-black text-[16px] font-[500] px-5'>{artiste}</p>
+<span className='text-azure-black text-[14px] font-[400]  '>
+                      <div className="px-5 mb-1">
+                        <span className="inline">
+                          {eventData.month} {eventData.day}
+                          {time && <em>,</em>} {eventData.year && <span>{eventData.year} <em>,</em></span>}
+                          {time && <span className="px-1">{formatTime(time).toUpperCase()}</span>} <em> • </em> {venue}
+                          
+                        </span>
+                        
+                      </div>
+    </span>            </li>
+
+    <li className='  py-3' id='details-border' >
+                <p className='text-azure-black text-[16px] font-[500] px-5'>Entry Info</p>
+<span className='text-azure-black text-[14px] font-[400] px-5  '>
+                      {transfers.gate? `${transfers.gate}`: `${transfers.desc}`}
+    </span>            </li>
+
+     <li className='  py-3' id='details-border' >
+                <p className='text-azure-black text-[16px] font-[500] px-5'>Ticket Info</p>
+<span className='text-azure-black text-[14px] font-[400]  '>
+                      <div className="px-5 mb-1">
+                        <span className="inline">
+                          {eventData.month} {eventData.day}
+                          {time && <em>,</em>} {eventData.year && <span>{eventData.year} <em>,</em></span>}
+                          {time && <span className="px-1">{formatTime(time).toUpperCase()}</span>} <em> • </em> {venue}
+                          
+                        </span>
+                        
+                      </div>
+    </span>            </li>
+
+     <li className='  py-3' id='details-border' >
+                <p className='text-azure-black text-[16px] font-[500] px-5'>Barcode Number</p>
+                <span className='text-azure-black text-[14px] font-[400] px-5'>{eventData.barcodeNo}</span>
+            </li>
+
+
+             <li className='  py-3' id='details-border' >
+                              <p className='text-azure-black text-[16px] font-[500] px-5'>Venue</p>
+
+                <span className='text-azure-black text-[16px] font-[500] px-5'>{venue}</span>
+                {/* <span className='text-azure-black text-[14px] font-[400] px-5'>{state}</span> */}
+            </li>
+
+               <li className='  py-3' id='details-border' >
+                              <p className='text-azure-black text-[16px] font-[500] px-5'>Account Number</p>
+
+                <span className='text-azure-black text-[16px] font-[500] px-5'>{yourName}</span>
+                {/* <span className='text-azure-black text-[14px] font-[400] px-5'>{state}</span> */}
+            </li>
+
+             <li className='  py-3' id='details-border' >
+                <p className='text-azure-black text-[16px] font-[500] px-5'>Ticket Type</p>
+                <span className='text-azure-black text-[16px] font-[400] px-5'>{type}</span>
+            </li>
+
+     
+
+               <li  id='details-border' className='  py-3'  >
+                <p className='text-azure-black text-[16px] font-[500] px-5'>Ticket Price</p>
+<ul className=''>
+    
+   <li className='flex justify-between items-center px-5  text-azure-black text-[14px] font-[400] text-center'>
+    
+    <p>Ticket Face Value</p>
+    <span>{transfers.ticketPrice}</span>
+    
+    </li> 
+
+     {/* <li className='flex justify-between items-center  text-azure-black text-[14px] font-[400] px-5'>
+    
+    <p>Fee</p>
+    <span>{transfers?.ticketPrice[0]}{fee}</span>
+    
+    </li>  */}
+
+      {/* <li className='flex justify-between items-center  text-azure-black text-[14px] font-[400] px-5'>
+    
+    <p>Tax</p>
+    <span>{transfers.ticketPrice[0]}{tax}</span>
+    
+    </li>  */}
+
+      <li className='flex justify-between items-center  text-azure-black text-[16px] font-[400] px-5'>
+    
+    <p>Grand Total</p>
+    <span>{transfers.ticketPrice}</span>
+    
+    </li> 
+
+ 
+
+    </ul>       
+
+     </li>
+
+      <li  id='details-border' className='flex flex-col justify-start items-start  text-azure-black text-[16px] font-[400] px-5 py-3'>
+      <p className='text-azure-black text-[16px] font-[500] '>Terms & Conditions</p>
+      <span className='text-[14px]'>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
+     </li>
+          </ul>
+         ):(
           <ul className=''>
            
 
@@ -60,6 +181,7 @@ const grandTotal = calculateTotal.toFixed(2)
                           {date}
                           {time && <em>,</em>}
                           {time && <span className="px-1">{time}</span>}
+
                           
                         </span>
                         
@@ -145,7 +267,7 @@ const grandTotal = calculateTotal.toFixed(2)
      <li className='flex justify-between items-center  text-azure-black text-[14px] font-[400] px-5'>
     
     <p>Fee</p>
-    <span>{transfers.ticketPrice[0]}{fee}</span>
+    <span>{transfers?.ticketPrice[0]}{fee}</span>
     
     </li> 
 
@@ -169,6 +291,8 @@ const grandTotal = calculateTotal.toFixed(2)
 
      </li>
           </ul>
+         )} 
+         </div>
 
           {/* <div>
            <img src={terms} alt='terms'/>
