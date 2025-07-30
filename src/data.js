@@ -2,7 +2,10 @@ export const eventData=[
   [
 
         {
+          yourName:'clemson',
+          
                artiste: "Clemson V LSU ",
+               
 
         img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
         sec: "UN",
@@ -13,6 +16,10 @@ export const eventData=[
         state: "South Carolina",
         venue: "Clemson Memorial Stadium",
         type: "Renewal Season IPTAY Lower Dec",
+        promoter:"Live Nation",
+        artisteName:'Cold Play',
+        street:'hello',
+        showName:'music',
         eventData: {
           month: "Aug",
           day: "30",
@@ -35,7 +42,8 @@ export const eventData=[
           trnsfer: "y",
             addOns:"",
             walletColor:'',
-            sportSec:'y'
+            sportSec:'y',
+            ticketPrice:'$500'
         }
       },
       {
