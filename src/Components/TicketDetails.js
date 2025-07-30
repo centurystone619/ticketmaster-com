@@ -164,7 +164,7 @@ const grandTotal = calculateTotal.toFixed(2)
 
       <li  id='details-border' className='flex flex-col justify-start items-start  text-azure-black text-[14px] font-[400] px-5 py-3'>
       <p className='text-azure-black text-[14px] font-[500] '>Terms & Conditions</p>
-      <span className='text-[13px]'>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
+      <span className='text-[13px] font-[500]'>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
      </li>
           </ul>
          ):(
