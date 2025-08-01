@@ -305,7 +305,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                                 }}
                               >
                                 {" "}
-                                <button onClick={()=>setIsTicketDetailsOpen(true)} id="GA-btn" >Ticket Details</button>
+                                <button onClick={()=>setIsTicketDetailsOpen(true)} id="GA-btn"  >Ticket Details</button>
                               </li>
                             </ul>
                       )}
@@ -371,7 +371,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
         <Wallet isWalletOpen={isWalletOpen} setIsWalletOpen={setIsWalletOpen} eventIndex={eventIndex} seatIndex={seatIndex} handleTicketbtn={handleTicketbtn} />}
   {isFormOpen && <Form  setIsFormOpen={setIsFormOpen} selectedIndex={selectedIndex} eventIndex={eventIndex} /> }
   {isEmailVerificationOpen && <VerificationEmail events={events} selectedIndex={selectedIndex} setIsEmailVerificationOpen={setIsEmailVerificationOpen} />}
-  {isTicketDetailsOpen && <TicketDetails eventIndex={eventIndex} events={events} selectSeatIndex={selectedIndex} setIsTicketDetailsOpen={setIsTicketDetailsOpen}/>}
+  {isTicketDetailsOpen && <TicketDetails  eventIndex={eventIndex} events={events} selectSeatIndex={events[selectedIndex][seatIndex]} setIsTicketDetailsOpen={setIsTicketDetailsOpen}/>}
       </main>
     )}
     </>

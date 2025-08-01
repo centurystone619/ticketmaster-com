@@ -7,7 +7,7 @@ const formatTime = (time) => {
   // Add space before AM/PM if it doesn't exist
   return time.replace(/(\d)(am|pm)$/i, '$1 $2');
 };
-const TicketDetails = ({eventIndex,events,selectedIndex,setIsTicketDetailsOpen}) => {
+const TicketDetails = ({eventIndex,events,selectedIndex,setIsTicketDetailsOpen,selectSeatIndex}) => {
     const details =eventIndex[0]
     const {artiste,img,date,time,venue,eventData,state,transfers,sec,row,yourName,seat,type,promoter,artisteName,showName,street} = details
 
@@ -59,7 +59,9 @@ const grandTotal = calculateTotal.toFixed(2)
                 <li className='  py-3' id='details-border' >
                                   <p className='text-azure-black text-[14px] font-[500] px-5'>Seat Location</p>
 <span className='text-azure-black text-[13px] font-[400] px-5 '>
-  Section {sec} / Row {row} / Seat {seat}
+  {/* Section {sec} / Row {row} / Seat {seat} */}
+
+   Section {sec} / Row {row} / Seat {selectSeatIndex.seat}
 </span>
   </li>
 
@@ -164,7 +166,7 @@ const grandTotal = calculateTotal.toFixed(2)
 
       <li  id='details-border' className='flex flex-col justify-start items-start  text-azure-black text-[14px] font-[400] px-5 py-3'>
       <p className='text-azure-black text-[14px] font-[500] '>Terms & Conditions</p>
-      <span className='text-[13px] font-[500]'>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
+      <span className='text-[13px] font-[500] '>Tickets are subject to our Purchase Policy. Venue and/or event event organiser T&Cs may also apply</span>
      </li>
           </ul>
          ):(
