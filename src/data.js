@@ -32,7 +32,7 @@ export const eventData=[
           sec: "",
           row: "",
           seats: ['8','10','12','14'],
-          // desc: "Gate 5",
+          desc: "Gate 5",
           GA: "",
           color: "#582c7c",
           venueMap: "",
