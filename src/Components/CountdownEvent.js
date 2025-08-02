@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 
-const CountDownEvent = ({ eventTime:eventData }) => {
-  const [countdown, setCountdown] = useState('');
+const CountDownEvent = ({countdown,setCountdown, eventTime:eventData }) => {
+  
 
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const CountDownEvent = ({ eventTime:eventData }) => {
   }, [eventData]);
 
 
-  return <div className='text-center'>
+  return <div className='text-center text-[18px] z-10' >
     Next Event: <span className='font-bold'>{countdown}</span>
   </div>;
 };
