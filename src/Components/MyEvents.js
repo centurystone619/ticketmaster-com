@@ -234,7 +234,7 @@ const [countdown, setCountdown] = useState('');
                 </li>
 
                 <li className='w-full'>
-      <button className='bg-azure-deepblue text-white py-2 font-[600] px-3 text-center  w-full text-[18px]'>View Tickets</button>
+      <button className='bg-azure-deepblue text-white py-2 font-[600] px-3 text-center  w-full text-[16px]'>View Tickets</button>
     </li>
                 </ul>
               </li>
@@ -485,3 +485,4 @@ const [countdown, setCountdown] = useState('');
 }
 
 export default MyEvents
+
