@@ -43,7 +43,8 @@ export const eventData=[
             addOns:"",
             walletColor:'',
             sportSec:'y',
-            ticketPrice:'$500'
+            ticketPrice:'$500',
+           dayCounter:'y'
         }
       },
       {
