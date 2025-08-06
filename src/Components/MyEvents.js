@@ -47,12 +47,25 @@ const formatTime = (timeString) => {
   return upperTime;
 };
 
+const getBorderColorClass = (borderColor) => {
+  const validTailwindColors = ['red', 'yellow', 'blue', 'green', 'black', 'white']; // Adjust based on your Tailwind config
+  if (borderColor && validTailwindColors.includes(borderColor)) {
+    return `border-${borderColor}`;
+  }
+  return borderColor ? '' : 'border-yellow';
+};
+
+const getInlineBorderStyle = (borderColor) => {
+  return borderColor ? { borderBottom: `2px solid ${borderColor}` } : { borderBottom: '2px solid #b2beb5' };
+};
+
 const MyEvents = ({eventIndex, events,flagIndex,handleEventClick,setIsIndexSelected, setSelectedIndex,firstEvents}) => {
 const [countdown, setCountdown] = useState('');
  const {artiste,time,img,venue,date,transfers,artisteLineBreak,eventData,state}= events[0][0]
 
 
  
+
 
 
 
@@ -177,9 +190,17 @@ const [countdown, setCountdown] = useState('');
 
 
 
-<div className='h-[90vh] relative'>
+<div className='h-[90vh]'>
+  <div className='max-h-[77vh] relative pb-3'>
   {/* More heavily blurred background */}
-  <div className='absolute inset-0 blur-sm' style={{backgroundImage:`url(${img})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}></div>
+  {/* <div className='absolute inset-0 blur-sm' style={{backgroundImage:`url(${img})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}></div> */}
+  <div className='absolute inset-0 blur-sm' style={{
+  backgroundImage:`url(${img})`,
+  backgroundSize:'cover',
+  backgroundRepeat:'no-repeat',
+  backgroundPosition:'center',
+  filter: 'blur(4px) brightness(60%)'
+}}></div>
   
   {/* Clear content */}
   
@@ -215,7 +236,7 @@ const [countdown, setCountdown] = useState('');
                   </li>
  <li className='flex flex-col px-3 bg-black text-azure-white'>
                       <ul className='py-2 bg-black'>
-                          <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2' id="artiste-ev-single">
+                          <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px] `} id="artiste-ev-single"  style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
   {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
 </li>
                         <li className='pb-2 pt-2 flex justify-between items-center'>
@@ -244,6 +265,7 @@ const [countdown, setCountdown] = useState('');
    </ul>
   
 </div>
+</div>
 )
 :
 
@@ -254,82 +276,94 @@ const [countdown, setCountdown] = useState('');
    { events.length > 1?(
 <div>
       <section>
-                  <ul>
-    <li className=' overflow-hidden'>
-       <ul className='py-1  relative' >
-  <div
-    className="absolute inset-0 blur-md  bg-contain bg-center z-0"
-    style={{
-      backgroundImage: `url(${img})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'contain', backgroundColor:'#686d70'
-    }}
-  ></div>
+  <ul>
+    <li className='overflow-hidden'>
+      <ul className='py-1 relative'>
+        <div
+          className="absolute inset-0 w-full h-full "
+          style={{
+            backgroundImage: `url(${img})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover', // Changed from 'contain' to 'cover'
+            backgroundPosition: 'center', // Added for better positioning
+            filter: 'blur(4px) brightness(60%)',
+            zIndex: 1 // Ensure it's behind other content
+          }}
+        ></div>
         
-    <li className='text-azure-white flex items-center justify-between px-2 relative  pt-2 z-10'>
-<div className=''><CountDownEvent countdown={countdown} setCountdown={setCountdown} eventTime={eventData} /></div>     <p><img src={eventCalendar} alt='evcal' className='scale-75 mr-5'/></p>
-    </li>
+        <li className='text-azure-white flex items-center justify-between px-2 relative pt-2 z-10'>
+          <div className=''>
+            <CountDownEvent countdown={countdown} setCountdown={setCountdown} eventTime={eventData} />
+          </div>     
+          <p>
+            <img src={eventCalendar} alt='evcal' className='scale-75 mr-5'/>
+          </p>
+        </li>
 
-    <li className='relative z-10' onClick={() => handleEventClick(0)}>
-      <ul className='my-3'>
-  <li style={{
+        <li className='relative z-10' onClick={() => handleEventClick(0)}>
+          <ul className='my-3'>
+            <li style={{
                 backgroundImage: `url(${img})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: "96vw",
-              //  filter: "contrast(120%) brightness(100%) "
               }} 
-              
-               className="h-48 w-full mx-2 inset-0 z-0 relative"
-          // onClick={(e)=>handleEventClick()}
-              
-              ></li>
+              className="h-48 w-full mx-2 inset-0 z-0 relative"
+            ></li>
 
-              <li id='eventdetails' className='w-full mx-2  inset-0 z-10 relative'> 
-                <ul className='w-[96vw] z-1'>
-                      <li className='flex w-full  justify-between border-azure-white items-start -mb-1'>
-                    <p className='bg-black text-azure-white px-3 pt-2 text-nowrap font-[500]  whitespace-nowrap'>{(date).toUpperCase()} <em className="mx-1">•</em> {formatTime(time)}</p>
+            <li id='eventdetails' className='w-full mx-2 inset-0 z-10 relative'> 
+              <ul className='w-[96vw] z-1'>
+                <li className='flex w-full justify-between border-azure-white items-start -mb-1'>
+                  <p className='bg-black text-azure-white px-3 pt-2 text-nowrap font-[500] whitespace-nowrap'>
+                    {(date).toUpperCase()} <em className="mx-1">•</em> {formatTime(time)}
+                  </p>
+                  <p className='flex'></p>
+                </li>
+                
+                <li className='flex flex-col px-3 bg-black text-azure-white'>
+                  <ul className='py-2 bg-black'>
+                    <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px]' 
+                        id="artiste-ev" 
+                        style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
+                      {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
+                    </li>
+                    
+                    <li className='pb-2 pt-2 flex justify-between items-center'>
+                      <p className='text-nowrap whitespace-nowrap flex-1'>
+                        {truncateAtCommaInRange(venue, state)}
+                      </p>
 
-                    <p className='flex'></p>
-                  </li>
- <li className='flex flex-col px-3 bg-black text-azure-white'>
-                      <ul className='py-2 bg-black'>
-                          <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2' id="artiste-ev">
-  {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
-</li>
-                        <li className='pb-2 pt-2 flex justify-between items-center'>
-                          
-                            <p className='text-nowrap whitespace-nowrap flex-1 '>   {truncateAtCommaInRange(venue, state)} </p>
-
- <div className="flex items-start text-center w-full justify-end font-[500]">
-                     <div className='flex items-center justify-center text-center'>
-                       <div className='mr-1 flex items-center justify-center'> <img src={ticketWhite} id='' alt='ticketIcon' className="w-[18px]" /> </div>
-                     <p className='text-center flex items-center justify-center text-[12px]' id=''>x{events[0][0].transfers.seats?.length || events[0][0].transfers.ticketId?.length}</p>
-                     </div>
-                    </div>
-
-                        </li>
-                </ul>
+                      <div className="flex items-start text-center w-full justify-end font-[500]">
+                        <div className='flex items-center justify-center text-center'>
+                          <div className='mr-1 flex items-center justify-center'> 
+                            <img src={ticketWhite} id='' alt='ticketIcon' className="w-[18px]" /> 
+                          </div>
+                          <p className='text-center flex items-center justify-center text-[12px]' id=''>
+                            x{events[0][0].transfers.seats?.length || events[0][0].transfers.ticketId?.length}
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </li>
 
                 <li className='w-full'>
-      <button className='bg-azure-deepblue text-white py-2 font-[600] px-3 text-center  w-full text-[14px]'>View Tickets</button>
-    </li>
-                </ul>
-              </li>
-
-</ul>
-    </li>
-   </ul>
+                  <button className='bg-azure-deepblue text-white py-2 font-[600] px-3 text-center w-full text-[14px]'>
+                    View Tickets
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </li>
 
     <li className='my-4 px-2'>
-      <p className=' text-black font-[700] text-[14px]'>All Upcoming Events</p>
+      <p className='text-black font-[700] text-[14px]'>All Upcoming Events</p>
     </li>
-
-   
   </ul>
-              </section>
+</section>
 
               <div>
    {firstEvents.map(({artiste,time,img,venue,date,transfers,artisteLineBreak,eventData,state},index)=>(
@@ -365,7 +399,8 @@ const [countdown, setCountdown] = useState('');
                         {/* <li  className='text-white bg-black border-b-4' id="artiste-ev">
                           {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}</li> */}
 
-                          <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2 ' id="artiste-ev">
+                          {/* <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2 ' id="artiste-ev"> */}
+                          <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2   border-b-[2px] `} id="artiste-ev" style={getInlineBorderStyle(events[index][0].transfers?.borderColor)}>
   {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
 </li>
                         {/* <li  className=' mt-2 w-11/12'></li> */}
@@ -434,7 +469,7 @@ const [countdown, setCountdown] = useState('');
                         {/* <li  className='text-white bg-black border-b-4' id="artiste-ev">
                           {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}</li> */}
 
-                          <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2 ' id="artiste-ev">
+                          <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px]  `} id="artiste-ev" style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
   {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
 </li>
                         {/* <li  className=' mt-2 w-11/12'></li> */}
@@ -485,4 +520,3 @@ const [countdown, setCountdown] = useState('');
 }
 
 export default MyEvents
-

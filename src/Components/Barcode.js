@@ -11,6 +11,55 @@ import Check from '../assets/check.png'
 import nextIcon from '../assets/angle-small-right.png'
 
 
+const truncateArtisteAtSpace = (mainArtiste, lineBreak, minLength = 38, maxLength = 42) => {
+  const fullArtiste = mainArtiste + (lineBreak ? ` ${lineBreak}` : '');
+  
+  // If under maxLength characters, return as is
+  if (fullArtiste.length <= maxLength) {
+    return fullArtiste;
+  }
+  
+  // Look for space between minLength and maxLength
+  for (let i = minLength; i <= maxLength && i < fullArtiste.length; i++) {
+    if (fullArtiste[i] === ' ') {
+      return fullArtiste.substring(0, i) + '...';
+    }
+  }
+  
+  // If no space found in range, truncate at maxLength
+  return fullArtiste.substring(0, maxLength) + '...';
+};
+
+const truncateAtSpaceInRange = (date, time, venue, minLength = 45, maxLength = 50) => {
+  // Build the combined string exactly as it appears in the div
+  let combined = date || '';
+  
+  if (time) {
+    combined += `, ${time}`;
+  }
+  
+  combined += ' • ';
+  
+  if (venue) {
+    combined += venue;
+  }
+  
+  // If under 60 characters, return as is
+  if (combined.length <= maxLength) {
+    return combined;
+  }
+  
+  // Look for space between positions 55 and 60
+  for (let i = minLength; i <= maxLength && i < combined.length; i++) {
+    if (combined[i] === ' ') {
+      return combined.substring(0, i) + '...';
+    }
+  }
+  
+  // If no space found in range, truncate at maxLength
+  return combined.substring(0, maxLength) + '...';
+};
+
 const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seatIndex,handleTicketbtn,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen}) => {
     const validSeatIndex =
     seatIndex < 0 || seatIndex >= eventIndex.length ? 0 : seatIndex;
@@ -195,7 +244,7 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                   : eventIndex[0].artiste} {eventIndex[0].artisteLineBreak && <span className=''>{eventIndex[0].artisteLineBreak}</span>}       
               </h1> */}
 
-<h1>
+{/* <h1>
   {(() => {
     const mainArtiste = eventIndex[0].artiste;
     const lineBreak = eventIndex[0].artisteLineBreak || '';
@@ -210,9 +259,13 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
           </>
         );
   })()}
+</h1> */}
+
+<h1>
+  {truncateArtisteAtSpace(eventIndex[0].artiste, eventIndex[0].artisteLineBreak)}
 </h1>
               
-              <div
+              {/* <div
                 id="ticket-date"
                 className="flex justify-center items-center text-center text-nowrap -mt-1 "
               >
@@ -224,7 +277,16 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                 <p className="text-nowrap text-center pl-1">
                   {eventIndex[0].venue}
                 </p>
-              </div>
+              </div> */}
+
+<div
+  id="ticket-date"
+  className="flex justify-center items-center text-center text-nowrap -mt-1"
+>
+  <p className="text-nowrap text-center">
+    {truncateAtSpaceInRange(eventIndex[0].date, eventIndex[0].time, eventIndex[0].venue)}
+  </p>
+</div>
             </div>
           </nav>
 

@@ -45,7 +45,7 @@ const CountDownEvent = ({countdown,setCountdown, eventTime:eventData }) => {
   }, [eventData]);
 
 
-  return <div className='text-center text-[18px] z-10' >
+  return <div className='text-center text-[18px] z-10 bg-transparent' >
     Next Event: <span className='font-bold'>{countdown}</span>
   </div>;
 };

@@ -263,7 +263,7 @@ const formatDate = (dateString) => {
     whiteSpace: 'normal',
     fontSize: (() => {
       const totalLength = (t.artiste || '').length + (t.artisteLineBreak || '').length;
-      return totalLength < 45 ? '18px' : '10px'; // Adjust sizes as needed
+      return totalLength < 40 ? '18px' : '10px'; // Adjust sizes as needed
     })()
   }}
 >
@@ -284,10 +284,20 @@ const formatDate = (dateString) => {
                   <li>
                     {t.transfers?.GA ? (
                       <ul className="flex item-center justify-around">
-                        <li>
+                        {/* <li>
                           <p id="walletTitle" >SECTION</p>
                           <p id="walletInfo">{t.sec}</p>
-                        </li>
+                        </li> */}
+
+                         {!t.transfers?.walletBlank?( <li>
+                          <p id="blankSec">SECTION</p>
+                          <p id="walletInfoSec" >{t.sec}</p>
+                        </li>):(
+                           <li>
+                           <p id="walletTitle">SECTION</p>
+                           <p id="walletInfo">{t.sec}</p>
+                         </li>
+                        )}
 
                         
                         <li id="walletInfo" className="flex m-auto">
