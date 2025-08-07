@@ -37,7 +37,7 @@ export const eventData=[
             addOns:"y",
             walletColor:'green',
             borderColor:'#953901',
-            dayCounter:'y'
+           // dayCounter:'y'
         }
       },
       {
