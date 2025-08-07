@@ -17,7 +17,7 @@ export const eventData=[
           month: "Aug",
           day: "15",
           year: "2025",
-          time: "Fri - 7:00",
+          time: "19:00",
           region: "",
           orderNo: ""
         },
@@ -35,7 +35,9 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletColor:'green'
+            walletColor:'green',
+            borderColor:'#953901',
+            dayCounter:'y'
         }
       },
       {
@@ -53,7 +55,7 @@ export const eventData=[
           month: "Aug",
           day: "15",
           year: "2025",
-          time: "Wee - 7:00",
+          time: "19:00",
           region: "",
           orderNo: ""
         },
