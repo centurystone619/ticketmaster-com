@@ -45,7 +45,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
           // style={{ fontSize: "14px" }}
           style={{ fontSize: "13px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
         >
-          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-1 ">
+          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-2 ">
             {/* UPCOMING ({events.length}) */}
             {events.length > 1? 'MY TICKETS' : `MY TICKET`} {eventIndex.length}
           </li>
