@@ -16,7 +16,7 @@ export const eventData=[
           month: "Aug",
           day: "13",
           year: "2025",
-          time: "Wed - 7:30",
+          time: "19:30",
           region: "",
           orderNo: ""
         },
@@ -72,5 +72,54 @@ export const eventData=[
         }
       },
   ],
+
+[
+
+{
+yourName:"Maddie Ross",
+    artiste: " TWENTY ONE PILOTS - THE ",
+artisteLineBreak: "CLANCY TOUR: BREACH 2025",
+img: " https://s1.ticketm.net/dam/a/948/63086554-6a06-4b5a-bb00-991e45c25948_TABLET_LANDSCAPE_3_2.jpg",
+sec: " Pit",
+      row: "",
+      seat: "",
+    date: "Sun, Oct 26",
+    time: "8:00 PM",
+    state: "Los Angeles, CA",
+    venue: "BMO Stadium",
+    type: "Artist Presale",
+   promoter:"Live Nation ",
+   artisteName:"TWENTY ONE PILOTS",
+   showName:"TWENTY ONE PILOTS - THE CLANCY TOUR: BREACH 2025",
+   street:"3939 S. Figueroa St , Los Angeles, CA",
+    eventData: {
+      month: "Oct",
+      day: "26",
+      time: "20:00",
+      year: "2025",
+      region: "US",
+      orderNo: "42-7642/US",
+      barcodeNo:"734337954032"
+    },
+transfers:{
+seats:['',''],
+ticketId:['1','2'],
+desc: " GA Pit",
+showBar: "",
+
+  GA: " General Admission",
+
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$117.99",
+        venueMap:" https://tixel.com/maps/34.0126,-118.2845",
+      addOns:"y"
+      
+       
+
+}
+},
+  ]
+  
   
 ]
