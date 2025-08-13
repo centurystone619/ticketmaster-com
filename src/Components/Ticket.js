@@ -24,9 +24,9 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
       <main  className='lg:w-2/3 overflow-hidden lg:mx-auto'>
       <nav>
           {/* <ul className="flex  item-center justify-between px-5 text-center  bg-black   py-3 "> */}
-          <ul className={`flex  item-center justify-between px-5 text-center  ${
+          <ul className={`flex  item-center justify-between px-5 text-center text-[13px]  ${
       eventIndex[0].transfers?.color ? eventIndex[0].transfers?.color : `bg-black`
-    }  py-3\ `}    style={{
+    }  py-2 `}    style={{
       backgroundColor: eventIndex[0]?.transfers?.color || 'black',
     }}>
             <li id="back-icon" className="flex item-center justify-start ">
@@ -34,7 +34,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                 <img src={deleteImg} alt='close ticket' />
               </button>
             </li>
-            <li className="flex item-center font-semibold text-white">
+            <li className="flex item-center font-semibold text-white ">
               My Tickets
             </li>
             <li className="flex item-center  cursor-pointer" ><button className='font-semibold text-white' onClick={(e)=>setIsEmailVerificationOpen(true)}>Help</button></li>
@@ -43,16 +43,16 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
           {eventIndex[0].transfers?.addOns && <ul
           className="flex      "
           // style={{ fontSize: "14px" }}
-          style={{ fontSize: "14px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
+          style={{ fontSize: "13px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
         >
-          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-3 ">
+          <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-1 ">
             {/* UPCOMING ({events.length}) */}
             {events.length > 1? 'MY TICKETS' : `MY TICKET`} {eventIndex.length}
           </li>
           <li
-            className="border-b-4 border-none w-1/2  text-center font-semibold py-3"
+            className="border-b-4 border-none w-1/2  text-center font-semibold py-2"
             // style={{ color: "#B7C7ED" }}
-            style={{color: "#B7C7ED", fontSize: "14px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
+            style={{color: "#B7C7ED", fontSize: "13px", backgroundColor: eventIndex[0].transfers?.btnColor? `${eventIndex[0].transfers?.btnColor}`: `#004ee7` }}
           >
             ADD-ONS
           </li>
