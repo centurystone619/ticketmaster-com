@@ -76,50 +76,144 @@ export const eventData=[
 [
 
 {
-yourName:"Maddie Ross",
-    artiste: " TWENTY ONE PILOTS - THE ",
-artisteLineBreak: "CLANCY TOUR: BREACH 2025",
-img: " https://s1.ticketm.net/dam/a/948/63086554-6a06-4b5a-bb00-991e45c25948_TABLET_LANDSCAPE_3_2.jpg",
-sec: " Pit",
-      row: "",
-      seat: "",
-    date: "Sun, Oct 26",
-    time: "8:00 PM",
-    state: "Los Angeles, CA",
-    venue: "BMO Stadium",
-    type: "Artist Presale",
-   promoter:"Live Nation ",
-   artisteName:"TWENTY ONE PILOTS",
-   showName:"TWENTY ONE PILOTS - THE CLANCY TOUR: BREACH 2025",
-   street:"3939 S. Figueroa St , Los Angeles, CA",
-    eventData: {
-      month: "Oct",
-      day: "26",
-      time: "20:00",
-      year: "2025",
-      region: "US",
-      orderNo: "42-7642/US",
-      barcodeNo:"734337954032"
-    },
-transfers:{
-seats:['',''],
-ticketId:['1','2'],
-desc: " GA Pit",
-showBar: "",
+               artiste: "Clemson V LSU ",
 
-  GA: " General Admission",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
+        sec: "UN",
+        row: "J",
+        seat: "8",
+        date: "Sat, Aug 30",
+        time: "7:30pm",
+        state: "South Carolina",
+        venue: "Clemson Memorial Stadium",
+        type: "Renewal Season IPTAY Lower Dec",
+        eventData: {
+          month: "Aug",
+          day: "30",
+          year: "",
+          time: "Sat - 7:30",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['8','10','12','14'],
+          desc: "Gate 5",
+          GA: "",
+          color: "#522f7f",
+          venueMap: "",
+          gate: "",
+          btnColor: "#522f7f",
+          sell: "y",
+          trnsfer: "y",
+            addOns:"y",
+            walletColor:'green'
+        }
+      },
+      {
+        artiste: "Clemson V LSU",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
+        sec: "UN",
+        row: "J",
+        seat: "10",
+        date: "Sat, Aug 30",
+        time: "7:30 PM",
+        state: "South Carolina",
+        venue: "Clemson Memorial Stadium",
+        type: "Renewal Season IPTAY Lower Dec",
+        eventData: {
+          month: "Aug",
+          day: "30",
+          year: "",
+          time: "Wed - 7:30",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['',''],
+          desc: "Gate 5",
+          GA: "",
+          color: "#522f7f",
+          venueMap: "",
+          gate: "",
+          btnColor: "#522f7f",
+          sell: "y",
+          trnsfer: "y",
+            addOns:"y",
+        }
+      },
 
-sell: "y",
-        trnsfer: "y",
-        ticketPrice:"$117.99",
-        venueMap:" https://tixel.com/maps/34.0126,-118.2845",
-      addOns:"y"
-      
-       
-
-}
-},
-  ]
-  
+      {
+        artiste: "Clemson V LSU",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
+        sec: "UN",
+        row: "J",
+        seat: "12",
+        date: "Sat, Aug 30",
+        time: "7:300 PM",
+        state: "South Carolina",
+        venue: "Clemson Memorial Stadium",
+        type: "Renewal Season IPTAY Lower Dec",
+        eventData: {
+          month: "Aug",
+          day: "30",
+          year: "",
+          time: "Wee - 7:300",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['',''],
+          desc: "Gate 5",
+          GA: "",
+          color: "#2187ab",
+          venueMap: "",
+          gate: "",
+          btnColor: "#2187ab",
+          sell: "y",
+          trnsfer: "y",
+            addOns:"y",
+        }
+        },
+        {
+        artiste: "Clemson V LSU",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_8974.jpeg?raw=true",
+        sec: "UN",
+        row: "J",
+        seat: "14",
+        date: "Sat, Aug 30",
+        time: "7:300 PM",
+        state: "South Carolina",
+        venue: "Clemson Memorial Stadium",
+        type: "Renewal Season IPTAY Lower Dec",
+        eventData: {
+          month: "Aug",
+          day: "30",
+          year: "",
+          time: "Wee - 7:300",
+          region: "",
+          orderNo: ""
+        },
+        transfers: {
+          sec: "",
+          row: "",
+          seats: ['',''],
+          desc: "Gate 5",
+          GA: "",
+          color: "#2187ab",
+          venueMap: "",
+          gate: "",
+          btnColor: "#2187ab",
+          sell: "y",
+          trnsfer: "y",
+            addOns:"y",
+        }
+        },
+  ],
   
 ]
