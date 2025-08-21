@@ -11,6 +11,7 @@ import Form from './Form'
 import VerificationEmail from './VerificationEmail'
 import Sports from './Sports'
 import TicketDetails from './TicketDetails'
+import  headerInfo from '../assets/info.png'
 
 
 
@@ -37,7 +38,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
             <li className="flex item-center font-semibold text-white ">
               My Tickets
             </li>
-            <li className="flex item-center  cursor-pointer" ><button className='font-semibold text-white' onClick={(e)=>setIsEmailVerificationOpen(true)}>Help</button></li>
+            <li className="flex item-center  cursor-pointer" ><button className='font-semibold text-white' onClick={(e)=>setIsEmailVerificationOpen(true)}>{!eventIndex[0].transfers?.sportSec && 'Help'}</button></li>
           </ul>
 
           {eventIndex[0].transfers?.addOns && <ul
@@ -78,7 +79,24 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
       <li id='single-ticket' className=" rounded-[10px]  "  >
        
   <div >
-    {subArray.transfers?.color? (<header className=" text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]" style={{ backgroundColor: subArray?.transfers?.color }}>{subArray.type}</header>):(<header className="bg-azure-deepblue text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]">{subArray.type}</header>)}
+    {subArray.transfers?.color? (<header className=" text-white  text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]" style={{ backgroundColor: subArray?.transfers?.color }}>
+     <div className='flex justify-center items-center w-full h-full '> <p className='w-1/12'></p>
+      <p className='w-10/12 text-center text-nowrap '>{subArray.type}</p>
+ <p className='w-1/12    relative flex items-center justify-center  ' >
+      {/* <img src={headerInfo} className=' absolute top-0 -translate-y-1/2  w-30 '  alt='header info'/> */}
+
+
+      </p>
+</div>
+    </header>):(<header className="bg-azure-deepblue text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]">  
+       <div className='flex justify-center items-center w-full h-full '> <p className='w-1/12'></p>
+      <p className='w-10/12 text-center text-nowrap '>{subArray.type}</p>
+      <p className='w-1/12    relative flex items-center justify-center  ' >
+      {/* <img src={headerInfo} className=' absolute top-0 -translate-y-1/2  w-30 '  alt='header info'/> */}
+
+
+      </p></div>
+      </header>)}
   </div>
   
   <div   id="sec-wrapper"
