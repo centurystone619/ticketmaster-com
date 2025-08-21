@@ -108,7 +108,8 @@ export const eventData=[
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletColor:'green'
+            walletColor:'green',
+          sportSec:'y',
         }
       },
       {
