@@ -1,9 +1,7 @@
 export const eventData=[
   [
-
-        {
-yourName:"Maddie Ross",
-    artiste: " Lady Gaga: The MAYHEM Ball",
+      {
+        artiste: " Lady Gaga: The MAYHEM Ball",
 img: " https://media.ticketmaster.com/en-us/dam/a/c52/9126e087-f413-4f57-8113-ae696970bc52_CUSTOM.jpg",
     sec: "E”,
       row: "4",
