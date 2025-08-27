@@ -2,76 +2,48 @@ export const eventData=[
   [
 
         {
-        artiste: "Vance Joy - North American Tour 2025",
-        img: "https://github.com/centurystone619/Img/blob/main/jpg5.JPG?raw=true",
-        sec: "GA3",
-        row: "",
-        seat: "",
-        date: "Wed, Sep 17",
-        time: "7pm",
-        state: "Wilmington",
-        venue: "Greenfield Lake Amphitheater",
-        type: "Standard Admission",
-        eventData: {
-          month: "Sep",
-          day: "17",
-          year: "2025",
-          time: "19:00",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['',''],
-          ticketid:['1','2'],
-          desc: "GENERAL ADMISSN",
-          GA: "General Admission",
-          // color: "#"de8",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/34.206984,-77.871925/10?ms=648,281&sv=9.41&heid=5491407151849013250,707070&fpp=34.20698356628418,-77.8719253540039;178&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro",
-          gate: "",
-          // btnColor: "#"de8",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y",
-            walletBlank:"y",
-        }
-      },
-      {
-        artiste: "Vance Joy - North American Tour 2025",
-        img: "https://github.com/centurystone619/Img/blob/main/jpg5.JPG?raw=true",
-        sec: "GA3",
-        row: "",
-        seat: "",
-        date: "Wed, Sep 17",
-        time: "7pm",
-        state: "Wilmington",
-        venue: "Greenfield Lake Amphitheater",
-        type: "Standard Admission",
-        eventData: {
-          month: "Sep",
-          day: "17",
-          year: "2025",
-          time: "Wed - 7:00",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['',''],
-          desc: "GENERAL ADMISSN",
-          GA: "General Admission",
-          // color: "#"de8",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/34.206984,-77.871925/10?ms=648,281&sv=9.41&heid=5491407151849013250,707070&fpp=34.20698356628418,-77.8719253540039;178&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro",
-          gate: "",
-          // btnColor: "#"de8",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y",
-             walletBlank:"y",
-        }
-      },
+yourName:"Maddie Ross",
+    artiste: " Lady Gaga: The MAYHEM Ball",
+img: " https://media.ticketmaster.com/en-us/dam/a/c52/9126e087-f413-4f57-8113-ae696970bc52_CUSTOM.jpg",
+    sec: "E”,
+      row: "4",
+      seat: "8,9",
+    date: "We’d, Aug 27 2025",
+    time: "8:00 PM",
+    state: "New York, NY",
+    venue: "Madison Square Garden",
+    type: "Artist Presale",
+   promoter:"Live Nation ",
+   artisteName:"Lady Gaga",
+   showName:"The MAYHEM Ball",
+   street:"7th Ave & 32nd Street , New York, NY",
+    eventData: {
+      month: "Aug",
+      day: "27",
+      time: "8:00 pm",
+      year: "2025",
+      region: "US",
+      orderNo: "42-7642/US",
+      barcodeNo:"734337954032"
+    },
+transfers:{
+seats:['8,9'],
+ticketId:['1','2',],
+desc: " 8 AVE&33 ST/C",
+showBar: "",
+
+  GA: "",
+
+sell: "y",
+        trnsfer: "y",
+        ticketPrice:"$774.83",
+        venueMap:" https://tixel.com/maps/43.7369,-79.471802",
+      addOns:"y"
+      
+       
+
+}
+},
   ],
   
 ]
