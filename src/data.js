@@ -1,8 +1,9 @@
 export const eventData=[
   [
       {
-        artiste: " Lady Gaga: The MAYHEM Ball",
-img: " https://media.ticketmaster.com/en-us/dam/a/c52/9126e087-f413-4f57-8113-ae696970bc52_CUSTOM.jpg",
+yourName:"Maddie Ross",
+    artiste: " Lady Gaga: The MAYHEM Ball",
+img: " https://media.ticketmaster.com/en-us/dam/a/35d/83661bca-e5e4-44ea-86ac-1a27ebfaa35d_CUSTOM.jpg",
     sec: "E”,
       row: "4",
       seat: "8,9",
@@ -36,10 +37,7 @@ sell: "y",
         trnsfer: "y",
         ticketPrice:"$774.83",
         venueMap:" https://tixel.com/maps/43.7369,-79.471802",
-      addOns:"y"
-      
-       
-
+      addOns:"y"     
 }
 },
   ],
