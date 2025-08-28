@@ -64,7 +64,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
         {/* <section id='wrapperheight' className={`flex  h-[585px] lg:w-1/2  lg:mx-auto  `}> */}
  <section
             id="wrapperheight"
-            className={`flex h-[585px] lg:w-1/2 lg:mx-auto `}
+            className={`flex min-h-[535px]  lg:w-1/2 lg:mx-auto  `}
           >        
           <div id='ticket-wrapper' className='relative   ' >
   <div className='absolute min-w-100   overflow-x-auto   transform transition-transform duration-300 ease-in-out '   style={{
@@ -103,7 +103,44 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                     style={{ backgroundColor: subArray.transfers?.color || "#004ee7" }}
                     className=" flex items-center  px-2 justify-around text-center text-azure-white  ">
     {subArray.transfers?.GA? ( 
-       <div className="flex items-center justify-around text-center text-azure-white  bg-transparent w-full">
+      <div className='w-full'> 
+{eventIndex[0].transfers?.ga2?  (
+  <div className='flex items-center justify-between flex-col   '>
+    <p className='leading-[1.6] pb-5 text-[16px]'>{subArray.transfers.GA}</p>
+
+    <div className="flex items-center justify-around text-center text-azure-white   bg-transparent w-full" >
+                        <div>
+                         
+                          <p id="num" className="text-center text-nowrap">
+                            {subArray.sec}{" "}
+                          </p>
+                        </div>
+                        <div>
+                          {subArray.row && (
+                            <div>
+                              {" "}
+                            
+                              <p id="num" className="text-center text-nowrap  ">
+                                {subArray.row}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                        <div>
+                          {subArray.seat && (
+                            <div className="text-nowrap text-center">
+                              {" "}
+                            
+                              <p id="num" className="text-center text-nowrap ">
+                                {subArray.seat}
+                              </p>{" "}
+                            </div>
+                          )}
+                        </div>{" "}
+                      </div>
+  </div>
+) :
+ (  <div className="flex items-center justify-around text-center text-azure-white  bg-transparent w-full">
                         {subArray.sec && (
                           <div className="">
                             
@@ -121,7 +158,16 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                             {subArray.transfers?.GA}
                           </p>
                         </div>
-                      </div>): (   <div className="flex items-center justify-around text-center text-azure-white   bg-transparent w-full" >
+                      </div>) 
+ }
+      </div>
+      
+      
+ 
+                    
+                    
+                    ): (  
+                       <div className="flex items-center justify-around text-center text-azure-white   bg-transparent w-full" >
                         <div>
                           <p id="sec-GA" className=" ">
                             {subArray.transfers?.sportSec? 'Section' : 'SEC'}
@@ -245,7 +291,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                       {subArray.transfers?.GA ? (
                         <ul
                           id="ticket-btns"
-                          className={`flex flex-col item-center justify-center text-center space-y-3 pt-6 ${eventIndex[0].transfers?.verify? 'h-[205px]' : 'h-[230px]'}  `}
+                          className={`flex flex-col item-center justify-center text-center space-y-2 pt-5 ${eventIndex[0].transfers?.verify? 'h-[205px]' : 'h-[210px]'}  `}
                         >
                           <li id="GA-desc">{subArray.transfers?.desc}</li>
                           <li className="py-2">
@@ -287,7 +333,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                       ) : (
                         <ul
                               id="ticket-btns"
-                              className={`flex flex-col item-center justify-center text-center space-y-3 pt-6 ${eventIndex[0].transfers?.verify? 'h-[205px]' : 'h-[230px]'} `}
+                              className={`flex flex-col item-center justify-center text-center space-y-3 pt-5  ${eventIndex[0].transfers?.verify? 'h-[205px]' : 'h-[210px]'} `}
                             >
                               <li id="GA-desc">{subArray.transfers?.desc}</li>
                               <li className="py-2">

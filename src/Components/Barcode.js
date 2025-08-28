@@ -146,7 +146,46 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                     <li>
                       <li className="mt-5">
                         {eventIndex[0].transfers.GA ? (
-                          <ul className="flex flex-col space-x-3 m-auto item-center justify-center ">
+                     <div>
+                      {eventIndex[0].transfers.ga2? (
+                        <div>
+                           <div className='flex items-center justify-between flex-col   '>
+    <p className='leading-[1.6] pb-5 text-[16px]'>{eventIndex[0].transfers.GA}</p>
+
+    <div className="flex items-center justify-around text-center text-azure-white   bg-transparent w-full" >
+                        <div>
+                         
+                          <p id="num" className="text-center text-nowrap">
+                            {eventIndex[0].sec}{" "}
+                          </p>
+                        </div>
+                        <div>
+                          {eventIndex[0].row && (
+                            <div>
+                              {" "}
+                            
+                              <p id="num" className="text-center text-nowrap  ">
+                                {eventIndex[0].row}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                        <div>
+                          {eventIndex[0].seat && (
+                            <div className="text-nowrap text-center">
+                              {" "}
+                            
+                              <p id="num" className="text-center text-nowrap ">
+                                {eventIndex[0].seat}
+                              </p>{" "}
+                            </div>
+                          )}
+                        </div>{" "}
+                      </div>
+  </div>
+                        </div>
+                      ):(
+                             <ul className="flex flex-col space-x-3 m-auto item-center justify-center ">
                             <li className="leading-none">
                               <p id="barcodeSec">SEC</p>
                               <p id="barcodeSecIndex">{eventIndex[0].sec}</p>
@@ -155,6 +194,8 @@ const Barcode = ({eventIndex,flagIndex,selectSeatIndex,events,selectedIndex,seat
                               <p id="barcodeSecIndex">{eventIndex[0].transfers.GA}</p>
                             </li>
                           </ul>
+                      )}
+                     </div>
                         ) : (
                           <ul className="flex items-center justify-center space-x-12">
                             <li className="">

@@ -18,7 +18,7 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
       const colorStyle = getColorClass()
 
   return (
-    <div className='-mt-2 lg:mt-0' >
+    <div className='mt-4 lg:mt-0 ' >
      
 
 
@@ -86,7 +86,7 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
 {eventIndex[0].transfers?.venueMap && (<div className="w-12/12 flex item-center justify-center">
         <div
           id="map"
-          className=" w-11/12 h-14 "
+          className=" w-11/12 min-h-20 "
           style={{
             backgroundImage: `url(${eventIndex[0].transfers?.venueMap})`,
             backgroundSize: "cover", // Cover entire div

@@ -190,8 +190,8 @@ const [countdown, setCountdown] = useState('');
 
 
 
-<div className='h-[90vh]'>
-  <div className='max-h-[77vh] relative pb-3'>
+<div className='h-[77vh] overflow-y-auto overflow-x-hidden '>
+  <div className=' relative pb-3'>
   {/* More heavily blurred background */}
   {/* <div className='absolute inset-0 blur-sm' style={{backgroundImage:`url(${img})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}></div> */}
   <div className='absolute inset-0 blur-sm' style={{
