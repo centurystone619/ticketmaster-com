@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e70253f.css",
-    "main.js": "/static/js/main.0d1d50f8.js",
+    "main.css": "/static/css/main.d1774dc2.css",
+    "main.js": "/static/js/main.04f81858.js",
     "static/media/barcode.GIF": "/static/media/barcode.5d7250a495b73e564a6a.GIF",
     "static/media/emailorderbg.PNG": "/static/media/emailorderbg.f8fb5fb3e370cb740a74.PNG",
     "static/media/ticketmasterIconG.GIF": "/static/media/ticketmasterIconG.5ae4a80a172adb830cbc.GIF",
@@ -28,11 +28,11 @@
     "static/media/SportCal.JPG": "/static/media/SportCal.bfaa0237806c170c5888.JPG",
     "static/media/tml.PNG": "/static/media/tml.70888c89028b74c4c95e.PNG",
     "index.html": "/index.html",
-    "main.2e70253f.css.map": "/static/css/main.2e70253f.css.map",
-    "main.0d1d50f8.js.map": "/static/js/main.0d1d50f8.js.map"
+    "main.d1774dc2.css.map": "/static/css/main.d1774dc2.css.map",
+    "main.04f81858.js.map": "/static/js/main.04f81858.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e70253f.css",
-    "static/js/main.0d1d50f8.js"
+    "static/css/main.d1774dc2.css",
+    "static/js/main.04f81858.js"
   ]
 }
