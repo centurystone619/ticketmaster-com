@@ -3,7 +3,7 @@ export const eventData=[
 
         {
         artiste: "Lady Gaga - The MAYHEM Ball",
-        img: "https://github.com/centurystone619/Img/blob/main/jpg5.JPG?raw=true",
+        img: "https://media.ticketmaster.com/en-us/dam/a/c52/9126e087-f413-4f57-8113-ae696970bc52_CUSTOM.jpg",
         sec: "E",
         row: "4",
         seat: "8",
@@ -39,7 +39,7 @@ export const eventData=[
       },
       {
         artiste: "Lady Gaga - The MAYHEM Ball",
-        img: "https://github.com/centurystone619/Img/blob/main/jpg5.JPG?raw=true",
+        img: "https://media.ticketmaster.com/en-us/dam/a/c52/9126e087-f413-4f57-8113-ae696970bc52_CUSTOM.jpg",
         sec: "E",
         row: "4",
         seat: "9",
