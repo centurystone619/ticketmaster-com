@@ -27,7 +27,7 @@ export const eventData=[
           desc: "8 AVE&33 STC",
           GA: "",
           // color: "#"de8",
-          venueMap: "https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/34.206984,-77.871925/10?ms=648,281&sv=9.41&heid=5491407151849013250,707070&fpp=34.20698356628418,-77.8719253540039;178&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&fmt=jpeg&od=1&shading=hill&logo=n&da=ro",
+          venueMap: "https://www.google.com/maps/vt/data=dobOxV9G8lwAWwjn4NJzqOj6rMjlKcLmV5wKDerOTUiurhnLffj6_tv_3H27tSrAtymj5ceYzQOYevI8LcmW7Oxazr37mJKf4ad0rv1p2js489EXbMcab9GlO4yN7AVjtqOc18UFeI_F7LkAkiR_YlLemhqTDaDiIRW2XcYuFybcfffMem4oyKoSFcjNrhKCEPK_wZhRoP2gvyPhECGBUL4OjlvLqi-WcCj_Q48HSAgxloXOB7Qf9mn3vrxPFlCBf1QMbEQ28ALNmD8HM6kHuA",
           gate: "",
           // btnColor: "#"de8",
           sell: "y",
