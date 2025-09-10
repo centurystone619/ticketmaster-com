@@ -109,7 +109,7 @@ export const eventData=[
             addOns:"y",
             walletColor:'green',
           sportSec:'y',
-          ticketAction:”m”
+          ticketAction:'m'
         }
       },
       {
