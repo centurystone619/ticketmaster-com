@@ -102,7 +102,6 @@ export const eventData=[
           desc: "Gate 9",
           GA: "",
           color: "#522f7f",
-          venueMap: "",
           gate: "",
           btnColor: "#522f7f",
           sell: "y",
@@ -110,6 +109,7 @@ export const eventData=[
             addOns:"y",
             walletColor:'green',
           sportSec:'y',
+          ticketAction:”m”
         }
       },
       {
