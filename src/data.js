@@ -1,4 +1,4 @@
-xport const eventData=[
+export const eventData=[
   [
 
         {
