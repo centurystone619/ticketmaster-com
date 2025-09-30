@@ -33,7 +33,7 @@ export const eventData=[
           btnColor: "",
           sell: "y",
           trnsfer: "y",
-            addOns:"",
+            addOns:"y",
             walletColor:'green'
         }
       },
