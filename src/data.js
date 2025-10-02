@@ -4,7 +4,7 @@ export const eventData=[
         {
                artiste: "Gavin Adcock",
 
-        img: "https://s1.ticketm.net/dam/a/143/a8539bbf-c805-40b6-a315-b2b4f0065143_EVENT_DETAIL_PAGE_16_9.jpg",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_9916.jpeg?raw=true",
         sec: "LAWN4",
         row: "",
         seat: "",
@@ -42,7 +42,7 @@ export const eventData=[
       },
       {
         artiste: "Gavin Adcock",
-        img: "https://s1.ticketm.net/dam/a/143/a8539bbf-c805-40b6-a315-b2b4f0065143_EVENT_DETAIL_PAGE_16_9.jpg",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_9916.jpeg?raw=true",
         sec: "LAWN4",
         row: "",
         seat: "",
