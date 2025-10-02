@@ -14,7 +14,7 @@ const CountDownEvent = ({countdown,setCountdown, eventTime:eventData }) => {
       const diff = eventDate - now;
 
       if (isNaN(diff)) {
-        setCountdown('Invalid date');
+        setCountdown('Enjoy your event');
         return;
       }
 
@@ -46,7 +46,7 @@ const CountDownEvent = ({countdown,setCountdown, eventTime:eventData }) => {
 
 
   return <div className='text-center text-[18px] z-10 bg-transparent' >
-    Next Event: <span className='font-bold'>{countdown}</span>
+   {!eventData.time ? '':'Next Event:'}  <span className='font-bold'>{countdown}</span>
   </div>;
 };
 
