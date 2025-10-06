@@ -18,6 +18,19 @@ import  headerInfo from '../assets/info.png'
 const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,setIsIndexSelected,transX,selectSeatIndex, handleTicketbtn,flagIndex,seatIndex,isBarcodeOpen,setIsBarcodeOpen,setSeatIndex,isWalletOpen,setIsWalletOpen,setIsFormOpen,isFormOpen,openForm,handleCloseIndex,setIsTicketDetailsOpen,isTicketDetailsOpen}) => {
 
   const [isEmailVerificationOpen,setIsEmailVerificationOpen]=useState(null)
+
+
+  const getTruncatedText = (date, time, venue) => {
+  // Combine all text parts
+  const fullText = `${date}${time ? ', ' + time + ' • ' : ''}${venue}`;
+  
+  // Check if text exceeds 45 characters
+  if (fullText.length > 52) {
+    return fullText.substring(0, 50) + '...';
+  }
+  
+  return fullText;
+};
  
   return (
     <>
@@ -229,7 +242,7 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                         </div>
                       </div>
   
-                      <div
+                      {/* <div
                         id="ticket-date"
                         className="flex justify-center item-center text-center text-nowrap mb-1"
                       >
@@ -243,7 +256,16 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                         <p className="text-nowrap text-center pl-1">
                           {subArray.venue}
                         </p>
-                      </div>
+                      </div> */}
+
+                      <div
+  id="ticket-date"
+  className="flex justify-center item-center text-center text-nowrap mb-1"
+>
+  <p className="text-nowrap text-center">
+    {getTruncatedText(subArray.date, subArray.time, subArray.venue)}
+  </p>
+</div>
 
       {/* {
   subArray?.date?.length  >= 13 ? (
