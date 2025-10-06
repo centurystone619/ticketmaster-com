@@ -20,18 +20,16 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
   const [isEmailVerificationOpen,setIsEmailVerificationOpen]=useState(null)
 
 
-  const getTruncatedText = (date, time, venue) => {
-  // Combine all text parts
-  const fullText = `${date}${time ? ', ' + time + ' • ' : ''}${venue}`;
+const getTextSizeClass = (date, time, venue) => {
+  const comma = time ? ', ' : '';
+  const separator = time ? ' • ' : '';
+  const fullText = `${date}${comma}${time}${separator}${venue}`;
   
-  // Check if text exceeds 45 characters
-  if (fullText.length > 52) {
-    return fullText.substring(0, 50) + '...';
+  if (fullText.length > 50) {
+    return 'text-[12px]';
   }
-  
-  return fullText;
+  return '';
 };
- 
   return (
     <>
     {eventIndex[0].transfers?.sport? (<Sports eventIndex={eventIndex} handleCloseIndex={handleCloseIndex}/>):(
@@ -257,13 +255,19 @@ const Ticket = ({showWalletBtn,isSmallScreen, eventIndex, events,selectedIndex,s
                           {subArray.venue}
                         </p>
                       </div> */}
-
-                      <div
+<div
   id="ticket-date"
   className="flex justify-center item-center text-center text-nowrap mb-1"
 >
-  <p className="text-nowrap text-center">
-    {getTruncatedText(subArray.date, subArray.time, subArray.venue)}
+  <p className={`text-nowrap text-center ${getTextSizeClass(subArray.date, subArray.time, subArray.venue)}`}>
+    {subArray.date}
+  </p>
+  <p className={`flex text-nowrap text-center ${getTextSizeClass(subArray.date, subArray.time, subArray.venue)}`}>
+    {subArray.time && <em>,</em>}  
+    <p className="px-1">{subArray.time}</p> <em>•</em>
+  </p>
+  <p className={`text-nowrap text-center pl-1 ${getTextSizeClass(subArray.date, subArray.time, subArray.venue)}`}>
+    {subArray.venue}
   </p>
 </div>
 
