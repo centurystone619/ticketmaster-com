@@ -40,7 +40,7 @@ export const eventData=[
       
       {
         artiste: "THE ELOVATERS - STARING AT THE SUN TOUR",
-        img: "https://github.com/centurystone619/Img/blob/main/gt.JPG?raw=true",
+        img: "https://github.com/centurystone619/Img/blob/main/jpg6.jpg?raw=true",
         sec: "GA1",
         row: "",
         seat: "",
@@ -75,7 +75,7 @@ export const eventData=[
       },
       {
         artiste: "THE ELOVATERS - STARING AT THE SUN TOUR",
-        img: "https://github.com/centurystone619/Img/blob/main/gt.JPG?raw=true",
+        img: "https://github.com/centurystone619/Img/blob/main/jpg6.jpg?raw=true",
         sec: "GA1",
         row: "",
         seat: "",
