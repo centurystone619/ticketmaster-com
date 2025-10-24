@@ -160,8 +160,8 @@ const [countdown, setCountdown] = useState('');
           </ul>
         </nav>
         <ul
-          className="flex   bg-azure-deepblue   "
-          style={{ fontSize: "12px" }}
+          className="flex      "
+          style={{ fontSize: "12px" ,backgroundColor:`${events[0][0].transfers.sportSec? events[0][0].transfers.btnColor : `#004ee7`}`}}
         >
           <li className="border-azure-white  text-center border-b-4 w-1/2 text-azure-white font-semibold py-2 ">
             UPCOMING ({events.length})
@@ -237,7 +237,7 @@ const [countdown, setCountdown] = useState('');
  <li className='flex flex-col px-3 bg-black text-azure-white'>
                       <ul className='py-2 bg-black'>
                           <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px] `} id="artiste-ev-single"  style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
-  {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
+  {artiste.toUpperCase()} {artisteLineBreak && <span>{artisteLineBreak.toUpperCase()}</span>}
 </li>
                         <li className='pb-2 pt-2 flex justify-between items-center'>
                           
@@ -255,7 +255,7 @@ const [countdown, setCountdown] = useState('');
                 </li>
 
                 <li className='w-full'>
-      <button className='bg-azure-deepblue text-white py-2 font-[600] px-3 text-center  w-full text-[16px]'>View Tickets</button>
+      <button className='bg-azure-deepblue text-white py-2 font-[600] px-3 text-center  w-full text-[16px]' style={{backgroundColor:`${events[0][0].transfers.btnColor? events[0][0].transfers.btnColor : '#004ee7' }`}}>View Tickets</button>
     </li>
                 </ul>
               </li>
@@ -325,7 +325,7 @@ const [countdown, setCountdown] = useState('');
                     <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px]' 
                         id="artiste-ev" 
                         style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
-                      {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
+                      {artiste.toUpperCase()} {artisteLineBreak && <span>{artisteLineBreak.toUpperCase()}</span>}
                     </li>
                     
                     <li className='pb-2 pt-2 flex justify-between items-center'>
@@ -401,7 +401,7 @@ const [countdown, setCountdown] = useState('');
 
                           {/* <li className='inline-block max-w-[91.6667%] text-white bg-black pb-2 ' id="artiste-ev"> */}
                           <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2   border-b-[2px] `} id="artiste-ev" style={getInlineBorderStyle(events[index][0].transfers?.borderColor)}>
-  {artiste} {artisteLineBreak && <span>{artisteLineBreak}</span>}
+  {artiste.toUpperCase()} {artisteLineBreak && <span>{artisteLineBreak.toUpperCase()}</span>}
 </li>
                         {/* <li  className=' mt-2 w-11/12'></li> */}
                         <li className='pb-2 pt-2 flex justify-between items-center'>

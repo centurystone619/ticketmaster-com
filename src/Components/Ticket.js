@@ -25,7 +25,7 @@ const getTextSizeClass = (date, time, venue) => {
   const separator = time ? ' • ' : '';
   const fullText = `${date}${comma}${time}${separator}${venue}`;
   
-  if (fullText.length > 50) {
+  if (fullText.length > 54) {
     return 'text-[12px]';
   }
   return '';
