@@ -10,7 +10,7 @@ export const eventData=[
         seat: "19",
         date: "Sat, Nov 01, 2025",
         time: "TBA",
-        state: "Tennessee",
+        state: "Knoxville, TN",
         venue: "Neyland Stadium",
         type: "",
         eventData: {
