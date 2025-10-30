@@ -2,20 +2,20 @@ export const eventData=[
 [
 
 {
-               artiste: "Vol Football vs. Oklahoma",
+               artiste: "Vol Football vs. Vanderbilt",
 
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
         sec: "Y6",
         row: "48",
         seat: "19",
-        date: "Sat, Nov 01, 2025",
+        date: "Sat, Nov 29, 2025",
         time: "TBA",
         state: "Knoxville, TN",
         venue: "Neyland Stadium",
         type: "",
         eventData: {
           month: "Nov",
-          day: "01",
+          day: "29",
           year: "",
           time: "Sat - TBA",
           region: "",
@@ -39,19 +39,19 @@ export const eventData=[
         }
       },
       {
-        artiste: "Vol Football V Oklahoma",
+        artiste: "Vol Football V Vanderbilt",
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
         sec: "Y6",
         row: "48",
         seat: "20",
-        date: "Sat, Nov 01, 2025",
+        date: "Sat, Nov 29, 2025",
         time: "TBA",
         state: "Tennessee",
         venue: "Neyland Stadium",
         type: "",
         eventData: {
           month: "Nov",
-          day: "01",
+          day: "29",
           year: "",
           time: "Sat - TBA",
           region: "",
@@ -75,19 +75,19 @@ export const eventData=[
       },
 
       {
-        artiste: "Vol Football V Oklahoma",
+        artiste: "Vol Football V Vanderbilt",
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
         sec: "Y6",
         row: "48",
         seat: "21",
-        date: "Sat, Nov 01, 2025",
+        date: "Sat, Nov 29, 2025",
         time: "TBA",
         state: "South Carolina",
         venue: "Neyland Stadium",
         type: "",
         eventData: {
           month: "Nov",
-          day: "01",
+          day: "29",
           year: "",
           time: "Wee - TBA",
           region: "",
@@ -110,19 +110,19 @@ export const eventData=[
         }
         },
         {
-        artiste: "Vol Football V Oklahoma",
+        artiste: "Vol Football V Vanderbilt",
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
         sec: "Y6",
         row: "48",
         seat: "22",
-        date: "Sat, Nov 20 2025",
+        date: "Sat, Nov 29 2025",
         time: "TBA",
         state: "South Carolina",
         venue: "Neyland Stadium",
         type: "",
         eventData: {
           month: "Nov",
-          day: "30",
+          day: "29",
           year: "",
           time: "Wee - TBA",
           region: "",
