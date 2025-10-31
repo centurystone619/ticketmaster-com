@@ -24,7 +24,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['19','20','21','22'],
+          seats: ['19','20','21'],
           desc: "NonPremium Gates",
           GA: "",
           color: "#ff8202",
