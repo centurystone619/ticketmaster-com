@@ -109,41 +109,7 @@ export const eventData=[
            sportSec:'y',
         }
         },
-        {
-        artiste: "Vol Football V Vanderbilt",
-        img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
-        sec: "Y6",
-        row: "48",
-        seat: "22",
-        date: "Sat, Nov 29 2025",
-        time: "TBA",
-        state: "South Carolina",
-        venue: "Neyland Stadium",
-        type: "",
-        eventData: {
-          month: "Nov",
-          day: "29",
-          year: "",
-          time: "Wee - TBA",
-          region: "",
-          orderNo: ""
-        },
-        transfers: {
-          sec: "",
-          row: "",
-          seats: ['',''],
-          desc: "NonPremium Gates",
-          GA: "",
-          color: "#ff8202",
-          venueMap: "",
-          gate: "",
-          btnColor: "#ff8202",
-          sell: "y",
-          trnsfer: "y",
-            addOns:"y",
-           sportSec:'y',
-        }
-        },
+        
   ],
   
 ]
