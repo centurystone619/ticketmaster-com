@@ -12,6 +12,7 @@ import VerificationEmail from './VerificationEmail'
 import Sports from './Sports'
 import TicketDetails from './TicketDetails'
 import  headerInfo from '../assets/info.png'
+import InfoIcon from '../assets/information.png'
 
 
 
@@ -91,22 +92,23 @@ const getTextSizeClass = (date, time, venue) => {
        
   <div >
     {subArray.transfers?.color? (<header className=" text-white  text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]" style={{ backgroundColor: subArray?.transfers?.color }}>
-     <div className='flex justify-center items-center w-full h-full '> <p className='w-1/12'></p>
+     <div className='flex justify-center items-center w-full h-full px-3 '> <p className='w-1/12'></p>
       <p className='w-10/12 text-center text-nowrap '>{subArray.type}</p>
- <p className='w-1/12    relative flex items-center justify-center  ' >
+ <p className='w-1/12     flex items-center justify-center  ' >
       {/* <img src={headerInfo} className=' absolute top-0 -translate-y-1/2  w-30 '  alt='header info'/> */}
-
+<img src={InfoIcon} alt='headerInfo' className='w-5'/>
 
       </p>
 </div>
     </header>):(<header className="bg-azure-deepblue text-white text-center py-2 sm:rounded-tl-[10px] sm:rounded-tr-[10px]">  
-       <div className='flex justify-center items-center w-full h-full '> <p className='w-1/12'></p>
+        <div className='flex justify-center items-center w-full h-full px-3 '> <p className='w-1/12'></p>
       <p className='w-10/12 text-center text-nowrap '>{subArray.type}</p>
-      <p className='w-1/12    relative flex items-center justify-center  ' >
+ <p className='w-1/12     flex items-center justify-center  ' >
       {/* <img src={headerInfo} className=' absolute top-0 -translate-y-1/2  w-30 '  alt='header info'/> */}
+<img src={InfoIcon} alt='headerInfo' className='w-5'/>
 
-
-      </p></div>
+      </p>
+</div>
       </header>)}
   </div>
   

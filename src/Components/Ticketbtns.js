@@ -105,6 +105,20 @@ const Ticketbtns = ({events,selectedIndex,eventIndex,handleTicketbtn,seatIndex,s
 </div>
 ) }
 
+
+{eventIndex[0].transfers?.sportSec && eventIndex[0].transfers?.footerImg &&
+<div className='mx-1 font-800'>
+  <div className='flex border-4 rounded-t-[20px] '>
+<p className='pb-5 pt-2 px-3 text-center rounded-tl-[20px] text-azure-white text-[17px] text-nowrap ' style={{backgroundColor:eventIndex[0].transfers?.btnColor}}> {eventIndex[0]?.venue?.toUpperCase()}</p>
+<p className='pb-5 pt-2  text-center flex-1 text-[14px] bg-[#f3f3f3]'>SUGGESTED GATE ENTRY</p>
+  </div>
+  <div >
+  <img src={eventIndex[0].transfers.footerImg}  alt='footerimg' className='w-full'/>
+</div>
+</div>
+}
+
+
     </div>
   )
 }
