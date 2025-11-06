@@ -36,7 +36,7 @@ artisteLineBreak:"  10 Years of Men Amongst Mountains",
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletBlank:"y",
+            
         }
       },
       
@@ -74,7 +74,7 @@ artisteLineBreak:"  10 Years of Men Amongst Mountains",
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-             walletBlank:"y",
+            
         }
       },
       {
@@ -110,7 +110,7 @@ artisteLineBreak:"  10 Years of Men Amongst Mountains",
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletBlank:"y",
+            
         }
         },
         {
@@ -146,7 +146,7 @@ artisteLineBreak:"  10 Years of Men Amongst Mountains",
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-            walletBlank:"y",
+            
         }
       },
       
@@ -182,7 +182,7 @@ artisteLineBreak:"  10 Years of Men Amongst Mountains",
           sell: "y",
           trnsfer: "y",
             addOns:"y",
-             walletBlank:"y",
+        
         }
       },
   ],
