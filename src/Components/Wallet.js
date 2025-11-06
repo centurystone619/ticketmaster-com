@@ -383,7 +383,7 @@ const formatDate = (dateString) => {
                     )  }
                   </div>
 
-                 {t.transfers.sportSec &&  <div >
+                 {t.transfers.sportSec && t.type && <div >
                       {/* <p id="walletTitle" className=' blankSec'>Ticket Type</p> */}
                      {  t.transfers.walletColor? <p id="" className='blankSec font-[700]'>Ticket Type</p>  : <p id="blankSec" className='font-[700]'>Ticket Type</p>}
                      <p id="walletInfo" className=''>{(() => {

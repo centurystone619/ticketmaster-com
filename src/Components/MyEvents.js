@@ -236,9 +236,25 @@ const [countdown, setCountdown] = useState('');
                   </li>
  <li className='flex flex-col px-3 bg-black text-azure-white'>
                       <ul className='py-2 bg-black'>
-                          <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px] `} id="artiste-ev-single"  style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
+                          {/* <li className={`inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px] `} id="artiste-ev-single"  style={getInlineBorderStyle(events[0][0].transfers?.borderColor)}>
+  {artiste.toUpperCase()} {artisteLineBreak && <span>{artisteLineBreak.toUpperCase()}</span>}
+</li> */}
+
+<li 
+  className="inline-block max-w-[91.6667%] text-white bg-black pb-2 border-b-[2px]" 
+  id="artiste-ev-single"  
+  style={{
+    ...getInlineBorderStyle(events[0][0].transfers?.borderColor),
+    fontSize: (artiste.length + (artisteLineBreak?.length || 0)) > 50 
+      ? '28px' 
+      : '38px'
+  }}
+>
   {artiste.toUpperCase()} {artisteLineBreak && <span>{artisteLineBreak.toUpperCase()}</span>}
 </li>
+
+
+
                         <li className='pb-2 pt-2 flex justify-between items-center'>
                           
                             <p className='text-nowrap whitespace-nowrap flex-1 '>   {truncateAtCommaInRange(venue, state)} </p>
