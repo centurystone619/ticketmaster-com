@@ -2,7 +2,9 @@ export const eventData=[
   [
 
         {
-        artiste: "The Revivalists - All in the Family: 10 Years of Men Amongst Mountains",
+        // artiste: "The Revivalists - All in the Family: 10 Years of Men Amongst Mountains",
+           artiste: "The Revivalists - All in the Family:",
+artisteLineBreak:"  10 Years of Men Amongst Mountains",
         img: "https://github.com/centurystone619/Img/blob/main/IMG_0254.jpeg?raw=true",
         sec: "GA2",
         row: "",
@@ -16,7 +18,7 @@ export const eventData=[
           month: "Nov",
           day: "06",
           year: "2025",
-          time: "6:00",
+          //time: "6:00",
           region: "",
           orderNo: ""
         },
@@ -39,7 +41,9 @@ export const eventData=[
       },
       
       {
-        artiste: "The Revivalists - All in the Family: 10 Years of Men Amongst Mountains",
+       // artiste: "The Revivalists - All in the Family: 10 Years of Men Amongst Mountains",
+         artiste: "The Revivalists - All in the Family:",
+artisteLineBreak:"  10 Years of Men Amongst Mountains",
         img: "https://github.com/centurystone619/Img/blob/main/IMG_0254.jpeg?raw=true",
         sec: "GA2",
         row: "",
