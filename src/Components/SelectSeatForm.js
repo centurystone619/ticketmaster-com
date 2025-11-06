@@ -22,7 +22,7 @@ const handleSelection=(e)=>{
 const itemsToDisplay = eventTransfers.ticketId ? eventTransfers.ticketId : eventTransfers.seats;
   return (
     <div id="select-modal" className={`ticket-slide-up lg:w-2/3  `}>
-{/* <form  id="select-form" className={`${eventTransfers.seats.length > 4? ' mt-[29vh]': ' mt-[43vh]'} pb-8 lg:mt-[42vh]`}> */}
+{/* <form  id="select-form" className={`${eventTransfers.seats.length > 4? ' mt-[29vh]': ' mt-[43vh]'} pb-8 lg:mt-[32vh]`}> */}
 <form  id="select-form" className={`${eventTransfers.seats.length > 4? ' mt-[34vh]': ' mt-[43vh]'} pb-8 lg:mt-[32vh]`}>
 
         <section id='form-section'>
@@ -194,4 +194,5 @@ onClick={handleSelection}
 }
 
 export default SelectSeatForm
+
 
