@@ -2,7 +2,7 @@ export const eventData=[
   [
 
         {
-        // artiste: "The Revivalists - All in the Family: 10 Years of Men Amongst Mountains",
+        artiste: "The Revivalists - All in the Family: 10 Years of Men Amongst Mountains",
            artiste: "The Revivalists - All in the Family:",
 artisteLineBreak:"  10 Years of Men Amongst Mountains",
         img: "https://github.com/centurystone619/Img/blob/main/IMG_0254.jpeg?raw=true",
@@ -80,7 +80,7 @@ artisteLineBreak:"  10 Years of Men Amongst Mountains",
       {
         artiste: "THE ELOVATERS - STARING AT THE SUN TOUR",
         img: "https://github.com/centurystone619/Img/blob/main/gt.JPG?raw=true",
-        sec: "GA1",
+        sec: "GA3",
         row: "",
         seat: "",
         date: "Wed, Nov 12, 2025",
