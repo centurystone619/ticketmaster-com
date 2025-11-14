@@ -2,20 +2,20 @@ export const eventData=[
 [
 
 {
-               artiste: "Vol Football vs. Oklahoma",
+               artiste: "Vol Football vs. Vanderbilt",
 
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
-        sec: "Y6",
-        row: "48",
-        seat: "19",
-        date: "Sat, Nov 01, 2025",
+        sec: "X5",
+        row: "41",
+        seat: "13",
+        date: "Sat, Nov 29, 2025",
         time: "TBA",
         state: "Tennessee",
         venue: "Neyland Stadium",
         type: "",
         eventData: {
           month: "Nov",
-          day: "01",
+          day: "29",
           year: "",
           time: "Sat - TBA",
           region: "",
@@ -24,7 +24,7 @@ export const eventData=[
         transfers: {
           sec: "",
           row: "",
-          seats: ['19','20','21','22'],
+          seats: ['13','14','15','16'],
           desc: "NonPremium Gates",
           GA: "",
           color: "#ff8202",
@@ -39,12 +39,12 @@ export const eventData=[
         }
       },
       {
-        artiste: "Vol Football V Oklahoma",
+        artiste: "Vol Football V Vanderbilt",
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
-        sec: "Y6",
-        row: "48",
-        seat: "20",
-        date: "Sat, Nov 01, 2025",
+        sec: "X5",
+        row: "41",
+        seat: "14",
+        date: "Sat, Nov 29, 2025",
         time: "TBA",
         state: "Tennessee",
         venue: "Neyland Stadium",
@@ -75,7 +75,7 @@ export const eventData=[
       },
 
       {
-        artiste: "Vol Football V Oklahoma",
+        artiste: "Vol Football V Vanderbilt",
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
         sec: "Y6",
         row: "48",
@@ -110,7 +110,7 @@ export const eventData=[
         }
         },
         {
-        artiste: "Vol Football V Oklahoma",
+        artiste: "Vol Football V Vanderbilt",
         img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
         sec: "Y6",
         row: "48",
