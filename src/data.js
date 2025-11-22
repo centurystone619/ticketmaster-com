@@ -5,9 +5,9 @@ export const eventData=[
                artiste: "Invesco QQQ Atlanta Gridiron Classic - Georgia Tech vs Georgia",
 
         img: "https://uk.tmconst.com/rc-3f58b37c/edp/v1/static/ccp/img/tmimages/TM_GenCatImgs_Sports.jpg",
-        sec: "124",
+        sec: "109",
         row: "10",
-        seat: "13",
+        seat: "3",
         date: "Fri, Nov 28, 2025",
         time: "3:30 PM",
         state: "Atlanta, GA",
