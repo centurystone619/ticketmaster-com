@@ -32,7 +32,7 @@ export const eventData=[
           btnColor: "#ff8202",
           sell: "y",
           trnsfer: "y",
-            addOns:"y",
+            addOns:"",
             walletColor:'green',
           sportSec:'y',
           ticketAction:'m'
