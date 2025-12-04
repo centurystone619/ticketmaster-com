@@ -12,7 +12,7 @@ export const eventData=[
         time: "3:300 PM",
         state: "Tennessee, TN",
         venue: "Neyland Stadium",
-        type: "",
+        type: "Verified Resale Ticket",
         eventData: {
           month: "Nov",
           day: "29",
@@ -32,7 +32,7 @@ export const eventData=[
           btnColor: "#ff8202",
           sell: "y",
           trnsfer: "y",
-            addOns:"",
+            addOns:"y",
             walletColor:'green',
           sportSec:'y',
           ticketAction:'m'
