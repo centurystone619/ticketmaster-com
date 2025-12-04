@@ -34,7 +34,7 @@ export const eventData=[
           trnsfer: "y",
             addOns:"y",
             walletColor:'green',
-          sportSec:'y',
+          sportSec:'',
           ticketAction:'m'
         }
       },
