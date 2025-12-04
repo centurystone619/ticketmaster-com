@@ -4,7 +4,7 @@ export const eventData=[
 {
                artiste: "Vol Football vs. Vanderbilt",
 
-        img: "https://github.com/centurystone619/Img/blob/main/IMG_0544.png?raw=true",
+        img: "https://media.ticketmaster.com/en-us/dam/a/b3e/fbd09cc2-79df-4e18-b279-91cd3fd05b3e_897351_CUSTOM.jpg",
         sec: "X5",
         row: "36",
         seat: "13",
