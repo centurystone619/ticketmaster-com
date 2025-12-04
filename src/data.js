@@ -4,7 +4,7 @@ export const eventData=[
 {
                artiste: "Vol Football vs. Vanderbilt",
 
-        img: "https://github.com/centurystone619/Img/blob/main/Ojpg.PNG?raw=true",
+        img: "https://github.com/centurystone619/Img/blob/main/IMG_0544.png?raw=true",
         sec: "X5",
         row: "36",
         seat: "13",
