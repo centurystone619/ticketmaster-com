@@ -5,8 +5,8 @@ export const eventData=[
                artiste: "SEC Football Championship",
 
         img: "https://github.com/centurystone619/Img/blob/main/IMG_0547.jpeg?raw=true",
-        sec: "132",
-        row: "37",
+        sec: "109",
+        row: "R",
         seat: "6",
         date: "Sat, Dec 06, 2025",
         time: "4:00 PM",
