@@ -31,7 +31,7 @@ export const eventData=[
           gate: "",
           btnColor: "#034b93",
           sell: "y",
-          trnsfer: "y",
+          trnsfer: "",
             addOns:"y",
             walletColor:'green',
           sportSec:'',
