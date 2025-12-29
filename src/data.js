@@ -35,7 +35,7 @@ export const eventData=[
             addOns:"",
             walletColor:'green',
           sportSec:'',
-          ticketAction:'',
+          ticketAction:'y',
           venueMap: 'https://www.bing.com/maps/?q=Caesars+Superdome&ypid=YN93BD5224C0C2D18D&cp=29.951061248779297%7e-90.08123016357422&ppois=29.951061248779297_-90.08123016357422_Caesars+Superdome',
         }
       },
