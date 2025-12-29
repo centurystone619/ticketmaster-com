@@ -36,7 +36,7 @@ export const eventData=[
             walletColor:'green',
           sportSec:'',
           ticketAction:'',
-          venueMap: 'https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/33.755318,-84.400589/16?ms=646,400&sv=9.43&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=33.755318,-84.400589;dfp.ss;Caesars-Superdome+st.louis cathedral',
+          venueMap: 'https://www.bing.com/maps/?q=Caesars+Superdome&ypid=YN93BD5224C0C2D18D&cp=29.951061248779297%7e-90.08123016357422&ppois=29.951061248779297_-90.08123016357422_Caesars+Superdome&mepi=139~~Embedded~LargeMapLink',
         }
       },
       {
