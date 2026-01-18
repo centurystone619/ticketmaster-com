@@ -6,7 +6,7 @@ export const eventData=[
 
         img: "https://media.ticketmaster.com/en-us/dam/a/2f8/c2799cdb-8542-45c9-b675-0432902b72f8_1497481_CUSTOM.jpg",
         sec: "121",
-        row: "3",
+        row: "39",
         seat: "7",
         date: "Mon, Jan 19, 2026",
         time: "7:30 PM",
